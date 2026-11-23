@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.pce binary
+*.sgx binary
+*.bin binary
+*.png binary
+*.gif binary
+*.raw binary
+*.bmp binary
+*.bps binary
+*.ips binary
+*.xdelta binary
