@@ -2,7 +2,22 @@
 
 Unofficial archival and historical English fan translation of ***Benkei Gaiden*** (*弁慶外伝*, PC Engine / TurboGrafx-16 HuCard, Sunsoft, 1989).
 
-> **Players:** Download `benkei-gaiden-pce-en.zip` and apply `benkei-gaiden-pce-en.bps` to your own clean unheadered Japanese dump of *Benkei Gaiden*. No ROMs or copyrighted game data are included.
+> **Players:** Download `benkei-gaiden-pce-en.zip` from [Releases](https://github.com/second-save/benkei-gaiden-pce-en/releases) and apply `benkei-gaiden-pce-en.bps` to your own clean unheadered Japanese dump of *Benkei Gaiden*. No ROMs or copyrighted game data are included.
+
+<p align="center">
+  <img src="screenshots/preview.gif" width="512" alt="Benkei Gaiden (PC Engine) English translation preview">
+</p>
+
+## Screenshots
+
+<p>
+  <img src="screenshots/01-title.png" width="380" alt="Translated crimson brush BENKEI GAIDEN title logo and New Game / Continue menu">
+  <img src="screenshots/02-prologue.png" width="380" alt="Opening English story crawl over dimmed Benkei Gaiden logo">
+  <img src="screenshots/03-dialogue.png" width="380" alt="Rinsho-ji Temple opening dialogue with Priest Hogen and Yes / No prompt">
+  <img src="screenshots/04-town-shops.png" width="380" alt="Kyoto castle district and translated wooden KANAYA shop sign">
+  <img src="screenshots/05-status-menu.png" width="380" alt="Kijaku status screen with portrait, stats, equipment, and Sen counter">
+  <img src="screenshots/06-battle-menu.png" width="380" alt="Four-hero battle encounter against Rakshasa and Ox-Demon">
+</p>
 
 ## Translation Status
 
@@ -29,12 +44,12 @@ If your dump has a 512-byte copier header (`393,728` bytes), strip the first 512
 
 ## How to Patch & Play
 
-Apply `benkei-gaiden-pce-en.bps` to your clean unheadered Japanese `.pce` file using any standard BPS patcher:
+Download `benkei-gaiden-pce-en.zip` (or `.bps`) from [Releases](https://github.com/second-save/benkei-gaiden-pce-en/releases), then apply `benkei-gaiden-pce-en.bps` to your clean unheadered Japanese `.pce` file using any standard BPS patcher:
 
 - **GUI / Web:** [Flips](https://github.com/Alcaro/Flips) or [RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js/)
 - **Command line (from this repo):**
   ```sh
-  python3 -X utf8 tools/bps.py apply "rom/Benkei Gaiden (Japan).pce" release/benkei-gaiden-pce-en.bps benkei-en.pce
+  python3 -X utf8 tools/bps.py apply "rom/Benkei Gaiden (Japan).pce" benkei-gaiden-pce-en.bps benkei-en.pce
   ```
 
 | File | Size | CRC32 | SHA-1 |
