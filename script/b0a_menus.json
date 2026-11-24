@@ -1,0 +1,750 @@
+{
+ "group": "b0a_menus",
+ "count": 31,
+ "entries": [
+  {
+   "id": "b0a_menus_000_1509C",
+   "index": 0,
+   "offset": "0x1509C",
+   "length": null,
+   "raw_len": 24,
+   "bg34": false,
+   "ptr": "0x1505E",
+   "slots": [
+    {
+     "slot": "0x1505E",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "あいうえお かきくけこ さしすせそ たちつてと{end}",
+   "jp": "あいうえお かきくけこ さしすせそ たちつてと{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_001_150B4",
+   "index": 1,
+   "offset": "0x150B4",
+   "length": null,
+   "raw_len": 24,
+   "bg34": false,
+   "ptr": "0x15060",
+   "slots": [
+    {
+     "slot": "0x15060",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "なにぬねの はひふへほ まみむめも らりるれろ{end}",
+   "jp": "なにぬねの はひふへほ まみむめも らりるれろ{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_002_150CC",
+   "index": 2,
+   "offset": "0x150CC",
+   "length": null,
+   "raw_len": 24,
+   "bg34": false,
+   "ptr": "0x15062",
+   "slots": [
+    {
+     "slot": "0x15062",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "がぎぐげご ざじずぜぞ ばびぶべぼ ぱぴぷぺぽ{end}",
+   "jp": "がぎぐげご ざじずぜぞ ばびぶべぼ ぱぴぷぺぽ{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_003_150E4",
+   "index": 3,
+   "offset": "0x150E4",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x15064",
+   "slots": [
+    {
+     "slot": "0x15064",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "やゆよわ{end}",
+   "jp": "やゆよわ{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_004_150E9",
+   "index": 4,
+   "offset": "0x150E9",
+   "length": null,
+   "raw_len": 22,
+   "bg34": false,
+   "ptr": "0x15066",
+   "slots": [
+    {
+     "slot": "0x15066",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "うえ[EC]した[EC] みぎ[EC]ひだり けす[EC] おわり{end}",
+   "jp": "うえ[EC]した[EC] みぎ[EC]ひだり けす[EC] おわり{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_005_150FF",
+   "index": 5,
+   "offset": "0x150FF",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x15068",
+   "slots": [
+    {
+     "slot": "0x15068",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "さて、どれにするかね{end}",
+   "jp": "さて、どれにするかね{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_006_1510A",
+   "index": 6,
+   "offset": "0x1510A",
+   "length": null,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1506A",
+   "slots": [
+    {
+     "slot": "0x1506A",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{fd}旅{fd}の{ed}記録{end}",
+   "jp": "旅の記録{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_007_15112",
+   "index": 7,
+   "offset": "0x15112",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1506C",
+   "slots": [
+    {
+     "slot": "0x1506C",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "バックアップ{end}",
+   "jp": "バックアップ{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_008_15119",
+   "index": 8,
+   "offset": "0x15119",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1506E",
+   "slots": [
+    {
+     "slot": "0x1506E",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}弁慶{ef} 1{end}",
+   "jp": "弁慶 1{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_009_15120",
+   "index": 9,
+   "offset": "0x15120",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x15070",
+   "slots": [
+    {
+     "slot": "0x15070",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}弁慶{ef} 2{end}",
+   "jp": "弁慶 2{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_010_15127",
+   "index": 10,
+   "offset": "0x15127",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x15072",
+   "slots": [
+    {
+     "slot": "0x15072",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}弁慶{ef} 3{end}",
+   "jp": "弁慶 3{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_011_1512E",
+   "index": 11,
+   "offset": "0x1512E",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x15074",
+   "slots": [
+    {
+     "slot": "0x15074",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "とりけし{end}",
+   "jp": "とりけし{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_012_15133",
+   "index": 12,
+   "offset": "0x15133",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x15076",
+   "slots": [
+    {
+     "slot": "0x15076",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "よみこめんぞ    {end}",
+   "jp": "よみこめんぞ    {end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_013_1513E",
+   "index": 13,
+   "offset": "0x1513E",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x15078",
+   "slots": [
+    {
+     "slot": "0x15078",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "どれをけすのじゃ {end}",
+   "jp": "どれをけすのじゃ {end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_014_15148",
+   "index": 14,
+   "offset": "0x15148",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x1507A",
+   "slots": [
+    {
+     "slot": "0x1507A",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "これをけすのじゃな{end}",
+   "jp": "これをけすのじゃな{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_015_15152",
+   "index": 15,
+   "offset": "0x15152",
+   "length": null,
+   "raw_len": 3,
+   "bg34": false,
+   "ptr": "0x1507C",
+   "slots": [
+    {
+     "slot": "0x1507C",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "はい{end}",
+   "jp": "はい{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_016_15155",
+   "index": 16,
+   "offset": "0x15155",
+   "length": null,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1507E",
+   "slots": [
+    {
+     "slot": "0x1507E",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "いいえ{end}",
+   "jp": "いいえ{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_017_15159",
+   "index": 17,
+   "offset": "0x15159",
+   "length": null,
+   "raw_len": 7,
+   "bg34": true,
+   "ptr": "0x15080",
+   "slots": [
+    {
+     "slot": "0x15080",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{fd}継{fd} {fd}冒{end}",
+   "jp": "継 冒{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_018_15160",
+   "index": 18,
+   "offset": "0x15160",
+   "length": null,
+   "raw_len": 7,
+   "bg34": true,
+   "ptr": "0x15082",
+   "slots": [
+    {
+     "slot": "0x15082",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{fd}続{fd} {fd}頭{end}",
+   "jp": "続 頭{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_019_15167",
+   "index": 19,
+   "offset": "0x15167",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15084",
+   "slots": [
+    {
+     "slot": "0x15084",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": " バ {ed}旅{end}",
+   "jp": " バ 旅{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_020_1516D",
+   "index": 20,
+   "offset": "0x1516D",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15086",
+   "slots": [
+    {
+     "slot": "0x15086",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "アッ {ed}の{end}",
+   "jp": "アッ の{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_021_15173",
+   "index": 21,
+   "offset": "0x15173",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15088",
+   "slots": [
+    {
+     "slot": "0x15088",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "ック {fd}記{end}",
+   "jp": "ック 記{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_022_15179",
+   "index": 22,
+   "offset": "0x15179",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x1508A",
+   "slots": [
+    {
+     "slot": "0x1508A",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "プ  {fd}録{end}",
+   "jp": "プ  録{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_023_1517F",
+   "index": 23,
+   "offset": "0x1517F",
+   "length": null,
+   "raw_len": 7,
+   "bg34": true,
+   "ptr": "0x1508C",
+   "slots": [
+    {
+     "slot": "0x1508C",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}弁{ef} {ef}弁{end}",
+   "jp": "弁 弁{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_024_15186",
+   "index": 24,
+   "offset": "0x15186",
+   "length": null,
+   "raw_len": 7,
+   "bg34": true,
+   "ptr": "0x1508E",
+   "slots": [
+    {
+     "slot": "0x1508E",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}慶{ef} {ef}慶{end}",
+   "jp": "慶 慶{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_025_1518D",
+   "index": 25,
+   "offset": "0x1518D",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15090",
+   "slots": [
+    {
+     "slot": "0x15090",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": " 3  1{end}",
+   "jp": " 3  1{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_026_15193",
+   "index": 26,
+   "offset": "0x15193",
+   "length": null,
+   "raw_len": 1,
+   "bg34": true,
+   "ptr": "0x15092",
+   "slots": [
+    {
+     "slot": "0x15092",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{end}",
+   "jp": "{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "data",
+   "notes": "empty menu spacer"
+  },
+  {
+   "id": "b0a_menus_027_15194",
+   "index": 27,
+   "offset": "0x15194",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15094",
+   "slots": [
+    {
+     "slot": "0x15094",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": " や {ef}弁{end}",
+   "jp": " や 弁{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_028_1519A",
+   "index": 28,
+   "offset": "0x1519A",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15096",
+   "slots": [
+    {
+     "slot": "0x15096",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": " め {ef}慶{end}",
+   "jp": " め 慶{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_029_151A0",
+   "index": 29,
+   "offset": "0x151A0",
+   "length": null,
+   "raw_len": 6,
+   "bg34": true,
+   "ptr": "0x15098",
+   "slots": [
+    {
+     "slot": "0x15098",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": " る  2{end}",
+   "jp": " る  2{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0a_menus_030_151A6",
+   "index": 30,
+   "offset": "0x151A6",
+   "length": null,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x1509A",
+   "slots": [
+    {
+     "slot": "0x1509A",
+     "kind": "ptr_table",
+     "rom_base": "0x14000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "どれをよむかね?{end}",
+   "jp": "どれをよむかね?{end}",
+   "en": "",
+   "max": null,
+   "box": "title_menu",
+   "status": "todo",
+   "notes": ""
+  }
+ ]
+}

@@ -62,6 +62,10 @@ PTR_TABLES: tuple[PtrTable, ...] = (
     PtrTable("b1b_staff", 0x37A3D, 41, False, 0x36000, 0xC000),
 )
 
+CREDITS_PTR_TABLE = PtrTable("b11_credits_all", 0x23F61, 25, False, 0x1C000, 0x4000)
+CHAR_NAME_PTR_TABLE: tuple[int, tuple[int, ...], int, int] = (0x05A37, (6, 7, 8, 9, 21, 22), 0x04000, 0xC000)
+MID_STRING_REFS: dict[int, tuple[str, int, int]] = {0x05EE1: ("b02_sys", 26, 14)}
+
 
 class PceCodec:
     """Loads jp_*.tbl files via tbl.Table and handles stateful $74 decoding/encoding."""

@@ -1,0 +1,774 @@
+{
+ "group": "b0e_jutsu",
+ "count": 32,
+ "entries": [
+  {
+   "id": "b0e_jutsu_000_1C072",
+   "index": 0,
+   "offset": "0x1C072",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C032",
+   "slots": [
+    {
+     "slot": "0x1C032",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}魔破{ef}{end}",
+   "jp": "魔破{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_001_1C077",
+   "index": 1,
+   "offset": "0x1C077",
+   "length": null,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1C034",
+   "slots": [
+    {
+     "slot": "0x1C034",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}魔破{ef}{ed}過{ed}{end}",
+   "jp": "魔破過{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_002_1C07F",
+   "index": 2,
+   "offset": "0x1C07F",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1C036",
+   "slots": [
+    {
+     "slot": "0x1C036",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}放{ed}{ef}雷{ef}{end}",
+   "jp": "放雷{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_003_1C086",
+   "index": 3,
+   "offset": "0x1C086",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1C038",
+   "slots": [
+    {
+     "slot": "0x1C038",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}強{ed}{ef}雷{ef}{end}",
+   "jp": "強雷{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_004_1C08D",
+   "index": 4,
+   "offset": "0x1C08D",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C03A",
+   "slots": [
+    {
+     "slot": "0x1C03A",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}冷鎖{ed}{end}",
+   "jp": "冷鎖{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_005_1C092",
+   "index": 5,
+   "offset": "0x1C092",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x1C03C",
+   "slots": [
+    {
+     "slot": "0x1C03C",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}冷{ed}{ef}破{ef}{ed}陣{ed}{end}",
+   "jp": "冷破陣{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_006_1C09C",
+   "index": 6,
+   "offset": "0x1C09C",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1C03E",
+   "slots": [
+    {
+     "slot": "0x1C03E",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}軌{ed}{ef}炎{ef}{end}",
+   "jp": "軌炎{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_007_1C0A3",
+   "index": 7,
+   "offset": "0x1C0A3",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x1C040",
+   "slots": [
+    {
+     "slot": "0x1C040",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}軌{ed}{ef}炎{ef}{ed}陣{ed}{end}",
+   "jp": "軌炎陣{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_008_1C0AD",
+   "index": 8,
+   "offset": "0x1C0AD",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C042",
+   "slots": [
+    {
+     "slot": "0x1C042",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}光指放{ed}{end}",
+   "jp": "光指放{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_009_1C0B3",
+   "index": 9,
+   "offset": "0x1C0B3",
+   "length": null,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1C044",
+   "slots": [
+    {
+     "slot": "0x1C044",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}光斬{ed}{ef}破{ef}{end}",
+   "jp": "光斬破{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_010_1C0BB",
+   "index": 10,
+   "offset": "0x1C0BB",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1C046",
+   "slots": [
+    {
+     "slot": "0x1C046",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}封{ed}{ef}呪{ef}{end}",
+   "jp": "封呪{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_011_1C0C2",
+   "index": 11,
+   "offset": "0x1C0C2",
+   "length": null,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1C048",
+   "slots": [
+    {
+     "slot": "0x1C048",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}呪{ef}{ed}反{ed}{end}",
+   "jp": "呪反{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_012_1C0C9",
+   "index": 12,
+   "offset": "0x1C0C9",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C04A",
+   "slots": [
+    {
+     "slot": "0x1C04A",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}陣声{ed}{end}",
+   "jp": "陣声{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_013_1C0CE",
+   "index": 13,
+   "offset": "0x1C0CE",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C04C",
+   "slots": [
+    {
+     "slot": "0x1C04C",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}旅解{ed}{end}",
+   "jp": "旅解{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_014_1C0D3",
+   "index": 14,
+   "offset": "0x1C0D3",
+   "length": null,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1C04E",
+   "slots": [
+    {
+     "slot": "0x1C04E",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}離操{ed}{ef}夢{ef}{end}",
+   "jp": "離操夢{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_015_1C0DB",
+   "index": 15,
+   "offset": "0x1C0DB",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C050",
+   "slots": [
+    {
+     "slot": "0x1C050",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}操記録{ed}{end}",
+   "jp": "操記録{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_016_1C0E1",
+   "index": 16,
+   "offset": "0x1C0E1",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C052",
+   "slots": [
+    {
+     "slot": "0x1C052",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}眠倒{ed}{end}",
+   "jp": "眠倒{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_017_1C0E6",
+   "index": 17,
+   "offset": "0x1C0E6",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C054",
+   "slots": [
+    {
+     "slot": "0x1C054",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}緩攻止{ed}{end}",
+   "jp": "緩攻止{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_018_1C0EC",
+   "index": 18,
+   "offset": "0x1C0EC",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C056",
+   "slots": [
+    {
+     "slot": "0x1C056",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}落盾{ed}{end}",
+   "jp": "落盾{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_019_1C0F1",
+   "index": 19,
+   "offset": "0x1C0F1",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C058",
+   "slots": [
+    {
+     "slot": "0x1C058",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}豪昇{ed}{end}",
+   "jp": "豪昇{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_020_1C0F6",
+   "index": 20,
+   "offset": "0x1C0F6",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C05A",
+   "slots": [
+    {
+     "slot": "0x1C05A",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}煙遁{ed}{end}",
+   "jp": "煙遁{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_021_1C0FB",
+   "index": 21,
+   "offset": "0x1C0FB",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C05C",
+   "slots": [
+    {
+     "slot": "0x1C05C",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}気帰{ed}{end}",
+   "jp": "気帰{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_022_1C100",
+   "index": 22,
+   "offset": "0x1C100",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C05E",
+   "slots": [
+    {
+     "slot": "0x1C05E",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}気回帰{ed}{end}",
+   "jp": "気回帰{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_023_1C106",
+   "index": 23,
+   "offset": "0x1C106",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C060",
+   "slots": [
+    {
+     "slot": "0x1C060",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}気恨無{ed}{end}",
+   "jp": "気恨無{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_024_1C10C",
+   "index": 24,
+   "offset": "0x1C10C",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C062",
+   "slots": [
+    {
+     "slot": "0x1C062",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}気恨転{ed}{end}",
+   "jp": "気恨転{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_025_1C112",
+   "index": 25,
+   "offset": "0x1C112",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C064",
+   "slots": [
+    {
+     "slot": "0x1C064",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}転生{ed}{end}",
+   "jp": "転生{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_026_1C117",
+   "index": 26,
+   "offset": "0x1C117",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C066",
+   "slots": [
+    {
+     "slot": "0x1C066",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}苦解{ed}{end}",
+   "jp": "苦解{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_027_1C11C",
+   "index": 27,
+   "offset": "0x1C11C",
+   "length": null,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1C068",
+   "slots": [
+    {
+     "slot": "0x1C068",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}聖踏{ed}{end}",
+   "jp": "聖踏{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_028_1C121",
+   "index": 28,
+   "offset": "0x1C121",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C06A",
+   "slots": [
+    {
+     "slot": "0x1C06A",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}加歩足{ed}{end}",
+   "jp": "加歩足{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_029_1C127",
+   "index": 29,
+   "offset": "0x1C127",
+   "length": null,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x1C06C",
+   "slots": [
+    {
+     "slot": "0x1C06C",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}邪{ef}{ed}極無転{ed}{end}",
+   "jp": "邪極無転{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_030_1C130",
+   "index": 30,
+   "offset": "0x1C130",
+   "length": null,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1C06E",
+   "slots": [
+    {
+     "slot": "0x1C06E",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}毒{ef}{end}",
+   "jp": "毒{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0e_jutsu_031_1C134",
+   "index": 31,
+   "offset": "0x1C134",
+   "length": null,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1C070",
+   "slots": [
+    {
+     "slot": "0x1C070",
+     "kind": "ptr_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ed}極無転{ed}{end}",
+   "jp": "極無転{end}",
+   "en": "",
+   "max": null,
+   "box": "jutsu",
+   "status": "todo",
+   "notes": ""
+  }
+ ]
+}

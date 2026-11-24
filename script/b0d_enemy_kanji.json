@@ -1,0 +1,2694 @@
+{
+ "group": "b0d_enemy_kanji",
+ "count": 112,
+ "entries": [
+  {
+   "id": "b0d_enemy_kanji_000_1BAE8",
+   "index": 0,
+   "offset": "0x1BAE8",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA06",
+   "slots": [
+    {
+     "slot": "0x1BA06",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}式鬼魂{ef}",
+   "jp": "式鬼魂",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_001_1BAED",
+   "index": 1,
+   "offset": "0x1BAED",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA08",
+   "slots": [
+    {
+     "slot": "0x1BA08",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔鬼魂{ef}",
+   "jp": "魔鬼魂",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_002_1BAF2",
+   "index": 2,
+   "offset": "0x1BAF2",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA0A",
+   "slots": [
+    {
+     "slot": "0x1BA0A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}黄泉魂{ef}",
+   "jp": "黄泉魂",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_003_1BAF7",
+   "index": 3,
+   "offset": "0x1BAF7",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA0C",
+   "slots": [
+    {
+     "slot": "0x1BA0C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死海尼{ef}",
+   "jp": "死海尼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_004_1BAFC",
+   "index": 4,
+   "offset": "0x1BAFC",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA0E",
+   "slots": [
+    {
+     "slot": "0x1BA0E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}羅鬼{ef}",
+   "jp": "羅鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_005_1BB00",
+   "index": 5,
+   "offset": "0x1BB00",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA10",
+   "slots": [
+    {
+     "slot": "0x1BA10",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}羅殺{ef}",
+   "jp": "羅殺",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_006_1BB04",
+   "index": 6,
+   "offset": "0x1BB04",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA12",
+   "slots": [
+    {
+     "slot": "0x1BA12",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}羅鬼死主{ef}",
+   "jp": "羅鬼死主",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_007_1BB0A",
+   "index": 7,
+   "offset": "0x1BB0A",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA14",
+   "slots": [
+    {
+     "slot": "0x1BA14",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}水虎{ef}",
+   "jp": "水虎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_008_1BB0E",
+   "index": 8,
+   "offset": "0x1BB0E",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA16",
+   "slots": [
+    {
+     "slot": "0x1BA16",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}水魔鬼{ef}",
+   "jp": "水魔鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_009_1BB13",
+   "index": 9,
+   "offset": "0x1BB13",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA18",
+   "slots": [
+    {
+     "slot": "0x1BA18",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}海羅{ef}",
+   "jp": "海羅",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_010_1BB17",
+   "index": 10,
+   "offset": "0x1BB17",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA1A",
+   "slots": [
+    {
+     "slot": "0x1BA1A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}奇海羅{ef}",
+   "jp": "奇海羅",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_011_1BB1C",
+   "index": 11,
+   "offset": "0x1BB1C",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA1C",
+   "slots": [
+    {
+     "slot": "0x1BA1C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}化{ef}けガエル",
+   "jp": "化けガエル",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_012_1BB23",
+   "index": 12,
+   "offset": "0x1BB23",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA1E",
+   "slots": [
+    {
+     "slot": "0x1BA1E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}邪鬼{ef}",
+   "jp": "邪鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_013_1BB27",
+   "index": 13,
+   "offset": "0x1BB27",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA20",
+   "slots": [
+    {
+     "slot": "0x1BA20",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死子鬼{ef}",
+   "jp": "死子鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_014_1BB2C",
+   "index": 14,
+   "offset": "0x1BB2C",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA22",
+   "slots": [
+    {
+     "slot": "0x1BA22",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}邪香{ef}",
+   "jp": "邪香",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_015_1BB30",
+   "index": 15,
+   "offset": "0x1BB30",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA24",
+   "slots": [
+    {
+     "slot": "0x1BA24",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔蛾{ef}",
+   "jp": "魔蛾",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_016_1BB34",
+   "index": 16,
+   "offset": "0x1BB34",
+   "length": 2,
+   "raw_len": 2,
+   "bg34": false,
+   "ptr": "0x1BA26",
+   "slots": [
+    {
+     "slot": "0x1BA26",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ぬえ",
+   "jp": "ぬえ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_017_1BB36",
+   "index": 17,
+   "offset": "0x1BB36",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA28",
+   "slots": [
+    {
+     "slot": "0x1BA28",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}牙狼{ef}",
+   "jp": "牙狼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_018_1BB3A",
+   "index": 18,
+   "offset": "0x1BB3A",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA2A",
+   "slots": [
+    {
+     "slot": "0x1BA2A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}銀狼{ef}",
+   "jp": "銀狼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_019_1BB3E",
+   "index": 19,
+   "offset": "0x1BB3E",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA2C",
+   "slots": [
+    {
+     "slot": "0x1BA2C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}餓鬼{ef}",
+   "jp": "餓鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_020_1BB42",
+   "index": 20,
+   "offset": "0x1BB42",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA2E",
+   "slots": [
+    {
+     "slot": "0x1BA2E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}毒吐{ef}",
+   "jp": "毒吐",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_021_1BB46",
+   "index": 21,
+   "offset": "0x1BB46",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA30",
+   "slots": [
+    {
+     "slot": "0x1BA30",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}外酷死{ef}",
+   "jp": "外酷死",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_022_1BB4B",
+   "index": 22,
+   "offset": "0x1BB4B",
+   "length": 9,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x1BA32",
+   "slots": [
+    {
+     "slot": "0x1BA32",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}古代{ef}の{ef}悪霊{ef}",
+   "jp": "古代の悪霊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_023_1BB54",
+   "index": 23,
+   "offset": "0x1BB54",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA34",
+   "slots": [
+    {
+     "slot": "0x1BA34",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}刀骨鬼{ef}",
+   "jp": "刀骨鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_024_1BB59",
+   "index": 24,
+   "offset": "0x1BB59",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA36",
+   "slots": [
+    {
+     "slot": "0x1BA36",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}白殺骨{ef}",
+   "jp": "白殺骨",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_025_1BB5E",
+   "index": 25,
+   "offset": "0x1BB5E",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA38",
+   "slots": [
+    {
+     "slot": "0x1BA38",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}闇坊主{ef}",
+   "jp": "闇坊主",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_026_1BB63",
+   "index": 26,
+   "offset": "0x1BB63",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA3A",
+   "slots": [
+    {
+     "slot": "0x1BA3A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}悪邪梨{ef}",
+   "jp": "悪邪梨",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_027_1BB68",
+   "index": 27,
+   "offset": "0x1BB68",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA3C",
+   "slots": [
+    {
+     "slot": "0x1BA3C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}凶霊{ef}",
+   "jp": "凶霊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_028_1BB6C",
+   "index": 28,
+   "offset": "0x1BB6C",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA3E",
+   "slots": [
+    {
+     "slot": "0x1BA3E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死凶霊{ef}",
+   "jp": "死凶霊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_029_1BB71",
+   "index": 29,
+   "offset": "0x1BB71",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA40",
+   "slots": [
+    {
+     "slot": "0x1BA40",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}大{ef}ぐも",
+   "jp": "大ぐも",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_030_1BB76",
+   "index": 30,
+   "offset": "0x1BB76",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA42",
+   "slots": [
+    {
+     "slot": "0x1BA42",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}牙{ef}ぐも",
+   "jp": "牙ぐも",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_031_1BB7B",
+   "index": 31,
+   "offset": "0x1BB7B",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA44",
+   "slots": [
+    {
+     "slot": "0x1BA44",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}牛鬼{ef}",
+   "jp": "牛鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_032_1BB7F",
+   "index": 32,
+   "offset": "0x1BB7F",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA46",
+   "slots": [
+    {
+     "slot": "0x1BA46",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死角牛鬼{ef}",
+   "jp": "死角牛鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_033_1BB85",
+   "index": 33,
+   "offset": "0x1BB85",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA48",
+   "slots": [
+    {
+     "slot": "0x1BA48",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}外道坊{ef}",
+   "jp": "外道坊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_034_1BB8A",
+   "index": 34,
+   "offset": "0x1BB8A",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA4A",
+   "slots": [
+    {
+     "slot": "0x1BA4A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}外道僧上{ef}",
+   "jp": "外道僧上",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_035_1BB90",
+   "index": 35,
+   "offset": "0x1BB90",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA4C",
+   "slots": [
+    {
+     "slot": "0x1BA4C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死{ef}の{ef}翼{ef}",
+   "jp": "死の翼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_036_1BB97",
+   "index": 36,
+   "offset": "0x1BB97",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA4E",
+   "slots": [
+    {
+     "slot": "0x1BA4E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}舟幽霊{ef}",
+   "jp": "舟幽霊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_037_1BB9C",
+   "index": 37,
+   "offset": "0x1BB9C",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA50",
+   "slots": [
+    {
+     "slot": "0x1BA50",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死海霊{ef}",
+   "jp": "死海霊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_038_1BBA1",
+   "index": 38,
+   "offset": "0x1BBA1",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BA52",
+   "slots": [
+    {
+     "slot": "0x1BA52",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}海賊{ef}の{ef}魂{ef}",
+   "jp": "海賊の魂",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_039_1BBA9",
+   "index": 39,
+   "offset": "0x1BBA9",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA54",
+   "slots": [
+    {
+     "slot": "0x1BA54",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}海魔賊{ef}",
+   "jp": "海魔賊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_040_1BBAE",
+   "index": 40,
+   "offset": "0x1BBAE",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA56",
+   "slots": [
+    {
+     "slot": "0x1BA56",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死界仙{ef}",
+   "jp": "死界仙",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_041_1BBB3",
+   "index": 41,
+   "offset": "0x1BBB3",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA58",
+   "slots": [
+    {
+     "slot": "0x1BA58",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}地獄仙{ef}",
+   "jp": "地獄仙",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_042_1BBB8",
+   "index": 42,
+   "offset": "0x1BBB8",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA5A",
+   "slots": [
+    {
+     "slot": "0x1BA5A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}海座頭{ef}",
+   "jp": "海座頭",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_043_1BBBD",
+   "index": 43,
+   "offset": "0x1BBBD",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA5C",
+   "slots": [
+    {
+     "slot": "0x1BA5C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}土座頭{ef}",
+   "jp": "土座頭",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_044_1BBC2",
+   "index": 44,
+   "offset": "0x1BBC2",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA5E",
+   "slots": [
+    {
+     "slot": "0x1BA5E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔界座頭{ef}",
+   "jp": "魔界座頭",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_045_1BBC8",
+   "index": 45,
+   "offset": "0x1BBC8",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA60",
+   "slots": [
+    {
+     "slot": "0x1BA60",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}邪術師{ef}",
+   "jp": "邪術師",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_046_1BBCD",
+   "index": 46,
+   "offset": "0x1BBCD",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA62",
+   "slots": [
+    {
+     "slot": "0x1BA62",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}邪法術師{ef}",
+   "jp": "邪法術師",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_047_1BBD3",
+   "index": 47,
+   "offset": "0x1BBD3",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA64",
+   "slots": [
+    {
+     "slot": "0x1BA64",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}邪幻術師{ef}",
+   "jp": "邪幻術師",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_048_1BBD9",
+   "index": 48,
+   "offset": "0x1BBD9",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA66",
+   "slots": [
+    {
+     "slot": "0x1BA66",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}山賊{ef}",
+   "jp": "山賊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_049_1BBDD",
+   "index": 49,
+   "offset": "0x1BBDD",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA68",
+   "slots": [
+    {
+     "slot": "0x1BA68",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}盗賊{ef}",
+   "jp": "盗賊",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_050_1BBE1",
+   "index": 50,
+   "offset": "0x1BBE1",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA6A",
+   "slots": [
+    {
+     "slot": "0x1BA6A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}清姫{ef}",
+   "jp": "清姫",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_051_1BBE5",
+   "index": 51,
+   "offset": "0x1BBE5",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA6C",
+   "slots": [
+    {
+     "slot": "0x1BA6C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}雪姫{ef}",
+   "jp": "雪姫",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_052_1BBE9",
+   "index": 52,
+   "offset": "0x1BBE9",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA6E",
+   "slots": [
+    {
+     "slot": "0x1BA6E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}紫鬼魔{ef}",
+   "jp": "紫鬼魔",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_053_1BBEE",
+   "index": 53,
+   "offset": "0x1BBEE",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA70",
+   "slots": [
+    {
+     "slot": "0x1BA70",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔破羅邪{ef}",
+   "jp": "魔破羅邪",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_054_1BBF4",
+   "index": 54,
+   "offset": "0x1BBF4",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA72",
+   "slots": [
+    {
+     "slot": "0x1BA72",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}赤死鬼{ef}",
+   "jp": "赤死鬼",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_055_1BBF9",
+   "index": 55,
+   "offset": "0x1BBF9",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA74",
+   "slots": [
+    {
+     "slot": "0x1BA74",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}天狗{ef}",
+   "jp": "天狗",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_056_1BBFD",
+   "index": 56,
+   "offset": "0x1BBFD",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA76",
+   "slots": [
+    {
+     "slot": "0x1BA76",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "カラス{ef}天狗{ef}",
+   "jp": "カラス天狗",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_057_1BC04",
+   "index": 57,
+   "offset": "0x1BC04",
+   "length": 3,
+   "raw_len": 3,
+   "bg34": false,
+   "ptr": "0x1BA78",
+   "slots": [
+    {
+     "slot": "0x1BA78",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}虎{ef}",
+   "jp": "虎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_058_1BC07",
+   "index": 58,
+   "offset": "0x1BC07",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA7A",
+   "slots": [
+    {
+     "slot": "0x1BA7A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}白虎{ef}",
+   "jp": "白虎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_059_1BC0B",
+   "index": 59,
+   "offset": "0x1BC0B",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA7C",
+   "slots": [
+    {
+     "slot": "0x1BA7C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}氷魔虎{ef}",
+   "jp": "氷魔虎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_060_1BC10",
+   "index": 60,
+   "offset": "0x1BC10",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA7E",
+   "slots": [
+    {
+     "slot": "0x1BA7E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}炎{ef}の{ef}馬{ef}",
+   "jp": "炎の馬",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_061_1BC17",
+   "index": 61,
+   "offset": "0x1BC17",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA80",
+   "slots": [
+    {
+     "slot": "0x1BA80",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}妖術使{ef}い",
+   "jp": "妖術使い",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_062_1BC1D",
+   "index": 62,
+   "offset": "0x1BC1D",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA82",
+   "slots": [
+    {
+     "slot": "0x1BA82",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔導師{ef}",
+   "jp": "魔導師",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_063_1BC22",
+   "index": 63,
+   "offset": "0x1BC22",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA84",
+   "slots": [
+    {
+     "slot": "0x1BA84",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}手{ef}の{ef}目{ef}",
+   "jp": "手の目",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_064_1BC29",
+   "index": 64,
+   "offset": "0x1BC29",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA86",
+   "slots": [
+    {
+     "slot": "0x1BA86",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}死人武者{ef}",
+   "jp": "死人武者",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_065_1BC2F",
+   "index": 65,
+   "offset": "0x1BC2F",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BA88",
+   "slots": [
+    {
+     "slot": "0x1BA88",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ドクロ{ef}武者{ef}",
+   "jp": "ドクロ武者",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_066_1BC36",
+   "index": 66,
+   "offset": "0x1BC36",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA8A",
+   "slots": [
+    {
+     "slot": "0x1BA8A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}水龍{ef}",
+   "jp": "水龍",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_067_1BC3A",
+   "index": 67,
+   "offset": "0x1BC3A",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA8C",
+   "slots": [
+    {
+     "slot": "0x1BA8C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}地龍{ef}",
+   "jp": "地龍",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_068_1BC3E",
+   "index": 68,
+   "offset": "0x1BC3E",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA8E",
+   "slots": [
+    {
+     "slot": "0x1BA8E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}火龍{ef}",
+   "jp": "火龍",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_069_1BC42",
+   "index": 69,
+   "offset": "0x1BC42",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BA90",
+   "slots": [
+    {
+     "slot": "0x1BA90",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}修羅王{ef}",
+   "jp": "修羅王",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_070_1BC47",
+   "index": 70,
+   "offset": "0x1BC47",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA92",
+   "slots": [
+    {
+     "slot": "0x1BA92",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}白蛇{ef}",
+   "jp": "白蛇",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_071_1BC4B",
+   "index": 71,
+   "offset": "0x1BC4B",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BA94",
+   "slots": [
+    {
+     "slot": "0x1BA94",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔界{ef}の{ef}蛇{ef}",
+   "jp": "魔界の蛇",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_072_1BC53",
+   "index": 72,
+   "offset": "0x1BC53",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA96",
+   "slots": [
+    {
+     "slot": "0x1BA96",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}闇{ef}どくろ",
+   "jp": "闇どくろ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_073_1BC59",
+   "index": 73,
+   "offset": "0x1BC59",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BA98",
+   "slots": [
+    {
+     "slot": "0x1BA98",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}大{ef}どくろ",
+   "jp": "大どくろ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_074_1BC5F",
+   "index": 74,
+   "offset": "0x1BC5F",
+   "length": 9,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x1BA9A",
+   "slots": [
+    {
+     "slot": "0x1BA9A",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}墓場{ef}の{ef}呪{ef}い",
+   "jp": "墓場の呪い",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_075_1BC68",
+   "index": 75,
+   "offset": "0x1BC68",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BA9C",
+   "slots": [
+    {
+     "slot": "0x1BA9C",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}悪夢{ef}の{ef}王{ef}",
+   "jp": "悪夢の王",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_076_1BC70",
+   "index": 76,
+   "offset": "0x1BC70",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BA9E",
+   "slots": [
+    {
+     "slot": "0x1BA9E",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}雷神{ef}",
+   "jp": "雷神",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_077_1BC74",
+   "index": 77,
+   "offset": "0x1BC74",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAA0",
+   "slots": [
+    {
+     "slot": "0x1BAA0",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}風神{ef}",
+   "jp": "風神",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_078_1BC78",
+   "index": 78,
+   "offset": "0x1BC78",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BAA2",
+   "slots": [
+    {
+     "slot": "0x1BAA2",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}土{ef}{ed}豪{ed}",
+   "jp": "土豪",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_079_1BC7E",
+   "index": 79,
+   "offset": "0x1BC7E",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAA4",
+   "slots": [
+    {
+     "slot": "0x1BAA4",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}弁慶{ef}",
+   "jp": "弁慶",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_080_1BC82",
+   "index": 80,
+   "offset": "0x1BC82",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAA6",
+   "slots": [
+    {
+     "slot": "0x1BAA6",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ゾンガー",
+   "jp": "ゾンガー",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_081_1BC86",
+   "index": 81,
+   "offset": "0x1BC86",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAA8",
+   "slots": [
+    {
+     "slot": "0x1BAA8",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ブードゥ",
+   "jp": "ブードゥ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_082_1BC8A",
+   "index": 82,
+   "offset": "0x1BC8A",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAAA",
+   "slots": [
+    {
+     "slot": "0x1BAAA",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "バズーズ",
+   "jp": "バズーズ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_083_1BC8E",
+   "index": 83,
+   "offset": "0x1BC8E",
+   "length": 2,
+   "raw_len": 2,
+   "bg34": false,
+   "ptr": "0x1BAAC",
+   "slots": [
+    {
+     "slot": "0x1BAAC",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ムー",
+   "jp": "ムー",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_084_1BC90",
+   "index": 84,
+   "offset": "0x1BC90",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAAE",
+   "slots": [
+    {
+     "slot": "0x1BAAE",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "マシーナ",
+   "jp": "マシーナ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_085_1BC94",
+   "index": 85,
+   "offset": "0x1BC94",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAB0",
+   "slots": [
+    {
+     "slot": "0x1BAB0",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "メゾーナ",
+   "jp": "メゾーナ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_086_1BC98",
+   "index": 86,
+   "offset": "0x1BC98",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BAB2",
+   "slots": [
+    {
+     "slot": "0x1BAB2",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ラファエル",
+   "jp": "ラファエル",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_087_1BC9D",
+   "index": 87,
+   "offset": "0x1BC9D",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAB4",
+   "slots": [
+    {
+     "slot": "0x1BAB4",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "シャモン",
+   "jp": "シャモン",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_088_1BCA1",
+   "index": 88,
+   "offset": "0x1BCA1",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BAB6",
+   "slots": [
+    {
+     "slot": "0x1BAB6",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "ギャモン",
+   "jp": "ギャモン",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_089_1BCA5",
+   "index": 89,
+   "offset": "0x1BCA5",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BAB8",
+   "slots": [
+    {
+     "slot": "0x1BAB8",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}火{ef}の{ef}鳥{ef}",
+   "jp": "火の鳥",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_090_1BCAC",
+   "index": 90,
+   "offset": "0x1BCAC",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BABA",
+   "slots": [
+    {
+     "slot": "0x1BABA",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}魔氷{ef}の{ef}鳥{ef}",
+   "jp": "魔氷の鳥",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_091_1BCB4",
+   "index": 91,
+   "offset": "0x1BCB4",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BABC",
+   "slots": [
+    {
+     "slot": "0x1BABC",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}土{ef}の{ef}魔人{ef}",
+   "jp": "土の魔人",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_092_1BCBC",
+   "index": 92,
+   "offset": "0x1BCBC",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BABE",
+   "slots": [
+    {
+     "slot": "0x1BABE",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}石{ef}の{ef}魔人{ef}",
+   "jp": "石の魔人",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_093_1BCC4",
+   "index": 93,
+   "offset": "0x1BCC4",
+   "length": 9,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x1BAC0",
+   "slots": [
+    {
+     "slot": "0x1BAC0",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}青銅{ef}の{ef}魔人{ef}",
+   "jp": "青銅の魔人",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_094_1BCCD",
+   "index": 94,
+   "offset": "0x1BCCD",
+   "length": 7,
+   "raw_len": 7,
+   "bg34": false,
+   "ptr": "0x1BAC2",
+   "slots": [
+    {
+     "slot": "0x1BAC2",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}使{ef}い{ef}魔{ef}",
+   "jp": "使い魔",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_095_1BCD4",
+   "index": 95,
+   "offset": "0x1BCD4",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BAC4",
+   "slots": [
+    {
+     "slot": "0x1BAC4",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}人{ef}トカゲ",
+   "jp": "人トカゲ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_096_1BCDA",
+   "index": 96,
+   "offset": "0x1BCDA",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BAC6",
+   "slots": [
+    {
+     "slot": "0x1BAC6",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "リザドーマ",
+   "jp": "リザドーマ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_097_1BCDF",
+   "index": 97,
+   "offset": "0x1BCDF",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BAC8",
+   "slots": [
+    {
+     "slot": "0x1BAC8",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}毒死{ef}グモ",
+   "jp": "毒死グモ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_098_1BCE5",
+   "index": 98,
+   "offset": "0x1BCE5",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BACA",
+   "slots": [
+    {
+     "slot": "0x1BACA",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}地獄{ef}グモ",
+   "jp": "地獄グモ",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_099_1BCEB",
+   "index": 99,
+   "offset": "0x1BCEB",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BACC",
+   "slots": [
+    {
+     "slot": "0x1BACC",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}頼朝{ef}",
+   "jp": "頼朝",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_100_1BCEF",
+   "index": 100,
+   "offset": "0x1BCEF",
+   "length": 4,
+   "raw_len": 4,
+   "bg34": false,
+   "ptr": "0x1BACE",
+   "slots": [
+    {
+     "slot": "0x1BACE",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}清盛{ef}",
+   "jp": "清盛",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_101_1BCF3",
+   "index": 101,
+   "offset": "0x1BCF3",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BAD0",
+   "slots": [
+    {
+     "slot": "0x1BAD0",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}助五郎{ef}",
+   "jp": "助五郎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_102_1BCF8",
+   "index": 102,
+   "offset": "0x1BCF8",
+   "length": 8,
+   "raw_len": 8,
+   "bg34": false,
+   "ptr": "0x1BAD2",
+   "slots": [
+    {
+     "slot": "0x1BAD2",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}覇者{ef}の{ef}王{ef}",
+   "jp": "覇者の王",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_103_1BD00",
+   "index": 103,
+   "offset": "0x1BD00",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BAD4",
+   "slots": [
+    {
+     "slot": "0x1BAD4",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}牙{ef}{fd}怒{fd}",
+   "jp": "牙怒",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_104_1BD06",
+   "index": 104,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BAD6",
+   "slots": [
+    {
+     "slot": "0x1BAD6",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_105_1BD06",
+   "index": 105,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BAD8",
+   "slots": [
+    {
+     "slot": "0x1BAD8",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_106_1BD06",
+   "index": 106,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BADA",
+   "slots": [
+    {
+     "slot": "0x1BADA",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_107_1BD06",
+   "index": 107,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BADC",
+   "slots": [
+    {
+     "slot": "0x1BADC",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_108_1BD06",
+   "index": 108,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BADE",
+   "slots": [
+    {
+     "slot": "0x1BADE",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_109_1BD06",
+   "index": 109,
+   "offset": "0x1BD06",
+   "length": 0,
+   "raw_len": 0,
+   "bg34": false,
+   "ptr": "0x1BAE0",
+   "slots": [
+    {
+     "slot": "0x1BAE0",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "",
+   "jp": "",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "data",
+   "notes": "empty 0-byte enemy slot"
+  },
+  {
+   "id": "b0d_enemy_kanji_110_1BD06",
+   "index": 110,
+   "offset": "0x1BD06",
+   "length": 5,
+   "raw_len": 5,
+   "bg34": false,
+   "ptr": "0x1BAE2",
+   "slots": [
+    {
+     "slot": "0x1BAE2",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ef}助五郎{ef}",
+   "jp": "助五郎",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b0d_enemy_kanji_111_1BD0B",
+   "index": 111,
+   "offset": "0x1BD0B",
+   "length": 6,
+   "raw_len": 6,
+   "bg34": false,
+   "ptr": "0x1BAE4",
+   "slots": [
+    {
+     "slot": "0x1BAE4",
+     "kind": "ptr_table",
+     "rom_base": "0x1A000",
+     "cpu_base": "0xA000"
+    }
+   ],
+   "jp_raw": "{ed}金{ed}{ef}龍{ef}",
+   "jp": "金龍",
+   "en": "",
+   "max": null,
+   "box": "enemy_kanji",
+   "status": "todo",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "total": {
+  "count": 1217,
+  "todo": 1151,
+  "keep": 6,
+  "data": 60
+ },
+ "groups": {
+  "b00_timestamp": {
+   "file": "b00_timestamp.json",
+   "count": 1,
+   "range": "0x01B75..0x01B8A",
+   "todo": 0,
+   "keep": 1,
+   "data": 0
+  },
+  "b02_sys": {
+   "file": "b02_sys.json",
+   "count": 56,
+   "range": "0x05E36..0x05FBC",
+   "todo": 55,
+   "keep": 1,
+   "data": 0
+  },
+  "b09_password": {
+   "file": "b09_password.json",
+   "count": 5,
+   "range": "0x12613..0x12683",
+   "todo": 5,
+   "keep": 0,
+   "data": 0
+  },
+  "b0a_menus": {
+   "file": "b0a_menus.json",
+   "count": 31,
+   "range": "0x1509C..0x151AF",
+   "todo": 30,
+   "keep": 0,
+   "data": 1
+  },
+  "b0a_locations": {
+   "file": "b0a_locations.json",
+   "count": 13,
+   "range": "0x15282..0x152C9",
+   "todo": 13,
+   "keep": 0,
+   "data": 0
+  },
+  "b0d_enemy_kanji": {
+   "file": "b0d_enemy_kanji.json",
+   "count": 112,
+   "range": "0x1BAE8..0x1BD11",
+   "todo": 106,
+   "keep": 0,
+   "data": 6
+  },
+  "b0d_enemy_kana": {
+   "file": "b0d_enemy_kana.json",
+   "count": 112,
+   "range": "0x1BDF4..0x1BFE8",
+   "todo": 106,
+   "keep": 0,
+   "data": 6
+  },
+  "b0e_jutsu": {
+   "file": "b0e_jutsu.json",
+   "count": 32,
+   "range": "0x1C072..0x1C13A",
+   "todo": 32,
+   "keep": 0,
+   "data": 0
+  },
+  "b0e_items": {
+   "file": "b0e_items.json",
+   "count": 128,
+   "range": "0x1C23A..0x1C524",
+   "todo": 82,
+   "keep": 0,
+   "data": 46
+  },
+  "b0e_battle": {
+   "file": "b0e_battle.json",
+   "count": 13,
+   "range": "0x1C524..0x1C571",
+   "todo": 9,
+   "keep": 4,
+   "data": 0
+  },
+  "b11_dialogue": {
+   "file": "b11_dialogue.json",
+   "count": 648,
+   "range": "0x1C571..0x2397F",
+   "todo": 648,
+   "keep": 0,
+   "data": 0
+  },
+  "b11_bg34_credits": {
+   "file": "b11_bg34_credits.json",
+   "count": 23,
+   "range": "0x23E8F..0x23F25",
+   "todo": 23,
+   "keep": 0,
+   "data": 0
+  },
+  "b11_ending_nar": {
+   "file": "b11_ending_nar.json",
+   "count": 2,
+   "range": "0x23F25..0x23F61",
+   "todo": 2,
+   "keep": 0,
+   "data": 0
+  },
+  "b1b_staff": {
+   "file": "b1b_staff.json",
+   "count": 41,
+   "range": "0x37A8F..0x37C2D",
+   "todo": 40,
+   "keep": 0,
+   "data": 1
+  }
+ }
+}

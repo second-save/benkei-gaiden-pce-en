@@ -1,0 +1,990 @@
+{
+ "group": "b1b_staff",
+ "count": 41,
+ "entries": [
+  {
+   "id": "b1b_staff_000_37A8F",
+   "index": 0,
+   "offset": "0x37A8F",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A3D",
+   "slots": [
+    {
+     "slot": "0x37A3D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  のむら まさひと{end}",
+   "jp": "  のむら まさひと{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_001_37A9A",
+   "index": 1,
+   "offset": "0x37A9A",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A3F",
+   "slots": [
+    {
+     "slot": "0x37A3F",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  てらお まさひろ{end}",
+   "jp": "  てらお まさひろ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_002_37AA5",
+   "index": 2,
+   "offset": "0x37AA5",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A41",
+   "slots": [
+    {
+     "slot": "0x37A41",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " うだがわ ひでゆき{end}",
+   "jp": " うだがわ ひでゆき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_003_37AB0",
+   "index": 3,
+   "offset": "0x37AB0",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A43",
+   "slots": [
+    {
+     "slot": "0x37A43",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  さかい ともみ{end}",
+   "jp": "  さかい ともみ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_004_37ABA",
+   "index": 4,
+   "offset": "0x37ABA",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A45",
+   "slots": [
+    {
+     "slot": "0x37A45",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  ふじい ひろかつ{end}",
+   "jp": "  ふじい ひろかつ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_005_37AC5",
+   "index": 5,
+   "offset": "0x37AC5",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A47",
+   "slots": [
+    {
+     "slot": "0x37A47",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  あさだ あきひろ{end}",
+   "jp": "  あさだ あきひろ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_006_37AD0",
+   "index": 6,
+   "offset": "0x37AD0",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A49",
+   "slots": [
+    {
+     "slot": "0x37A49",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " やまもと ひでお{end}",
+   "jp": " やまもと ひでお{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_007_37ADA",
+   "index": 7,
+   "offset": "0x37ADA",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A4B",
+   "slots": [
+    {
+     "slot": "0x37A4B",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " おくむら かずあき{end}",
+   "jp": " おくむら かずあき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_008_37AE5",
+   "index": 8,
+   "offset": "0x37AE5",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A4D",
+   "slots": [
+    {
+     "slot": "0x37A4D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  かわい まさと{end}",
+   "jp": "  かわい まさと{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_009_37AEF",
+   "index": 9,
+   "offset": "0x37AEF",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A4F",
+   "slots": [
+    {
+     "slot": "0x37A4F",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  こざわ かずもと{end}",
+   "jp": "  こざわ かずもと{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_010_37AFA",
+   "index": 10,
+   "offset": "0x37AFA",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A51",
+   "slots": [
+    {
+     "slot": "0x37A51",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "あおやなぎ まさる{end}",
+   "jp": "あおやなぎ まさる{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_011_37B04",
+   "index": 11,
+   "offset": "0x37B04",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A53",
+   "slots": [
+    {
+     "slot": "0x37A53",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " きたずみ こういち{end}",
+   "jp": " きたずみ こういち{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_012_37B0F",
+   "index": 12,
+   "offset": "0x37B0F",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A55",
+   "slots": [
+    {
+     "slot": "0x37A55",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " たけうち あきと{end}",
+   "jp": " たけうち あきと{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_013_37B19",
+   "index": 13,
+   "offset": "0x37B19",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A57",
+   "slots": [
+    {
+     "slot": "0x37A57",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  かわべ よしたか{end}",
+   "jp": "  かわべ よしたか{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_014_37B24",
+   "index": 14,
+   "offset": "0x37B24",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A59",
+   "slots": [
+    {
+     "slot": "0x37A59",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  こまだ よしあき{end}",
+   "jp": "  こまだ よしあき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_015_37B2F",
+   "index": 15,
+   "offset": "0x37B2F",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A5B",
+   "slots": [
+    {
+     "slot": "0x37A5B",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " すぎうら かずゆき{end}",
+   "jp": " すぎうら かずゆき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_016_37B3A",
+   "index": 16,
+   "offset": "0x37B3A",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A5D",
+   "slots": [
+    {
+     "slot": "0x37A5D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  すずき ひろゆき{end}",
+   "jp": "  すずき ひろゆき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_017_37B45",
+   "index": 17,
+   "offset": "0x37B45",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A5F",
+   "slots": [
+    {
+     "slot": "0x37A5F",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  あつみ ひろあき{end}",
+   "jp": "  あつみ ひろあき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_018_37B50",
+   "index": 18,
+   "offset": "0x37B50",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A61",
+   "slots": [
+    {
+     "slot": "0x37A61",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  うえだ ゆういち{end}",
+   "jp": "  うえだ ゆういち{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_019_37B5B",
+   "index": 19,
+   "offset": "0x37B5B",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A63",
+   "slots": [
+    {
+     "slot": "0x37A63",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  いわた よしあき{end}",
+   "jp": "  いわた よしあき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_020_37B66",
+   "index": 20,
+   "offset": "0x37B66",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A65",
+   "slots": [
+    {
+     "slot": "0x37A65",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  かごや ひろゆき{end}",
+   "jp": "  かごや ひろゆき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_021_37B71",
+   "index": 21,
+   "offset": "0x37B71",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A67",
+   "slots": [
+    {
+     "slot": "0x37A67",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "   せや しんいち{end}",
+   "jp": "   せや しんいち{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_022_37B7C",
+   "index": 22,
+   "offset": "0x37B7C",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A69",
+   "slots": [
+    {
+     "slot": "0x37A69",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " いちかわ のりこ{end}",
+   "jp": " いちかわ のりこ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_023_37B86",
+   "index": 23,
+   "offset": "0x37B86",
+   "length": null,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x37A6B",
+   "slots": [
+    {
+     "slot": "0x37A6B",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " くらはし ゆみ{end}",
+   "jp": " くらはし ゆみ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_024_37B8F",
+   "index": 24,
+   "offset": "0x37B8F",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A6D",
+   "slots": [
+    {
+     "slot": "0x37A6D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " おかざき みほこ{end}",
+   "jp": " おかざき みほこ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_025_37B99",
+   "index": 25,
+   "offset": "0x37B99",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A6F",
+   "slots": [
+    {
+     "slot": "0x37A6F",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  いなば てるこ{end}",
+   "jp": "  いなば てるこ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_026_37BA3",
+   "index": 26,
+   "offset": "0x37BA3",
+   "length": null,
+   "raw_len": 9,
+   "bg34": false,
+   "ptr": "0x37A71",
+   "slots": [
+    {
+     "slot": "0x37A71",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " みやざわ りえ{end}",
+   "jp": " みやざわ りえ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_027_37BAC",
+   "index": 27,
+   "offset": "0x37BAC",
+   "length": null,
+   "raw_len": 2,
+   "bg34": false,
+   "ptr": "0x37A73",
+   "slots": [
+    {
+     "slot": "0x37A73",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " {end}",
+   "jp": " {end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_028_37BAE",
+   "index": 28,
+   "offset": "0x37BAE",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A75",
+   "slots": [
+    {
+     "slot": "0x37A75",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " まきはら まさはる{end}",
+   "jp": " まきはら まさはる{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_029_37BB9",
+   "index": 29,
+   "offset": "0x37BB9",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A77",
+   "slots": [
+    {
+     "slot": "0x37A77",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "   いだ とおる{end}",
+   "jp": "   いだ とおる{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_030_37BC3",
+   "index": 30,
+   "offset": "0x37BC3",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A79",
+   "slots": [
+    {
+     "slot": "0x37A79",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  やなせ おさむ{end}",
+   "jp": "  やなせ おさむ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_031_37BCD",
+   "index": 31,
+   "offset": "0x37BCD",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A7B",
+   "slots": [
+    {
+     "slot": "0x37A7B",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " きたがわ まさあき{end}",
+   "jp": " きたがわ まさあき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_032_37BD8",
+   "index": 32,
+   "offset": "0x37BD8",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A7D",
+   "slots": [
+    {
+     "slot": "0x37A7D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  さとう ひろゆき{end}",
+   "jp": "  さとう ひろゆき{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_033_37BE3",
+   "index": 33,
+   "offset": "0x37BE3",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A7F",
+   "slots": [
+    {
+     "slot": "0x37A7F",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " ふりはた まさしげ{end}",
+   "jp": " ふりはた まさしげ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_034_37BEE",
+   "index": 34,
+   "offset": "0x37BEE",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A81",
+   "slots": [
+    {
+     "slot": "0x37A81",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": " うちみち りょうじ{end}",
+   "jp": " うちみち りょうじ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_035_37BF9",
+   "index": 35,
+   "offset": "0x37BF9",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A83",
+   "slots": [
+    {
+     "slot": "0x37A83",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  さこた まなぶ{end}",
+   "jp": "  さこた まなぶ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_036_37C03",
+   "index": 36,
+   "offset": "0x37C03",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A85",
+   "slots": [
+    {
+     "slot": "0x37A85",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "   あべ けんいち{end}",
+   "jp": "   あべ けんいち{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_037_37C0E",
+   "index": 37,
+   "offset": "0x37C0E",
+   "length": null,
+   "raw_len": 11,
+   "bg34": false,
+   "ptr": "0x37A87",
+   "slots": [
+    {
+     "slot": "0x37A87",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "さかきばら かつもり{end}",
+   "jp": "さかきばら かつもり{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_038_37C19",
+   "index": 38,
+   "offset": "0x37C19",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A89",
+   "slots": [
+    {
+     "slot": "0x37A89",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  ゆざわ ゆりこ{end}",
+   "jp": "  ゆざわ ゆりこ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_039_37C23",
+   "index": 39,
+   "offset": "0x37C23",
+   "length": null,
+   "raw_len": 10,
+   "bg34": false,
+   "ptr": "0x37A8B",
+   "slots": [
+    {
+     "slot": "0x37A8B",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "  ながい まりこ{end}",
+   "jp": "  ながい まりこ{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b1b_staff_040_37C2C",
+   "index": 40,
+   "offset": "0x37C2C",
+   "length": null,
+   "raw_len": 1,
+   "bg34": false,
+   "ptr": "0x37A8D",
+   "slots": [
+    {
+     "slot": "0x37A8D",
+     "kind": "ptr_table",
+     "rom_base": "0x36000",
+     "cpu_base": "0xC000"
+    }
+   ],
+   "jp_raw": "{end}",
+   "jp": "{end}",
+   "en": "",
+   "max": null,
+   "box": "staff_roll",
+   "status": "data",
+   "notes": "shared $FF end-of-staff sentinel"
+  }
+ ]
+}

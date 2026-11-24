@@ -65,7 +65,7 @@ When `r74 == $00`, byte `$EC` in `B$0A:$50E9` (`うえ[EC]した[EC]...`) writes
 | Group | Bank / Offset | Ptr Table / Endianness | Count | Notes |
 | --- | --- | --- | --- | --- |
 | `b00_timestamp` | `B$00` `0x01B75` (`$FB75`) | Direct ref at `B$1B:$C3DD` | `1` | Build timestamp (`1989/08/25  10:31:18`) in Test Mode |
-| `b02_sys` | `B$02` `0x05E36..0x05FBB` (`$DE36`) | Direct `$FF`-terminated refs (`B$00/$01/$02/$08/$1B`) | `56` | Menus, status labels, battle summary, unused Test Mode (`$DF42`) |
+| `b02_sys` | `B$02` `0x05E36..0x05FBB` (`$DE36`) | Direct `$FF`-terminated refs (`B$00/$01/$02/$08/$1B`) + `B$02:$DA37` 6-entry char-name table | `56` | Menus, status labels, battle summary, unused Test Mode (`$DF42`); `B$08:$C8E7` (`FDEF $DEE1`) is a `+14` mid-string ref into index 26 (`法力`) |
 | `b09_password` | `B$09` `0x12611..0x12682` | `0x12609` (`$C609`, 5× LE16 `MPR6`) | `5` | Password entry hiragana grid (`$C683+` is non-string tile data) |
 | `b0a_menus` | `B$0A` `0x1509C..0x151AE` | `0x1505E` (`$505E`, 31× LE16 `MPR2`); box specs `0x151AF` | `31` | Name entry (`うえ/した...`), BRAM save/load/delete, & `BG[34]` vertical menus (`$5159..$51A6`: `冒頭/継続`, `バックアップ/旅の記録`, `弁慶 1..3 / やめる / どれをよむかね?`) |
 | `b0a_locations` | `B$0A` `0x15282..0x152C8` | `0x15268` (`$5268`, 13× LE16 `MPR2`) | `13` | Fast-travel / location names (`林省寺` .. `リウモ村`) |
@@ -75,11 +75,11 @@ When `r74 == $00`, byte `$EC` in `B$0A:$50E9` (`うえ[EC]した[EC]...`) writes
 | `b0e_items` | `B$0E` `0x1C23C..0x1C523` | `0x1C13A` (`$413A`, 128× LE16 `MPR2`) | `128` | Unified IDs: `0..31` weapons, `32..63` armor, `64..95` key items, `96..127` consumables (unused slots -> `$423A` `"0{end}"`) |
 | `b0e_battle` | `B$0E` `0x1C524..0x1C570` (`$4524`) | Direct refs (`B$00/$01/$08/$0E..$11`) | `13` | Battle action & damage templates (`の 攻撃`, `を たおした`, `に .. の ダメージ...`) |
 | `b11_dialogue` | `B$0E..$11` `0x1C571..0x2397E` | `0x2397F..0x23E8E` (`$B97F`, 648× LE16 `MPR2..5`) | `648` | Master dialogue & prologue/battle script indexed via `B$01:$C096` (plus direct ending `$B784/$B7FC..` calls in `B$1B:$D950`) |
-| `b11_bg34_credits` | `B$11` `0x23E8F..0x23F24` (`$BE8F`) | Direct `$FDEF`/`$FE2A` refs (`B$02:$C61D`, `B$09:$D562`) | `23` | Rendered with `BG[34]`: `協力/本宮ひろ志/著作/制作/本宮企画`, ending role headings & staff kanji (`脚本/制作/.../平成 元年`) |
-| `b11_ending_nar` | `B$11` `0x23F25..0x23F60` (`$BF25/$BF47`) | Direct `$FDEF` refs (`B$09:$DA2C/$DA42`) | `2` | Final epilogue narration lines |
+| `b11_bg34_credits` | `B$11` `0x23E8F..0x23F24` (`$BE8F`) | Direct `$FDEF`/`$FE2A` refs + `B$11:$BF61` (`0x23F61`, slots 0..22) | `23` | Rendered with `BG[34]`: `協力/本宮ひろ志/著作/制作/本宮企画`, ending role headings & staff kanji (`脚本/制作/.../平成 元年`) |
+| `b11_ending_nar` | `B$11` `0x23F25..0x23F60` (`$BF25/$BF47`) | Direct `$FDEF` refs (`B$09:$DA2C/$DA42`) + `B$11:$BF61` (slots 23..24) | `2` | Final epilogue narration lines (`B$11` tail `0x23F93..0x23FFF` = 109 `$FF` pad bytes) |
 | `b1B_staff` | `B$1B` `0x37A8F..0x37C2C` | `0x37A3D` (`$DA3D`, 41× LE16 `MPR6`) | `41` | Padded hiragana ending staff roll (`のむら まさひと` ..) |
 
-> Verification: `tools/pce_text.py` + `tests/test_text.py` decode and re-encode all **1,217 strings** with 100% byte-exact fidelity.
+> Verification: `tools/extract.py` + `tests/test_extract.py` verify 100% zero-gap byte coverage across all 9 contiguous ROM regions (`0x1C032..0x23F92` in `B$0E..$11` inclusive) and byte-exact roundtrip across all **1,217 strings**.
 
 ---
 

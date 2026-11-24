@@ -1,0 +1,30 @@
+{
+ "group": "b00_timestamp",
+ "count": 1,
+ "entries": [
+  {
+   "id": "b00_timestamp_000_01B75",
+   "index": 0,
+   "offset": "0x01B75",
+   "length": null,
+   "raw_len": 21,
+   "bg34": false,
+   "ptr": "0x363E2",
+   "slots": [
+    {
+     "slot": "0x363E2",
+     "kind": "FDEF",
+     "rom_base": "0x00000",
+     "cpu_base": "0xE000"
+    }
+   ],
+   "jp_raw": "1989/08/25  10:31:18{end}",
+   "jp": "1989/08/25  10:31:18{end}",
+   "en": "1989/08/25  10:31:18{end}",
+   "max": null,
+   "box": "timestamp",
+   "status": "keep",
+   "notes": ""
+  }
+ ]
+}

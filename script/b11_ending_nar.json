@@ -1,0 +1,66 @@
+{
+ "group": "b11_ending_nar",
+ "count": 2,
+ "entries": [
+  {
+   "id": "b11_ending_nar_000_23F25",
+   "index": 0,
+   "offset": "0x23F25",
+   "length": null,
+   "raw_len": 34,
+   "bg34": false,
+   "ptr": "0x23F8F",
+   "slots": [
+    {
+     "slot": "0x23F8F",
+     "kind": "credits_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    },
+    {
+     "slot": "0x13A31",
+     "kind": "FDEF",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "{ef}鬼若{ef}らの{fd}長{fd}く{ed}苦{ed}しい{ed}戦{ed}いがおわり、{ef}闇{ef}ははらわれた{end}",
+   "jp": "鬼若らの長く苦しい戦いがおわり、闇ははらわれた{end}",
+   "en": "",
+   "max": null,
+   "box": "ending_nar",
+   "status": "todo",
+   "notes": ""
+  },
+  {
+   "id": "b11_ending_nar_001_23F47",
+   "index": 1,
+   "offset": "0x23F47",
+   "length": null,
+   "raw_len": 26,
+   "bg34": false,
+   "ptr": "0x23F91",
+   "slots": [
+    {
+     "slot": "0x23F91",
+     "kind": "credits_table",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    },
+    {
+     "slot": "0x13A47",
+     "kind": "FDEF",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    }
+   ],
+   "jp_raw": "だが じだいはこれから{ed}戦{ed}らんの{fd}世{fd}をむかえる{end}",
+   "jp": "だが じだいはこれから戦らんの世をむかえる{end}",
+   "en": "",
+   "max": null,
+   "box": "ending_nar",
+   "status": "todo",
+   "notes": ""
+  }
+ ]
+}
