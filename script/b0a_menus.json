@@ -20,10 +20,10 @@
       ],
       "jp_raw": "あいうえお かきくけこ さしすせそ たちつてと{end}",
       "jp": "あいうえお かきくけこ さしすせそ たちつてと{end}",
-      "en": "",
+      "en": "ABCDE FGHIJ KLMNO PQRST{end}",
       "max": null,
       "box": "title_menu",
-      "status": "todo",
+      "status": "done",
       "notes": ""
     },
     {
@@ -44,10 +44,10 @@
       ],
       "jp_raw": "なにぬねの はひふへほ まみむめも らりるれろ{end}",
       "jp": "なにぬねの はひふへほ まみむめも らりるれろ{end}",
-      "en": "",
+      "en": "UVWXY Zabcd efghi jklmn{end}",
       "max": null,
       "box": "title_menu",
-      "status": "todo",
+      "status": "done",
       "notes": ""
     },
     {
@@ -68,10 +68,10 @@
       ],
       "jp_raw": "がぎぐげご ざじずぜぞ ばびぶべぼ ぱぴぷぺぽ{end}",
       "jp": "がぎぐげご ざじずぜぞ ばびぶべぼ ぱぴぷぺぽ{end}",
-      "en": "",
+      "en": "opqrs tuvwx yz123 45678{end}",
       "max": null,
       "box": "title_menu",
-      "status": "todo",
+      "status": "done",
       "notes": ""
     },
     {
@@ -92,10 +92,10 @@
       ],
       "jp_raw": "やゆよわ{end}",
       "jp": "やゆよわ{end}",
-      "en": "",
+      "en": "9?!+{end}",
       "max": null,
       "box": "title_menu",
-      "status": "todo",
+      "status": "done",
       "notes": ""
     },
     {

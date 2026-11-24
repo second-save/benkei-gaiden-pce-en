@@ -108,8 +108,8 @@ Core rulings from `docs/decisions.md` and `AGENTS.md`:
 | 会話  法術 | Talk  Jutsu | 11 | [UI] Field menu col row 1 (space at byte idx 5) | Speak |
 | 力   道具 | Stats Items | 11 | [UI] Field menu col row 2 (space at byte idx 5) | Power, Status |
 | 装備  調査 | Equip Check | 11 | [UI] Field menu col row 3 (space at byte idx 5) | Gear, Search |
-| 攻撃 遁走 | Fight Flee | 11 | [UI] Battle command row 1 (space at byte idx 5) | Attack, Run |
-| 法術 道具 | Jutsu Items | 11 | [UI] Battle command row 2 (space at byte idx 5) | Magic, Spells |
+| 攻撃 遁走 | Fight Flee | 10 | [UI] Battle command row 1 (space at byte idx 5; cols 1..13 box fits 5+1+4) | Attack, Run |
+| 法術 道具 | Jutsu Item | 10 | [UI] Battle command row 2 (space at byte idx 5; cols 1..13 box fits 5+1+4) | Magic, Spells |
 | 会話 | Talk | 5 | [UI] Field menu col 1 (`Talk  Jutsu`, space at idx 5) | Speak |
 | 法術 | Jutsu | 5 | Battle/Field menu (`Jutsu`, `Items`) and dialogue | Magic, Spells |
 | 力 | Stats / STR | 5 | [NOTE] Field menu uses `Stats`, Status col uses `STR:`/`Power:` | - |

@@ -438,7 +438,7 @@
       ],
       "jp_raw": "{ef}法術{ef} {ef}道{ef}具{end}",
       "jp": "法術 道具{end}",
-      "en": "Jutsu Items{end}",
+      "en": "Jutsu Item{end}",
       "max": null,
       "box": "menu_sys",
       "status": "done",

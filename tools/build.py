@@ -17,6 +17,7 @@ if str(TOOLS_DIR) not in sys.path:
 
 import check_rom  # noqa: E402
 import font_en  # noqa: E402
+import gfx_en  # noqa: E402
 import pce_gfx  # noqa: E402
 import pce_text  # noqa: E402
 import romdiff  # noqa: E402
@@ -341,6 +342,41 @@ def _resolve_entry_text(
     return txt
 
 
+def _write_gfx_stream(
+    rb: RomBuilder,
+    off: int,
+    comp: bytes,
+    orig_len: int,
+    writer: str,
+) -> None:
+    """Write compressed gfx stream `comp` into original `orig_len` budget and `0xFF`-pad tail."""
+    if len(comp) > orig_len:
+        raise OverflowError(f"{writer}: compressed {len(comp)} B > orig budget {orig_len} B")
+    rb.put(off, comp, writer)
+    if len(comp) < orig_len:
+        rb.put(off + len(comp), b"\xff" * (orig_len - len(comp)), f"{writer}_pad")
+
+
+def _apply_gfx_en(rb: RomBuilder, orig: bytes) -> None:
+    """Apply all 5 translated tile-drawn graphics (`BG[23]`, `BG[15]`, `BG[16]`, `SPR[21]`, `SPR[24]`) and OAM."""
+    bg23_comp, bg23_len, bg23_map = gfx_en.patch_bg23(orig)
+    _write_gfx_stream(rb, pce_gfx.bg_meta(orig, 23).offset, bg23_comp, bg23_len, "gfx_bg23")
+    rb.put(0x160DD, bg23_map, "gfx_bg23_map")
+
+    bg15_comp, bg15_len = gfx_en.patch_bg15(orig)
+    _write_gfx_stream(rb, pce_gfx.bg_meta(orig, 15).offset, bg15_comp, bg15_len, "gfx_bg15")
+
+    bg16_comp, bg16_len = gfx_en.patch_bg16(orig)
+    _write_gfx_stream(rb, pce_gfx.bg_meta(orig, 16).offset, bg16_comp, bg16_len, "gfx_bg16")
+
+    spr21_comp, spr21_len, spr24_comp, spr24_len = gfx_en.patch_spr21_and_24(orig)
+    _write_gfx_stream(rb, pce_gfx.spr_meta(orig, 21).offset, spr21_comp, spr21_len, "gfx_spr21")
+    _write_gfx_stream(rb, pce_gfx.spr_meta(orig, 24).offset, spr24_comp, spr24_len, "gfx_spr24")
+
+    for off, (payload, label) in gfx_en.title_oam_patches().items():
+        rb.put(off, payload, label)
+
+
 def build_patched(
     orig: bytes,
     script_dir: Path,
@@ -368,6 +404,9 @@ def build_patched(
             b"\xff" * (bg01_orig_len - len(bg01_comp)),
             "font_bg01_pad",
         )
+
+    if mode == "translate":
+        _apply_gfx_en(rb, orig)
 
     upper = bytes(rb.buf[0x40000:0x60000])
     rb.put(0x80000, upper, "mirror_40_4f")
@@ -518,7 +557,65 @@ def build_patched(
             mbk, mad = far.alloc(codec.encode(mid_txt))
             rb.put(0x05EE1, _stub4(mbk, mad), "stub_b02_sys_026_mid")
 
-    # 4c. b0a_menus[4..30] (preserve 0..3 name-entry grid & 26 empty spacer).
+    # 4c. b0a_menus[4..30] (26 is empty spacer; 0..3 name-entry grid & b09_password patched in-place for translate).
+    if mode == "translate":
+        m03_bytes = b"".join(codec.encode(e[lang]) for e in groups["b0a_menus"][:4])
+        assert len(m03_bytes) == 77, f"b0a_menus[0..3] must be 77 bytes, got {len(m03_bytes)}"
+        rb.put(0x1509C, m03_bytes, "b0a_menus_0_3_ascii")
+
+        pw_bytes = b"".join(codec.encode(e[lang]) for e in groups["b09_password"])
+        assert len(pw_bytes) == 112, f"b09_password[0..4] must be 112 bytes, got {len(pw_bytes)}"
+        rb.put(0x12613, pw_bytes, "b09_password_ascii")
+
+        rb.patch_assert(
+            0x1500F,
+            bytes.fromhex("2e a5 83 82 6c 62 6c 64 44 45 2f 80 a8 00"),
+            (codec.encode("SOUNDTEST") + b"\x00").ljust(14, b"\x00"),
+            "secret_pw_soundtest",
+        )
+        rb.patch_assert(
+            0x1501D,
+            bytes.fromhex("4e 4b 41 44 6d 4b 63 6c 62 4d 6c a1 6e 6b 62 2a 4d 00"),
+            (codec.encode("DEBUGMODE") + b"\x00").ljust(18, b"\x00"),
+            "secret_pw_debugmode",
+        )
+        # Verified $FDEF X-coordinate shifts for English labels.
+        rb.patch_assert(0x1376E, b"\x08", b"\x02", "fdef_ending_slide_c20_x")
+        rb.patch_assert(0x1386D, b"\x0b", b"\x08", "fdef_ending_card_c01_x")
+        rb.patch_assert(0x13874, b"\x10", b"\x13", "fdef_ending_card_c07_x")
+        rb.patch_assert(0x12F66, b"\x0c", b"\x0d", "fdef_bram_overwrite_loc_x")
+        # Battle Command (cols 1..13) & Enemy List (cols 14..30) window geometry.
+        rb.patch_assert(
+            0x115B6,
+            bytes.fromhex("01 14 0b 07"),
+            bytes.fromhex("01 14 0c 07"),
+            "battle_cmd_box",
+        )
+        rb.patch_assert(
+            0x1162C,
+            bytes.fromhex("20 61 fe 07 17"),
+            bytes.fromhex("20 61 fe 08 17"),
+            "battle_cmd_clear_x2",
+        )
+        rb.patch_assert(
+            0x11636,
+            bytes.fromhex("02 17 07 02"),
+            bytes.fromhex("02 17 08 02"),
+            "battle_cmd_cur_x2",
+        )
+        rb.patch_assert(
+            0x05998,
+            bytes.fromhex("0d 14 11 07 a9 0f"),
+            bytes.fromhex("0e 14 10 07 a9 10"),
+            "battle_enemy_box",
+        )
+        rb.patch_assert(
+            0x11247,
+            bytes.fromhex("0e 15 00 05 20 12 ee 0e 15"),
+            bytes.fromhex("0f 15 00 05 20 12 ee 0f 15"),
+            "battle_enemy_cur_x",
+        )
+
     menus_ptr_low = bytearray()
     menus_stub_low = bytearray()
     menus_ptr_high = bytearray()
