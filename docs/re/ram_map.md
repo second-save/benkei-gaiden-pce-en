@@ -13,7 +13,8 @@
 | `$2200–$223F` | 64 B | **Party Member Persistent Structs** (4 slots × 16 bytes; `$FF` = empty) |
 | `$2240–$22BF` | 128 B | **Mode-shared / Battle Enemy Structs** (16-byte stride; holds loaded enemy template/stats in battle, e.g. `大ぐも` ID `$1D` at `$2240`, or UI/actor scratch in town/overworld) |
 | `$22C0–$22FF` | 64 B | **Party Computed Combat Stats** (4 slots × 16 bytes: MaxHP, MaxMP, ATK, DEF, AGI) |
-| `$2300–$231F` | 32 B | **Party Inventories** (4 members × 8 item slots; `$FF` = empty) |
+| `$2300–$230F` | 16 B | **Consumable Item Bag (`道具`)** (`16` slots shared by party, `$FF` = empty; `B$01:$CD39`) |
+| `$2310–$231F` | 16 B | **Equipment Bag (`装備`)** (`16` slots shared by party, `$FF` = empty; `B$01:$CD69`, `B$09:$CE61`) |
 | `$2320–$2329` | 10 B | **Event / Story Progress Flags** (serialized in both Password and BRAM saves; bitflags including `$2324` field/event bits) |
 | `$232A–$23FF` | 214 B | Extra progression/engine state (`$232A..$232E` referenced by `B$01`/`B$08`; `$2330..$233F` observed static/engine data across Town & Battle) |
 | `$2400–$25FF` | 512 B | Field/window attribute & tile staging buffers (`$2401..$247F`, `$2514..$257F` updated when opening Field/Shop/Battle windows) |
@@ -89,8 +90,9 @@ In Town/Overworld `$2240..$226F` is used as field/UI scratch (`68 32 ...`), wher
   `$2240: 1D 07 00 05 18 00 03 04 82 7C 0B 05 02 FF 00 00`
   (`$1D` = Enemy ID, `$07` = HP, `$2248/$2249` = graphic/sprite refs copied to `$3C07/$3C08` by `B$09:$C020`).
 
-### 3.4 Inventory (`$2300–$231F`) & Event Flags (`$2320–$2329`)
-- **`$2300–$231F`**: `4` party members × `8` item slots (`32` bytes total; `$FF` = empty slot; bit 7 `$80` marks equipped item during BRAM equip handling in `B$09:$CDF0`). Shifting loop in `B$00:$F361` uses `$0F` stride/mask.
+### 3.4 Inventory Bags (`$2300–$231F`) & Event Flags (`$2320–$2329`)
+- **`$2300–$230F`**: `16`-slot shared **Consumable Item Bag** (`道具`, indexed in `B$01:$CD39` / `B$08:$DA8B`, shifted by `B$00:$F361`; `$FF` = empty slot).
+- **`$2310–$231F`**: `16`-slot shared **Equipment Bag** (`装備`, indexed in `B$01:$CD69`, shifted/unequipped by `B$09:$CDEC..$CE96`; bit 7 `$80` marks active transition flags during BRAM/equip handling; `$FF` = empty slot).
 - **`$2320–$2329`**: `10` bytes of persistent game/story flags (`$2320..$2329` serialized verbatim by Password & BRAM routines; live start value `80 00 00 80 00 00 00 00 00 00`; `$2324` bit 2 = intro/event state checked at `B$00:$E99A`).
 
 ### 3.5 Shared List Scratch (`$2D00–$2D3F`) & String Buffer (`$2E00–$2FFF`)
