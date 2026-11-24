@@ -477,7 +477,7 @@ def build_patched(
     base60 = 0xA000 + (112 + 1) * 2
     for e in groups["b0d_enemy_kanji"]:
         ptrs60.extend(_u16_le(base60 + len(strs60)))
-        if e["status"] == "todo":
+        if e["status"] in ("todo", "done"):
             txt = _resolve_entry_text("b0d_enemy_kanji", e, mode=mode, lang=lang, qa_overrides=overrides)
             strs60.extend(codec.encode(txt))
     ptrs60.extend(_u16_le(base60 + len(strs60)))
@@ -488,7 +488,7 @@ def build_patched(
 
     # 4b. b02_sys (+ mid-string ref at 0x05EE1).
     for e in groups["b02_sys"]:
-        if e["status"] != "todo":
+        if e["status"] not in ("todo", "done"):
             continue
         txt = _resolve_entry_text("b02_sys", e, mode=mode, lang=lang, qa_overrides=overrides)
         bk, ad = far.alloc(codec.encode(txt))
@@ -506,7 +506,11 @@ def build_patched(
                 rb.patch_assert(int(s["slot"], 16), orig_cpu, new_cpu, f"repoint_{e['id']}")
 
         if e["index"] == 26:
-            mid_txt = overrides.get("b02_sys_026_mid", "S26M{end}" if mode == "marker" else "")
+            mid_txt = (
+                overrides.get("b02_sys_026_mid")
+                or (e.get(f"{lang}_mid", e.get("en_mid", "")) if mode == "translate" else "")
+                or ("S26M{end}" if mode == "marker" else "")
+            )
             if not mid_txt and mode == "translate":
                 raise ValueError("missing 'b02_sys_026_mid' MP label for translate mode")
             if not mid_txt.endswith("{end}"):
@@ -523,9 +527,12 @@ def build_patched(
         idx = e["index"]
         if idx < 4 or idx == 26:
             continue
-        if e["status"] != "todo":
+        if e["status"] not in ("todo", "done"):
             raise ValueError(f"unexpected status on b0a_menus[{idx}]: {e['status']}")
-        txt = _resolve_entry_text("b0a_menus", e, mode=mode, lang=lang, qa_overrides=overrides)
+        if mode == "translate" and 21 <= idx <= 29 and not e.get(lang, "") and e["id"] not in overrides:
+            txt = "{end}"
+        else:
+            txt = _resolve_entry_text("b0a_menus", e, mode=mode, lang=lang, qa_overrides=overrides)
         bk, ad = far.alloc(codec.encode(txt))
         s5 = _stub5(bk, ad)
         if idx < 26:
@@ -559,7 +566,7 @@ def build_patched(
     # 4e. In-place 4-byte stub groups in B$0E/$11.
     for g in ("b0e_jutsu", "b0e_items", "b11_bg34_credits", "b11_ending_nar"):
         for e in groups[g]:
-            if e["status"] != "todo":
+            if e["status"] not in ("todo", "done"):
                 continue
             txt = _resolve_entry_text(g, e, mode=mode, lang=lang, qa_overrides=overrides)
             bk, ad = far.alloc(codec.encode(txt))
@@ -567,7 +574,7 @@ def build_patched(
 
     # 4f. b0e_battle (index 6 fits 2 B in-place; indices 8 & 10 repointed to B$11 free tail).
     for e in groups["b0e_battle"]:
-        if e["status"] != "todo":
+        if e["status"] not in ("todo", "done"):
             continue
         idx = e["index"]
         off = int(e["offset"], 16)
@@ -608,7 +615,7 @@ def build_patched(
 
     # 4g. b11_dialogue (646 in-place 5-byte stubs; 2 short entries -> B$11 free tail + ptr update).
     for e in groups["b11_dialogue"]:
-        if e["status"] != "todo":
+        if e["status"] not in ("todo", "done"):
             continue
         txt = _resolve_entry_text("b11_dialogue", e, mode=mode, lang=lang, qa_overrides=overrides)
         bk, ad = far.alloc(codec.encode(txt))
@@ -624,7 +631,7 @@ def build_patched(
     staff_ptrs = bytearray()
     staff_stubs = bytearray()
     for e in groups["b1b_staff"]:
-        if e["status"] != "todo":
+        if e["status"] not in ("todo", "done"):
             continue
         txt = _resolve_entry_text("b1b_staff", e, mode=mode, lang=lang, qa_overrides=overrides)
         bk, ad = far.alloc(codec.encode(txt))

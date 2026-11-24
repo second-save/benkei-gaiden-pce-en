@@ -1,1366 +1,1367 @@
 {
- "group": "b02_sys",
- "count": 56,
- "entries": [
-  {
-   "id": "b02_sys_000_05E36",
-   "index": 0,
-   "offset": "0x05E36",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x107F6",
-   "slots": [
+  "group": "b02_sys",
+  "count": 56,
+  "entries": [
     {
-     "slot": "0x107F6",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "会話  {ef}法術{end}",
-   "jp": "会話  法術{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_001_05E40",
-   "index": 1,
-   "offset": "0x05E40",
-   "length": null,
-   "raw_len": 13,
-   "bg34": false,
-   "ptr": "0x107FD",
-   "slots": [
-    {
-     "slot": "0x107FD",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": " {ed}力{ed}   {ef}道{ef}具{end}",
-   "jp": " 力   道具{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_002_05E4D",
-   "index": 2,
-   "offset": "0x05E4D",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x10804",
-   "slots": [
-    {
-     "slot": "0x10804",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "装備  調査{end}",
-   "jp": "装備  調査{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_003_05E58",
-   "index": 3,
-   "offset": "0x05E58",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x116C7",
-   "slots": [
-    {
-     "slot": "0x116C7",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}南無{ed}・・・{end}",
-   "jp": "南無・・・{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_004_05E60",
-   "index": 4,
-   "offset": "0x05E60",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x03D6D",
-   "slots": [
-    {
-     "slot": "0x03D6D",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}鎌{ed}{fd}倉{end}",
-   "jp": "鎌倉{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_005_05E66",
-   "index": 5,
-   "offset": "0x05E66",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x03D74",
-   "slots": [
-    {
-     "slot": "0x03D74",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{fd}陸{fd}{ed}前{end}",
-   "jp": "陸前{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_006_05E6C",
-   "index": 6,
-   "offset": "0x05E6C",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x05A37",
-   "slots": [
-    {
-     "slot": "0x05A37",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}鬼若{ef}{end}",
-   "jp": "鬼若{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_007_05E71",
-   "index": 7,
-   "offset": "0x05E71",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x05A39",
-   "slots": [
-    {
-     "slot": "0x05A39",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}沙夜香{ef}{end}",
-   "jp": "沙夜香{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_008_05E77",
-   "index": 8,
-   "offset": "0x05E77",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x05A3B",
-   "slots": [
-    {
-     "slot": "0x05A3B",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}三郎{ef}{end}",
-   "jp": "三郎{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_009_05E7C",
-   "index": 9,
-   "offset": "0x05E7C",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x05A3D",
-   "slots": [
-    {
-     "slot": "0x05A3D",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}弁慶{ef}{end}",
-   "jp": "弁慶{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_010_05E81",
-   "index": 10,
-   "offset": "0x05E81",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": null,
-   "slots": [],
-   "jp_raw": "E{end}",
-   "jp": "E{end}",
-   "en": "E{end}",
-   "max": null,
-   "box": "menu_sys",
-   "status": "keep",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_011_05E83",
-   "index": 11,
-   "offset": "0x05E83",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x02EF1",
-   "slots": [
-    {
-     "slot": "0x02EF1",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}武{ef}:{end}",
-   "jp": "武:{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_012_05E88",
-   "index": 12,
-   "offset": "0x05E88",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x02EF8",
-   "slots": [
-    {
-     "slot": "0x02EF8",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}鎧{ed}:{end}",
-   "jp": "鎧:{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_013_05E8D",
-   "index": 13,
-   "offset": "0x05E8D",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x02EFF",
-   "slots": [
-    {
-     "slot": "0x02EFF",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "防:{end}",
-   "jp": "防:{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_014_05E91",
-   "index": 14,
-   "offset": "0x05E91",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x03D62",
-   "slots": [
-    {
-     "slot": "0x03D62",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{fd}京都{end}",
-   "jp": "京都{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_015_05E95",
-   "index": 15,
-   "offset": "0x05E95",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x363B1",
-   "slots": [
-    {
-     "slot": "0x363B1",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "ポーズ{end}",
-   "jp": "ポーズ{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_016_05E99",
-   "index": 16,
-   "offset": "0x05E99",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": null,
-   "slots": [],
-   "jp_raw": "ぜんいん{end}",
-   "jp": "ぜんいん{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_017_05E9E",
-   "index": 17,
-   "offset": "0x05E9E",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x115CF",
-   "slots": [
-    {
-     "slot": "0x115CF",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}攻{ed}撃 {ed}遁{ed}走{end}",
-   "jp": "攻撃 遁走{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_018_05EAA",
-   "index": 18,
-   "offset": "0x05EAA",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x115D6",
-   "slots": [
-    {
-     "slot": "0x115D6",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}法術{ef} {ef}道{ef}具{end}",
-   "jp": "法術 道具{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_019_05EB5",
-   "index": 19,
-   "offset": "0x05EB5",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x03214",
-   "slots": [
-    {
-     "slot": "0x03214",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "つかう{end}",
-   "jp": "つかう{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_020_05EB9",
-   "index": 20,
-   "offset": "0x05EB9",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x0321B",
-   "slots": [
-    {
-     "slot": "0x0321B",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "すてる{end}",
-   "jp": "すてる{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_021_05EBD",
-   "index": 21,
-   "offset": "0x05EBD",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x05A3F",
-   "slots": [
-    {
-     "slot": "0x05A3F",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}法眼{ef}{end}",
-   "jp": "法眼{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_022_05EC2",
-   "index": 22,
-   "offset": "0x05EC2",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x05A41",
-   "slots": [
-    {
-     "slot": "0x05A41",
-     "kind": "char_table",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}義経{ef}{end}",
-   "jp": "義経{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_023_05EC7",
-   "index": 23,
-   "offset": "0x05EC7",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x02D0C",
-   "slots": [
-    {
-     "slot": "0x02D0C",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_000_05E36",
+      "index": 0,
+      "offset": "0x05E36",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x107F6",
+      "slots": [
+        {
+          "slot": "0x107F6",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "会話  {ef}法術{end}",
+      "jp": "会話  法術{end}",
+      "en": "Talk  Jutsu{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x1092B",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}銭{end}",
-   "jp": "銭{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_024_05ECA",
-   "index": 24,
-   "offset": "0x05ECA",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x108D7",
-   "slots": [
-    {
-     "slot": "0x108D7",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "レベル{end}",
-   "jp": "レベル{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_025_05ECE",
-   "index": 25,
-   "offset": "0x05ECE",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x108DE",
-   "slots": [
-    {
-     "slot": "0x108DE",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "体{ed}力{end}",
-   "jp": "体力{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_026_05ED3",
-   "index": 26,
-   "offset": "0x05ED3",
-   "length": null,
-   "raw_len": 20,
-   "bg34": false,
-   "ptr": "0x01614",
-   "slots": [
-    {
-     "slot": "0x01614",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "レベル  体{ed}力{ed}    {ef}法{ef}{ed}力{end}",
-   "jp": "レベル  体力    法力{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": "Mid-string ref B$08:$C8E7 (FDEF $DEE1 -> 0x05EE1 '{ef}法{ef}{ed}力{end}')"
-  },
-  {
-   "id": "b02_sys_027_05EE7",
-   "index": 27,
-   "offset": "0x05EE7",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x108FA",
-   "slots": [
-    {
-     "slot": "0x108FA",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "  {ed}力{ed}  :{end}",
-   "jp": "  力  :{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_028_05EF0",
-   "index": 28,
-   "offset": "0x05EF0",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x10901",
-   "slots": [
-    {
-     "slot": "0x10901",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "素早さ :{end}",
-   "jp": "素早さ :{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_029_05EF8",
-   "index": 29,
-   "offset": "0x05EF8",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x02EE3",
-   "slots": [
-    {
-     "slot": "0x02EE3",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_001_05E40",
+      "index": 1,
+      "offset": "0x05E40",
+      "length": null,
+      "raw_len": 13,
+      "bg34": false,
+      "ptr": "0x107FD",
+      "slots": [
+        {
+          "slot": "0x107FD",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": " {ed}力{ed}   {ef}道{ef}具{end}",
+      "jp": " 力   道具{end}",
+      "en": "Stats Items{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x10908",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}攻{ed}撃{ed}力{ed}:{end}",
-   "jp": "攻撃力:{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_030_05F02",
-   "index": 30,
-   "offset": "0x05F02",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x02EEA",
-   "slots": [
-    {
-     "slot": "0x02EEA",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_002_05E4D",
+      "index": 2,
+      "offset": "0x05E4D",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x10804",
+      "slots": [
+        {
+          "slot": "0x10804",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "装備  調査{end}",
+      "jp": "装備  調査{end}",
+      "en": "Equip Check{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x1090F",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}守{ed}備{ed}力{ed}:{end}",
-   "jp": "守備力:{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_031_05F0C",
-   "index": 31,
-   "offset": "0x05F0C",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x10916",
-   "slots": [
-    {
-     "slot": "0x10916",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}経{ef}験値{end}",
-   "jp": "経験値{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_032_05F14",
-   "index": 32,
-   "offset": "0x05F14",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1091D",
-   "slots": [
-    {
-     "slot": "0x1091D",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "つぎのレベルまで{end}",
-   "jp": "つぎのレベルまで{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_033_05F1D",
-   "index": 33,
-   "offset": "0x05F1D",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x10924",
-   "slots": [
-    {
-     "slot": "0x10924",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "あと{end}",
-   "jp": "あと{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_034_05F20",
-   "index": 34,
-   "offset": "0x05F20",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x018C2",
-   "slots": [
-    {
-     "slot": "0x018C2",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}死{end}",
-   "jp": "死{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_035_05F23",
-   "index": 35,
-   "offset": "0x05F23",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x011E8",
-   "slots": [
-    {
-     "slot": "0x011E8",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "はい{end}",
-   "jp": "はい{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_036_05F26",
-   "index": 36,
-   "offset": "0x05F26",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x011EF",
-   "slots": [
-    {
-     "slot": "0x011EF",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "いいえ{end}",
-   "jp": "いいえ{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_037_05F2A",
-   "index": 37,
-   "offset": "0x05F2A",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x018CA",
-   "slots": [
-    {
-     "slot": "0x018CA",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}毒{end}",
-   "jp": "毒{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_038_05F2D",
-   "index": 38,
-   "offset": "0x05F2D",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x018BA",
-   "slots": [
-    {
-     "slot": "0x018BA",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}極{end}",
-   "jp": "極{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_039_05F30",
-   "index": 39,
-   "offset": "0x05F30",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x02E43",
-   "slots": [
-    {
-     "slot": "0x02E43",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "かう{end}",
-   "jp": "かう{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_040_05F33",
-   "index": 40,
-   "offset": "0x05F33",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x02E4A",
-   "slots": [
-    {
-     "slot": "0x02E4A",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "うる{end}",
-   "jp": "うる{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_041_05F36",
-   "index": 41,
-   "offset": "0x05F36",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x029EE",
-   "slots": [
-    {
-     "slot": "0x029EE",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}転生{end}",
-   "jp": "転生{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_042_05F3A",
-   "index": 42,
-   "offset": "0x05F3A",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x029E7",
-   "slots": [
-    {
-     "slot": "0x029E7",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ed}旅{ed}の{ed}記録{end}",
-   "jp": "旅の記録{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_043_05F42",
-   "index": 43,
-   "offset": "0x05F42",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x36399",
-   "slots": [
-    {
-     "slot": "0x36399",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "テスト モード{end}",
-   "jp": "テスト モード{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_044_05F4A",
-   "index": 44,
-   "offset": "0x05F4A",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x363B8",
-   "slots": [
-    {
-     "slot": "0x363B8",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "てき しゅつげん{end}",
-   "jp": "てき しゅつげん{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_045_05F53",
-   "index": 45,
-   "offset": "0x05F53",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x363BF",
-   "slots": [
-    {
-     "slot": "0x363BF",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "ひと あたり{end}",
-   "jp": "ひと あたり{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_046_05F5A",
-   "index": 46,
-   "offset": "0x05F5A",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x363C6",
-   "slots": [
-    {
-     "slot": "0x363C6",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "マップ あたり{end}",
-   "jp": "マップ あたり{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_047_05F62",
-   "index": 47,
-   "offset": "0x05F62",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x363CD",
-   "slots": [
-    {
-     "slot": "0x363CD",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "スピード{end}",
-   "jp": "スピード{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_048_05F67",
-   "index": 48,
-   "offset": "0x05F67",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x36403",
-   "slots": [
-    {
-     "slot": "0x36403",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "オン{end}",
-   "jp": "オン{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_049_05F6A",
-   "index": 49,
-   "offset": "0x05F6A",
-   "length": null,
-   "raw_len": 3,
-   "bg34": false,
-   "ptr": "0x3640C",
-   "slots": [
-    {
-     "slot": "0x3640C",
-     "kind": "FE08",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "オフ{end}",
-   "jp": "オフ{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_050_05F6D",
-   "index": 50,
-   "offset": "0x05F6D",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x363D4",
-   "slots": [
-    {
-     "slot": "0x363D4",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "パスワード{end}",
-   "jp": "パスワード{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_051_05F73",
-   "index": 51,
-   "offset": "0x05F73",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x363DB",
-   "slots": [
-    {
-     "slot": "0x363DB",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "サウンド{end}",
-   "jp": "サウンド{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_052_05F78",
-   "index": 52,
-   "offset": "0x05F78",
-   "length": null,
-   "raw_len": 15,
-   "bg34": false,
-   "ptr": "0x1171A",
-   "slots": [
-    {
-     "slot": "0x1171A",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}魔物{ef}たちは ぜんめつした{end}",
-   "jp": "魔物たちは ぜんめつした{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_053_05F87",
-   "index": 53,
-   "offset": "0x05F87",
-   "length": null,
-   "raw_len": 18,
-   "bg34": false,
-   "ptr": "0x1182F",
-   "slots": [
-    {
-     "slot": "0x1182F",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}経{ef}験値が     あがった{end}",
-   "jp": "経験値が     あがった{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_054_05F99",
-   "index": 54,
-   "offset": "0x05F99",
-   "length": null,
-   "raw_len": 17,
-   "bg34": false,
-   "ptr": "0x1186D",
-   "slots": [
-    {
-     "slot": "0x1186D",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
-    }
-   ],
-   "jp_raw": "{ef}銭{ef}を       てにいれた{end}",
-   "jp": "銭を       てにいれた{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b02_sys_055_05FAA",
-   "index": 55,
-   "offset": "0x05FAA",
-   "length": null,
-   "raw_len": 18,
-   "bg34": false,
-   "ptr": "0x116B6",
-   "slots": [
-    {
-     "slot": "0x116B6",
-     "kind": "FDEF",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_003_05E58",
+      "index": 3,
+      "offset": "0x05E58",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x116C7",
+      "slots": [
+        {
+          "slot": "0x116C7",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}南無{ed}・・・{end}",
+      "jp": "南無・・・{end}",
+      "en": "Alas...{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x3618D",
-     "kind": "FE2A",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_004_05E60",
+      "index": 4,
+      "offset": "0x05E60",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x03D6D",
+      "slots": [
+        {
+          "slot": "0x03D6D",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}鎌{ed}{fd}倉{end}",
+      "jp": "鎌倉{end}",
+      "en": "Kamakura{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x36216",
-     "kind": "FE2A",
-     "rom_base": "0x04000",
-     "cpu_base": "0xC000"
+      "id": "b02_sys_005_05E66",
+      "index": 5,
+      "offset": "0x05E66",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x03D74",
+      "slots": [
+        {
+          "slot": "0x03D74",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{fd}陸{fd}{ed}前{end}",
+      "jp": "陸前{end}",
+      "en": "Rikuzen{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_006_05E6C",
+      "index": 6,
+      "offset": "0x05E6C",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x05A37",
+      "slots": [
+        {
+          "slot": "0x05A37",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}鬼若{ef}{end}",
+      "jp": "鬼若{end}",
+      "en": "Kijaku{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_007_05E71",
+      "index": 7,
+      "offset": "0x05E71",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x05A39",
+      "slots": [
+        {
+          "slot": "0x05A39",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}沙夜香{ef}{end}",
+      "jp": "沙夜香{end}",
+      "en": "Sayaka{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_008_05E77",
+      "index": 8,
+      "offset": "0x05E77",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x05A3B",
+      "slots": [
+        {
+          "slot": "0x05A3B",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}三郎{ef}{end}",
+      "jp": "三郎{end}",
+      "en": "Saburo{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_009_05E7C",
+      "index": 9,
+      "offset": "0x05E7C",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x05A3D",
+      "slots": [
+        {
+          "slot": "0x05A3D",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}弁慶{ef}{end}",
+      "jp": "弁慶{end}",
+      "en": "Benkei{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_010_05E81",
+      "index": 10,
+      "offset": "0x05E81",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": null,
+      "slots": [],
+      "jp_raw": "E{end}",
+      "jp": "E{end}",
+      "en": "E{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "keep",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_011_05E83",
+      "index": 11,
+      "offset": "0x05E83",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x02EF1",
+      "slots": [
+        {
+          "slot": "0x02EF1",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}武{ef}:{end}",
+      "jp": "武:{end}",
+      "en": "W: {end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_012_05E88",
+      "index": 12,
+      "offset": "0x05E88",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x02EF8",
+      "slots": [
+        {
+          "slot": "0x02EF8",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}鎧{ed}:{end}",
+      "jp": "鎧:{end}",
+      "en": "A: {end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_013_05E8D",
+      "index": 13,
+      "offset": "0x05E8D",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x02EFF",
+      "slots": [
+        {
+          "slot": "0x02EFF",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "防:{end}",
+      "jp": "防:{end}",
+      "en": "R: {end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_014_05E91",
+      "index": 14,
+      "offset": "0x05E91",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x03D62",
+      "slots": [
+        {
+          "slot": "0x03D62",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{fd}京都{end}",
+      "jp": "京都{end}",
+      "en": "Kyoto{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_015_05E95",
+      "index": 15,
+      "offset": "0x05E95",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x363B1",
+      "slots": [
+        {
+          "slot": "0x363B1",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "ポーズ{end}",
+      "jp": "ポーズ{end}",
+      "en": "Pause{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_016_05E99",
+      "index": 16,
+      "offset": "0x05E99",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": null,
+      "slots": [],
+      "jp_raw": "ぜんいん{end}",
+      "jp": "ぜんいん{end}",
+      "en": "Everyone{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_017_05E9E",
+      "index": 17,
+      "offset": "0x05E9E",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x115CF",
+      "slots": [
+        {
+          "slot": "0x115CF",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}攻{ed}撃 {ed}遁{ed}走{end}",
+      "jp": "攻撃 遁走{end}",
+      "en": "Fight Flee{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_018_05EAA",
+      "index": 18,
+      "offset": "0x05EAA",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x115D6",
+      "slots": [
+        {
+          "slot": "0x115D6",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}法術{ef} {ef}道{ef}具{end}",
+      "jp": "法術 道具{end}",
+      "en": "Jutsu Items{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_019_05EB5",
+      "index": 19,
+      "offset": "0x05EB5",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x03214",
+      "slots": [
+        {
+          "slot": "0x03214",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "つかう{end}",
+      "jp": "つかう{end}",
+      "en": "Use{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_020_05EB9",
+      "index": 20,
+      "offset": "0x05EB9",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x0321B",
+      "slots": [
+        {
+          "slot": "0x0321B",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "すてる{end}",
+      "jp": "すてる{end}",
+      "en": "Drop{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_021_05EBD",
+      "index": 21,
+      "offset": "0x05EBD",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x05A3F",
+      "slots": [
+        {
+          "slot": "0x05A3F",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}法眼{ef}{end}",
+      "jp": "法眼{end}",
+      "en": "Hogen{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_022_05EC2",
+      "index": 22,
+      "offset": "0x05EC2",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x05A41",
+      "slots": [
+        {
+          "slot": "0x05A41",
+          "kind": "char_table",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}義経{ef}{end}",
+      "jp": "義経{end}",
+      "en": "Yoshitsune{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_023_05EC7",
+      "index": 23,
+      "offset": "0x05EC7",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x02D0C",
+      "slots": [
+        {
+          "slot": "0x02D0C",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        },
+        {
+          "slot": "0x1092B",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}銭{end}",
+      "jp": "銭{end}",
+      "en": "Sen{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_024_05ECA",
+      "index": 24,
+      "offset": "0x05ECA",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x108D7",
+      "slots": [
+        {
+          "slot": "0x108D7",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "レベル{end}",
+      "jp": "レベル{end}",
+      "en": "Lv{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_025_05ECE",
+      "index": 25,
+      "offset": "0x05ECE",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x108DE",
+      "slots": [
+        {
+          "slot": "0x108DE",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "体{ed}力{end}",
+      "jp": "体力{end}",
+      "en": "HP{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_026_05ED3",
+      "index": 26,
+      "offset": "0x05ED3",
+      "length": null,
+      "raw_len": 20,
+      "bg34": false,
+      "ptr": "0x01614",
+      "slots": [
+        {
+          "slot": "0x01614",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "レベル  体{ed}力{ed}    {ef}法{ef}{ed}力{end}",
+      "jp": "レベル  体力    法力{end}",
+      "en": "Lv    HP    MP{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": "Mid-string ref B$08:$C8E7 (FDEF $DEE1 -> 0x05EE1 '{ef}法{ef}{ed}力{end}')",
+      "en_mid": "MP{end}"
+    },
+    {
+      "id": "b02_sys_027_05EE7",
+      "index": 27,
+      "offset": "0x05EE7",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x108FA",
+      "slots": [
+        {
+          "slot": "0x108FA",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "  {ed}力{ed}  :{end}",
+      "jp": "  力  :{end}",
+      "en": "Power :{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_028_05EF0",
+      "index": 28,
+      "offset": "0x05EF0",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x10901",
+      "slots": [
+        {
+          "slot": "0x10901",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "素早さ :{end}",
+      "jp": "素早さ :{end}",
+      "en": "Speed :{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_029_05EF8",
+      "index": 29,
+      "offset": "0x05EF8",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x02EE3",
+      "slots": [
+        {
+          "slot": "0x02EE3",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        },
+        {
+          "slot": "0x10908",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}攻{ed}撃{ed}力{ed}:{end}",
+      "jp": "攻撃力:{end}",
+      "en": "Attack:{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_030_05F02",
+      "index": 30,
+      "offset": "0x05F02",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x02EEA",
+      "slots": [
+        {
+          "slot": "0x02EEA",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        },
+        {
+          "slot": "0x1090F",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}守{ed}備{ed}力{ed}:{end}",
+      "jp": "守備力:{end}",
+      "en": "Guard :{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_031_05F0C",
+      "index": 31,
+      "offset": "0x05F0C",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x10916",
+      "slots": [
+        {
+          "slot": "0x10916",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}経{ef}験値{end}",
+      "jp": "経験値{end}",
+      "en": "Experience{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_032_05F14",
+      "index": 32,
+      "offset": "0x05F14",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1091D",
+      "slots": [
+        {
+          "slot": "0x1091D",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "つぎのレベルまで{end}",
+      "jp": "つぎのレベルまで{end}",
+      "en": "Next Level{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_033_05F1D",
+      "index": 33,
+      "offset": "0x05F1D",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x10924",
+      "slots": [
+        {
+          "slot": "0x10924",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "あと{end}",
+      "jp": "あと{end}",
+      "en": "in{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_034_05F20",
+      "index": 34,
+      "offset": "0x05F20",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x018C2",
+      "slots": [
+        {
+          "slot": "0x018C2",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}死{end}",
+      "jp": "死{end}",
+      "en": "KO{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_035_05F23",
+      "index": 35,
+      "offset": "0x05F23",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x011E8",
+      "slots": [
+        {
+          "slot": "0x011E8",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "はい{end}",
+      "jp": "はい{end}",
+      "en": "Yes{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_036_05F26",
+      "index": 36,
+      "offset": "0x05F26",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x011EF",
+      "slots": [
+        {
+          "slot": "0x011EF",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "いいえ{end}",
+      "jp": "いいえ{end}",
+      "en": "No{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_037_05F2A",
+      "index": 37,
+      "offset": "0x05F2A",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x018CA",
+      "slots": [
+        {
+          "slot": "0x018CA",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}毒{end}",
+      "jp": "毒{end}",
+      "en": "PSN{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_038_05F2D",
+      "index": 38,
+      "offset": "0x05F2D",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x018BA",
+      "slots": [
+        {
+          "slot": "0x018BA",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}極{end}",
+      "jp": "極{end}",
+      "en": "MAX{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_039_05F30",
+      "index": 39,
+      "offset": "0x05F30",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x02E43",
+      "slots": [
+        {
+          "slot": "0x02E43",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "かう{end}",
+      "jp": "かう{end}",
+      "en": "Buy{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_040_05F33",
+      "index": 40,
+      "offset": "0x05F33",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x02E4A",
+      "slots": [
+        {
+          "slot": "0x02E4A",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "うる{end}",
+      "jp": "うる{end}",
+      "en": "Sell{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_041_05F36",
+      "index": 41,
+      "offset": "0x05F36",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x029EE",
+      "slots": [
+        {
+          "slot": "0x029EE",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}転生{end}",
+      "jp": "転生{end}",
+      "en": "Revive{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_042_05F3A",
+      "index": 42,
+      "offset": "0x05F3A",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x029E7",
+      "slots": [
+        {
+          "slot": "0x029E7",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ed}旅{ed}の{ed}記録{end}",
+      "jp": "旅の記録{end}",
+      "en": "Password{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_043_05F42",
+      "index": 43,
+      "offset": "0x05F42",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x36399",
+      "slots": [
+        {
+          "slot": "0x36399",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "テスト モード{end}",
+      "jp": "テスト モード{end}",
+      "en": "Test Mode{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_044_05F4A",
+      "index": 44,
+      "offset": "0x05F4A",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x363B8",
+      "slots": [
+        {
+          "slot": "0x363B8",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "てき しゅつげん{end}",
+      "jp": "てき しゅつげん{end}",
+      "en": "Enemies{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_045_05F53",
+      "index": 45,
+      "offset": "0x05F53",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x363BF",
+      "slots": [
+        {
+          "slot": "0x363BF",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "ひと あたり{end}",
+      "jp": "ひと あたり{end}",
+      "en": "NPC Clip{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_046_05F5A",
+      "index": 46,
+      "offset": "0x05F5A",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x363C6",
+      "slots": [
+        {
+          "slot": "0x363C6",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "マップ あたり{end}",
+      "jp": "マップ あたり{end}",
+      "en": "Map Clip{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_047_05F62",
+      "index": 47,
+      "offset": "0x05F62",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x363CD",
+      "slots": [
+        {
+          "slot": "0x363CD",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "スピード{end}",
+      "jp": "スピード{end}",
+      "en": "Speed{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_048_05F67",
+      "index": 48,
+      "offset": "0x05F67",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x36403",
+      "slots": [
+        {
+          "slot": "0x36403",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "オン{end}",
+      "jp": "オン{end}",
+      "en": "ON{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_049_05F6A",
+      "index": 49,
+      "offset": "0x05F6A",
+      "length": null,
+      "raw_len": 3,
+      "bg34": false,
+      "ptr": "0x3640C",
+      "slots": [
+        {
+          "slot": "0x3640C",
+          "kind": "FE08",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "オフ{end}",
+      "jp": "オフ{end}",
+      "en": "OFF{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_050_05F6D",
+      "index": 50,
+      "offset": "0x05F6D",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x363D4",
+      "slots": [
+        {
+          "slot": "0x363D4",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "パスワード{end}",
+      "jp": "パスワード{end}",
+      "en": "Password{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_051_05F73",
+      "index": 51,
+      "offset": "0x05F73",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x363DB",
+      "slots": [
+        {
+          "slot": "0x363DB",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "サウンド{end}",
+      "jp": "サウンド{end}",
+      "en": "Sound{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_052_05F78",
+      "index": 52,
+      "offset": "0x05F78",
+      "length": null,
+      "raw_len": 15,
+      "bg34": false,
+      "ptr": "0x1171A",
+      "slots": [
+        {
+          "slot": "0x1171A",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}魔物{ef}たちは ぜんめつした{end}",
+      "jp": "魔物たちは ぜんめつした{end}",
+      "en": "Defeated the demons!{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_053_05F87",
+      "index": 53,
+      "offset": "0x05F87",
+      "length": null,
+      "raw_len": 18,
+      "bg34": false,
+      "ptr": "0x1182F",
+      "slots": [
+        {
+          "slot": "0x1182F",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}経{ef}験値が     あがった{end}",
+      "jp": "経験値が     あがった{end}",
+      "en": "Gained       EXP!{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_054_05F99",
+      "index": 54,
+      "offset": "0x05F99",
+      "length": null,
+      "raw_len": 17,
+      "bg34": false,
+      "ptr": "0x1186D",
+      "slots": [
+        {
+          "slot": "0x1186D",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}銭{ef}を       てにいれた{end}",
+      "jp": "銭を       てにいれた{end}",
+      "en": "Got        sen!{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b02_sys_055_05FAA",
+      "index": 55,
+      "offset": "0x05FAA",
+      "length": null,
+      "raw_len": 18,
+      "bg34": false,
+      "ptr": "0x116B6",
+      "slots": [
+        {
+          "slot": "0x116B6",
+          "kind": "FDEF",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        },
+        {
+          "slot": "0x3618D",
+          "kind": "FE2A",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        },
+        {
+          "slot": "0x36216",
+          "kind": "FE2A",
+          "rom_base": "0x04000",
+          "cpu_base": "0xC000"
+        }
+      ],
+      "jp_raw": "{ef}鬼若{ef}らは ぜんめつしてしまった{end}",
+      "jp": "鬼若らは ぜんめつしてしまった{end}",
+      "en": "Kijaku's party fell...{end}",
+      "max": null,
+      "box": "menu_sys",
+      "status": "done",
+      "notes": ""
     }
-   ],
-   "jp_raw": "{ef}鬼若{ef}らは ぜんめつしてしまった{end}",
-   "jp": "鬼若らは ぜんめつしてしまった{end}",
-   "en": "",
-   "max": null,
-   "box": "menu_sys",
-   "status": "todo",
-   "notes": ""
-  }
- ]
+  ]
 }

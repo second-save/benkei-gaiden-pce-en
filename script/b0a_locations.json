@@ -1,318 +1,318 @@
 {
- "group": "b0a_locations",
- "count": 13,
- "entries": [
-  {
-   "id": "b0a_locations_000_15282",
-   "index": 0,
-   "offset": "0x15282",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x15268",
-   "slots": [
+  "group": "b0a_locations",
+  "count": 13,
+  "entries": [
     {
-     "slot": "0x15268",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}林省寺{end}",
-   "jp": "林省寺{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_001_15287",
-   "index": 1,
-   "offset": "0x15287",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1526A",
-   "slots": [
+      "id": "b0a_locations_000_15282",
+      "index": 0,
+      "offset": "0x15282",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x15268",
+      "slots": [
+        {
+          "slot": "0x15268",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}林省寺{end}",
+      "jp": "林省寺{end}",
+      "en": "Rinsho-ji{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1526A",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鎌{ed}{fd}倉{end}",
-   "jp": "鎌倉{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_002_1528D",
-   "index": 2,
-   "offset": "0x1528D",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1526C",
-   "slots": [
+      "id": "b0a_locations_001_15287",
+      "index": 1,
+      "offset": "0x15287",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1526A",
+      "slots": [
+        {
+          "slot": "0x1526A",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鎌{ed}{fd}倉{end}",
+      "jp": "鎌倉{end}",
+      "en": "Kamakura{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1526C",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}陸{fd}{ed}前{end}",
-   "jp": "陸前{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_003_15293",
-   "index": 3,
-   "offset": "0x15293",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1526E",
-   "slots": [
+      "id": "b0a_locations_002_1528D",
+      "index": 2,
+      "offset": "0x1528D",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1526C",
+      "slots": [
+        {
+          "slot": "0x1526C",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}陸{fd}{ed}前{end}",
+      "jp": "陸前{end}",
+      "en": "Rikuzen{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1526E",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "ツガル{fd}村{end}",
-   "jp": "ツガル村{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_004_15299",
-   "index": 4,
-   "offset": "0x15299",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x15270",
-   "slots": [
+      "id": "b0a_locations_003_15293",
+      "index": 3,
+      "offset": "0x15293",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1526E",
+      "slots": [
+        {
+          "slot": "0x1526E",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "ツガル{fd}村{end}",
+      "jp": "ツガル村{end}",
+      "en": "Tsugaru{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15270",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}尾{ed}{fd}張{end}",
-   "jp": "尾張{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_005_1529F",
-   "index": 5,
-   "offset": "0x1529F",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x15272",
-   "slots": [
+      "id": "b0a_locations_004_15299",
+      "index": 4,
+      "offset": "0x15299",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x15270",
+      "slots": [
+        {
+          "slot": "0x15270",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}尾{ed}{fd}張{end}",
+      "jp": "尾張{end}",
+      "en": "Owari{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15272",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}京都{end}",
-   "jp": "京都{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_006_152A3",
-   "index": 6,
-   "offset": "0x152A3",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x15274",
-   "slots": [
+      "id": "b0a_locations_005_1529F",
+      "index": 5,
+      "offset": "0x1529F",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x15272",
+      "slots": [
+        {
+          "slot": "0x15272",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}京都{end}",
+      "jp": "京都{end}",
+      "en": "Kyoto{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15274",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}紀{ef}{fd}伊{end}",
-   "jp": "紀伊{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_007_152A9",
-   "index": 7,
-   "offset": "0x152A9",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x15276",
-   "slots": [
+      "id": "b0a_locations_006_152A3",
+      "index": 6,
+      "offset": "0x152A3",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x15274",
+      "slots": [
+        {
+          "slot": "0x15274",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}紀{ef}{fd}伊{end}",
+      "jp": "紀伊{end}",
+      "en": "Kii{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15276",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}神{ef}{fd}戸{end}",
-   "jp": "神戸{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_008_152AF",
-   "index": 8,
-   "offset": "0x152AF",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x15278",
-   "slots": [
+      "id": "b0a_locations_007_152A9",
+      "index": 7,
+      "offset": "0x152A9",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x15276",
+      "slots": [
+        {
+          "slot": "0x15276",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}神{ef}{fd}戸{end}",
+      "jp": "神戸{end}",
+      "en": "Kobe{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15278",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}伊{fd}{ef}予{end}",
-   "jp": "伊予{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_009_152B5",
-   "index": 9,
-   "offset": "0x152B5",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x1527A",
-   "slots": [
+      "id": "b0a_locations_008_152AF",
+      "index": 8,
+      "offset": "0x152AF",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x15278",
+      "slots": [
+        {
+          "slot": "0x15278",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}伊{fd}{ef}予{end}",
+      "jp": "伊予{end}",
+      "en": "Iyo{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1527A",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}四国寺{end}",
-   "jp": "四国寺{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_010_152BA",
-   "index": 10,
-   "offset": "0x152BA",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1527C",
-   "slots": [
+      "id": "b0a_locations_009_152B5",
+      "index": 9,
+      "offset": "0x152B5",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x1527A",
+      "slots": [
+        {
+          "slot": "0x1527A",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}四国寺{end}",
+      "jp": "四国寺{end}",
+      "en": "Shikoku-ji{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1527C",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}長崎{end}",
-   "jp": "長崎{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_011_152BE",
-   "index": 11,
-   "offset": "0x152BE",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x1527E",
-   "slots": [
+      "id": "b0a_locations_010_152BA",
+      "index": 10,
+      "offset": "0x152BA",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1527C",
+      "slots": [
+        {
+          "slot": "0x1527C",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}長崎{end}",
+      "jp": "長崎{end}",
+      "en": "Nagasaki{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x1527E",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}九州寺{end}",
-   "jp": "九州寺{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0a_locations_012_152C3",
-   "index": 12,
-   "offset": "0x152C3",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x15280",
-   "slots": [
+      "id": "b0a_locations_011_152BE",
+      "index": 11,
+      "offset": "0x152BE",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x1527E",
+      "slots": [
+        {
+          "slot": "0x1527E",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}九州寺{end}",
+      "jp": "九州寺{end}",
+      "en": "Kyushu-ji{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
+    },
     {
-     "slot": "0x15280",
-     "kind": "ptr_table",
-     "rom_base": "0x14000",
-     "cpu_base": "0x4000"
+      "id": "b0a_locations_012_152C3",
+      "index": 12,
+      "offset": "0x152C3",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x15280",
+      "slots": [
+        {
+          "slot": "0x15280",
+          "kind": "ptr_table",
+          "rom_base": "0x14000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "リウモ{fd}村{end}",
+      "jp": "リウモ村{end}",
+      "en": "Riumo{end}",
+      "max": null,
+      "box": "location",
+      "status": "done",
+      "notes": ""
     }
-   ],
-   "jp_raw": "リウモ{fd}村{end}",
-   "jp": "リウモ村{end}",
-   "en": "",
-   "max": null,
-   "box": "location",
-   "status": "todo",
-   "notes": ""
-  }
- ]
+  ]
 }

@@ -1,3078 +1,3078 @@
 {
- "group": "b0e_items",
- "count": 128,
- "entries": [
-  {
-   "id": "b0e_items_000_1C23C",
-   "index": 0,
-   "offset": "0x1C23C",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C13A",
-   "slots": [
-    {
-     "slot": "0x1C13A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}木{ed}{ef}刀{ef}{end}",
-   "jp": "木刀{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_001_1C243",
-   "index": 1,
-   "offset": "0x1C243",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C13C",
-   "slots": [
-    {
-     "slot": "0x1C13C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}六{ed}{ef}角{ef}{ed}杖{ed}{end}",
-   "jp": "六角杖{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_002_1C24D",
-   "index": 2,
-   "offset": "0x1C24D",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1C13E",
-   "slots": [
-    {
-     "slot": "0x1C13E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}槍{ed}{end}",
-   "jp": "槍{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_003_1C251",
-   "index": 3,
-   "offset": "0x1C251",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1C140",
-   "slots": [
-    {
-     "slot": "0x1C140",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鞭{ed}{end}",
-   "jp": "鞭{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_004_1C255",
-   "index": 4,
-   "offset": "0x1C255",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1C142",
-   "slots": [
-    {
-     "slot": "0x1C142",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}剣{ed}{end}",
-   "jp": "剣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_005_1C259",
-   "index": 5,
-   "offset": "0x1C259",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C144",
-   "slots": [
-    {
-     "slot": "0x1C144",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}双{ed}{fd}刃{fd}の{ed}槍{ed}{end}",
-   "jp": "双刃の槍{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_006_1C264",
-   "index": 6,
-   "offset": "0x1C264",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x1C146",
-   "slots": [
-    {
-     "slot": "0x1C146",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鋼鉄{ed}の{ef}角{ef}{ed}杖{ed}{end}",
-   "jp": "鋼鉄の角杖{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_007_1C270",
-   "index": 7,
-   "offset": "0x1C270",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C148",
-   "slots": [
-    {
-     "slot": "0x1C148",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}斬{ed}{ef}魔刀{ef}{end}",
-   "jp": "斬魔刀{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_008_1C278",
-   "index": 8,
-   "offset": "0x1C278",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C14A",
-   "slots": [
-    {
-     "slot": "0x1C14A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鋼鉄{ed}のなぎなた{end}",
-   "jp": "鋼鉄のなぎなた{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_009_1C282",
-   "index": 9,
-   "offset": "0x1C282",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C14C",
-   "slots": [
-    {
-     "slot": "0x1C14C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}超合金{ed}ヨーヨー{end}",
-   "jp": "超合金ヨーヨー{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_010_1C28C",
-   "index": 10,
-   "offset": "0x1C28C",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C14E",
-   "slots": [
-    {
-     "slot": "0x1C14E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "くさり{ed}鎌{ed}{end}",
-   "jp": "くさり鎌{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_011_1C293",
-   "index": 11,
-   "offset": "0x1C293",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C150",
-   "slots": [
-    {
-     "slot": "0x1C150",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}退{ed}{ef}魔{ef}の{ed}剣{ed}{end}",
-   "jp": "退魔の剣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_012_1C29E",
-   "index": 12,
-   "offset": "0x1C29E",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C152",
-   "slots": [
-    {
-     "slot": "0x1C152",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}龍{ef}の{ed}尾{ed}{end}",
-   "jp": "龍の尾{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_013_1C2A6",
-   "index": 13,
-   "offset": "0x1C2A6",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C154",
-   "slots": [
-    {
-     "slot": "0x1C154",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "くさり{ed}斧{ed}{end}",
-   "jp": "くさり斧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_014_1C2AD",
-   "index": 14,
-   "offset": "0x1C2AD",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C156",
-   "slots": [
-    {
-     "slot": "0x1C156",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}極{ed}{ef}破{ef}の{ed}剣{ed}{end}",
-   "jp": "極破の剣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_015_1C2B8",
-   "index": 15,
-   "offset": "0x1C2B8",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C158",
-   "slots": [
-    {
-     "slot": "0x1C158",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}究極{ed}のなぎなた{end}",
-   "jp": "究極のなぎなた{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_016_1C2C2",
-   "index": 16,
-   "offset": "0x1C2C2",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x1C15A",
-   "slots": [
-    {
-     "slot": "0x1C15A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "なぎなた{end}",
-   "jp": "なぎなた{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_017_1C2C7",
-   "index": 17,
-   "offset": "0x1C2C7",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C15C",
-   "slots": [
-    {
-     "slot": "0x1C15C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}火{ef}{ed}薬玉{ed}{end}",
-   "jp": "火薬玉{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_018_1C2CF",
-   "index": 18,
-   "offset": "0x1C2CF",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C15E",
-   "slots": [
-    {
-     "slot": "0x1C15E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}爆烈{ed}{ef}雷{ef}{end}",
-   "jp": "爆烈雷{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_019_1C2D7",
-   "index": 19,
-   "offset": "0x1C2D7",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C160",
-   "slots": [
-    {
-     "slot": "0x1C160",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}太陽{ed}の{ed}杖{ed}{end}",
-   "jp": "太陽の杖{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_020_1C2E0",
-   "index": 20,
-   "offset": "0x1C2E0",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1C162",
-   "slots": [
-    {
-     "slot": "0x1C162",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}青龍刀{ef}{end}",
-   "jp": "青龍刀{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_021_1C2E6",
-   "index": 21,
-   "offset": "0x1C2E6",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C164",
-   "slots": [
-    {
-     "slot": "0x1C164",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}鬼{ef}{ed}留{ed}の{ed}剣{ed}{end}",
-   "jp": "鬼留の剣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_022_1C23A",
-   "index": 22,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C166",
-   "slots": [
-    {
-     "slot": "0x1C166",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_023_1C23A",
-   "index": 23,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C168",
-   "slots": [
-    {
-     "slot": "0x1C168",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_024_1C23A",
-   "index": 24,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C16A",
-   "slots": [
-    {
-     "slot": "0x1C16A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_025_1C23A",
-   "index": 25,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C16C",
-   "slots": [
-    {
-     "slot": "0x1C16C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_026_1C23A",
-   "index": 26,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C16E",
-   "slots": [
-    {
-     "slot": "0x1C16E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_027_1C23A",
-   "index": 27,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C170",
-   "slots": [
-    {
-     "slot": "0x1C170",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_028_1C23A",
-   "index": 28,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C172",
-   "slots": [
-    {
-     "slot": "0x1C172",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_029_1C23A",
-   "index": 29,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C174",
-   "slots": [
-    {
-     "slot": "0x1C174",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_030_1C23A",
-   "index": 30,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C176",
-   "slots": [
-    {
-     "slot": "0x1C176",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_031_1C23A",
-   "index": 31,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C178",
-   "slots": [
-    {
-     "slot": "0x1C178",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_032_1C2F1",
-   "index": 32,
-   "offset": "0x1C2F1",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1C17A",
-   "slots": [
-    {
-     "slot": "0x1C17A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}服{ed}{end}",
-   "jp": "服{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_033_1C2F5",
-   "index": 33,
-   "offset": "0x1C2F5",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C17C",
-   "slots": [
-    {
-     "slot": "0x1C17C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}手{ef}{ed}甲{ed}{end}",
-   "jp": "手甲{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_034_1C2FC",
-   "index": 34,
-   "offset": "0x1C2FC",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C17E",
-   "slots": [
-    {
-     "slot": "0x1C17E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}帽{ed}{ef}子{ef}{end}",
-   "jp": "帽子{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_035_1C303",
-   "index": 35,
-   "offset": "0x1C303",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1C180",
-   "slots": [
-    {
-     "slot": "0x1C180",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}前{ed}かけ{end}",
-   "jp": "前かけ{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_036_1C309",
-   "index": 36,
-   "offset": "0x1C309",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C182",
-   "slots": [
-    {
-     "slot": "0x1C182",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}法{ef}{ed}衣{ed}{end}",
-   "jp": "法衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_037_1C310",
-   "index": 37,
-   "offset": "0x1C310",
-   "length": null,
-   "raw_len": 5,
-   "bg34": false,
-   "ptr": "0x1C184",
-   "slots": [
-    {
-     "slot": "0x1C184",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}羽衣{ed}{end}",
-   "jp": "羽衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_038_1C315",
-   "index": 38,
-   "offset": "0x1C315",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C186",
-   "slots": [
-    {
-     "slot": "0x1C186",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "くさりかたびら{end}",
-   "jp": "くさりかたびら{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_039_1C31D",
-   "index": 39,
-   "offset": "0x1C31D",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1C188",
-   "slots": [
-    {
-     "slot": "0x1C188",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}戦闘服{ed}{end}",
-   "jp": "戦闘服{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_040_1C323",
-   "index": 40,
-   "offset": "0x1C323",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C18A",
-   "slots": [
-    {
-     "slot": "0x1C18A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}魔{ef}よけの{ed}羽衣{ed}{end}",
-   "jp": "魔よけの羽衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_041_1C32E",
-   "index": 41,
-   "offset": "0x1C32E",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x1C18C",
-   "slots": [
-    {
-     "slot": "0x1C18C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}月光{ed}の{ef}法{ef}{ed}衣{ed}{end}",
-   "jp": "月光の法衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_042_1C33A",
-   "index": 42,
-   "offset": "0x1C33A",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C18E",
-   "slots": [
-    {
-     "slot": "0x1C18E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}竹{ed}の{ed}鎧{ed}{end}",
-   "jp": "竹の鎧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_043_1C342",
-   "index": 43,
-   "offset": "0x1C342",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C190",
-   "slots": [
-    {
-     "slot": "0x1C190",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}竹{ed}の{ef}手{ef}{ed}甲{ed}{end}",
-   "jp": "竹の手甲{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_044_1C34D",
-   "index": 44,
-   "offset": "0x1C34D",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C192",
-   "slots": [
-    {
-     "slot": "0x1C192",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鉄{ed}の{ed}鎧{ed}{end}",
-   "jp": "鉄の鎧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_045_1C355",
-   "index": 45,
-   "offset": "0x1C355",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C194",
-   "slots": [
-    {
-     "slot": "0x1C194",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鉄{ed}の{ef}手{ef}{ed}甲{ed}{end}",
-   "jp": "鉄の手甲{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_046_1C360",
-   "index": 46,
-   "offset": "0x1C360",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C196",
-   "slots": [
-    {
-     "slot": "0x1C196",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鉄{ed}の{ed}兜{ed}{end}",
-   "jp": "鉄の兜{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_047_1C368",
-   "index": 47,
-   "offset": "0x1C368",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C198",
-   "slots": [
-    {
-     "slot": "0x1C198",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}七色{ed}の{ed}肩{ed}かけ{end}",
-   "jp": "七色の肩かけ{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_048_1C373",
-   "index": 48,
-   "offset": "0x1C373",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C19A",
-   "slots": [
-    {
-     "slot": "0x1C19A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}月影{ed}の{ed}鎧{ed}{end}",
-   "jp": "月影の鎧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_049_1C37C",
-   "index": 49,
-   "offset": "0x1C37C",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C19C",
-   "slots": [
-    {
-     "slot": "0x1C19C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}炎{ef}の{ed}鎧{ed}{end}",
-   "jp": "炎の鎧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_050_1C384",
-   "index": 50,
-   "offset": "0x1C384",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C19E",
-   "slots": [
-    {
-     "slot": "0x1C19E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}龍人{ef}の{ed}兜{ed}{end}",
-   "jp": "龍人の兜{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_051_1C38D",
-   "index": 51,
-   "offset": "0x1C38D",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x1C1A0",
-   "slots": [
-    {
-     "slot": "0x1C1A0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}守{ed}りの{ef}頭{ef}{ed}巾{ed}{end}",
-   "jp": "守りの頭巾{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_052_1C399",
-   "index": 52,
-   "offset": "0x1C399",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1A2",
-   "slots": [
-    {
-     "slot": "0x1C1A2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "ダンテの{ed}腕輪{ed}{end}",
-   "jp": "ダンテの腕輪{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_053_1C3A2",
-   "index": 53,
-   "offset": "0x1C3A2",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x1C1A4",
-   "slots": [
-    {
-     "slot": "0x1C1A4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}封{ed}{ef}魔{ef}の{ed}腕輪{ed}{end}",
-   "jp": "封魔の腕輪{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_054_1C3AE",
-   "index": 54,
-   "offset": "0x1C3AE",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1A6",
-   "slots": [
-    {
-     "slot": "0x1C1A6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}光{ed}の{ef}法{ef}{ed}衣{ed}{end}",
-   "jp": "光の法衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_055_1C3B9",
-   "index": 55,
-   "offset": "0x1C3B9",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1A8",
-   "slots": [
-    {
-     "slot": "0x1C1A8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}光{ed}の{ed}羽衣{ed}{end}",
-   "jp": "光の羽衣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_056_1C3C2",
-   "index": 56,
-   "offset": "0x1C3C2",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1AA",
-   "slots": [
-    {
-     "slot": "0x1C1AA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}光{ed}の{ed}腕輪{ed}{end}",
-   "jp": "光の腕輪{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_057_1C3CB",
-   "index": 57,
-   "offset": "0x1C3CB",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C1AC",
-   "slots": [
-    {
-     "slot": "0x1C1AC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}太陽{ed}の{ed}宝冠{ed}{end}",
-   "jp": "太陽の宝冠{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_058_1C3D5",
-   "index": 58,
-   "offset": "0x1C3D5",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1AE",
-   "slots": [
-    {
-     "slot": "0x1C1AE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}太陽{ed}の{ed}鎧{ed}{end}",
-   "jp": "太陽の鎧{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_059_1C3DE",
-   "index": 59,
-   "offset": "0x1C3DE",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1B0",
-   "slots": [
-    {
-     "slot": "0x1C1B0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}絹{ed}のかたかけ{end}",
-   "jp": "絹のかたかけ{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_060_1C3E7",
-   "index": 60,
-   "offset": "0x1C3E7",
-   "length": null,
-   "raw_len": 14,
-   "bg34": false,
-   "ptr": "0x1C1B2",
-   "slots": [
-    {
-     "slot": "0x1C1B2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}賢{ed}{ef}者{ef}の{ef}頭{ef}{ed}巾{ed}{end}",
-   "jp": "賢者の頭巾{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_061_1C23A",
-   "index": 61,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1B4",
-   "slots": [
-    {
-     "slot": "0x1C1B4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_062_1C23A",
-   "index": 62,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1B6",
-   "slots": [
-    {
-     "slot": "0x1C1B6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_063_1C23A",
-   "index": 63,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1B8",
-   "slots": [
-    {
-     "slot": "0x1C1B8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_064_1C3F5",
-   "index": 64,
-   "offset": "0x1C3F5",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1BA",
-   "slots": [
-    {
-     "slot": "0x1C1BA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}書{fd}き{fd}付{fd}け{end}",
-   "jp": "書き付け{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_065_1C3FE",
-   "index": 65,
-   "offset": "0x1C3FE",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C1BC",
-   "slots": [
-    {
-     "slot": "0x1C1BC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}金屋{ed}の{fd}紋章{fd}{end}",
-   "jp": "金屋の紋章{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_066_1C408",
-   "index": 66,
-   "offset": "0x1C408",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C1BE",
-   "slots": [
-    {
-     "slot": "0x1C1BE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}霊{ef}{ed}光{ed}{ef}石{ef}{end}",
-   "jp": "霊光石{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_067_1C412",
-   "index": 67,
-   "offset": "0x1C412",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1C0",
-   "slots": [
-    {
-     "slot": "0x1C1C0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}黄{ef}{ed}金{ed}の{ef}刀{ef}{end}",
-   "jp": "黄金の刀{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_068_1C41D",
-   "index": 68,
-   "offset": "0x1C41D",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C1C2",
-   "slots": [
-    {
-     "slot": "0x1C1C2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}合{ed}{fd}鍵{fd}{end}",
-   "jp": "合鍵{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_069_1C424",
-   "index": 69,
-   "offset": "0x1C424",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1C4",
-   "slots": [
-    {
-     "slot": "0x1C1C4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}静寂{fd}の{fd}笛{fd}{end}",
-   "jp": "静寂の笛{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_070_1C42D",
-   "index": 70,
-   "offset": "0x1C42D",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1C6",
-   "slots": [
-    {
-     "slot": "0x1C1C6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}木{ed}の{ef}霊{ef}{ed}薬{ed}{end}",
-   "jp": "木の霊薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_071_1C438",
-   "index": 71,
-   "offset": "0x1C438",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1C8",
-   "slots": [
-    {
-     "slot": "0x1C1C8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}土{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
-   "jp": "土の霊薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_072_1C443",
-   "index": 72,
-   "offset": "0x1C443",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C1CA",
-   "slots": [
-    {
-     "slot": "0x1C1CA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}龍水{ef}{fd}晶{fd}{end}",
-   "jp": "龍水晶{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_073_1C44B",
-   "index": 73,
-   "offset": "0x1C44B",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1CC",
-   "slots": [
-    {
-     "slot": "0x1C1CC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}虹{fd}{ed}色{ed}{fd}日記{fd}{end}",
-   "jp": "虹色日記{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_074_1C456",
-   "index": 74,
-   "offset": "0x1C456",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C1CE",
-   "slots": [
-    {
-     "slot": "0x1C1CE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}牢{fd}の{fd}鍵{fd}{end}",
-   "jp": "牢の鍵{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_075_1C45E",
-   "index": 75,
-   "offset": "0x1C45E",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C1D0",
-   "slots": [
-    {
-     "slot": "0x1C1D0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}人{ef}{fd}魚{fd}の{fd}涙{fd}{end}",
-   "jp": "人魚の涙{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_076_1C469",
-   "index": 76,
-   "offset": "0x1C469",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C1D2",
-   "slots": [
-    {
-     "slot": "0x1C1D2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "リッツの{ed}杖{ed}{end}",
-   "jp": "リッツの杖{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_077_1C471",
-   "index": 77,
-   "offset": "0x1C471",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1D4",
-   "slots": [
-    {
-     "slot": "0x1C1D4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}覚醒{fd}の{ef}炎{ef}{end}",
-   "jp": "覚醒の炎{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_078_1C47A",
-   "index": 78,
-   "offset": "0x1C47A",
-   "length": null,
-   "raw_len": 6,
-   "bg34": false,
-   "ptr": "0x1C1D6",
-   "slots": [
-    {
-     "slot": "0x1C1D6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}舞空印{fd}{end}",
-   "jp": "舞空印{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_079_1C480",
-   "index": 79,
-   "offset": "0x1C480",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1D8",
-   "slots": [
-    {
-     "slot": "0x1C1D8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}導魔{ef}の{fd}鍵{fd}{end}",
-   "jp": "導魔の鍵{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_080_1C489",
-   "index": 80,
-   "offset": "0x1C489",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1DA",
-   "slots": [
-    {
-     "slot": "0x1C1DA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}封解{ed}の{fd}針{fd}{end}",
-   "jp": "封解の針{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_081_1C492",
-   "index": 81,
-   "offset": "0x1C492",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C1DC",
-   "slots": [
-    {
-     "slot": "0x1C1DC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "やたの{fd}鏡{fd}{end}",
-   "jp": "やたの鏡{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_082_1C499",
-   "index": 82,
-   "offset": "0x1C499",
-   "length": null,
-   "raw_len": 9,
-   "bg34": false,
-   "ptr": "0x1C1DE",
-   "slots": [
-    {
-     "slot": "0x1C1DE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "むらくもの{ed}剣{ed}{end}",
-   "jp": "むらくもの剣{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_083_1C4A2",
-   "index": 83,
-   "offset": "0x1C4A2",
-   "length": null,
-   "raw_len": 12,
-   "bg34": false,
-   "ptr": "0x1C1E0",
-   "slots": [
-    {
-     "slot": "0x1C1E0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "やさかにの{fd}勾{fd}{ed}玉{ed}{end}",
-   "jp": "やさかにの勾玉{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_084_1C4AE",
-   "index": 84,
-   "offset": "0x1C4AE",
-   "length": null,
-   "raw_len": 14,
-   "bg34": false,
-   "ptr": "0x1C1E2",
-   "slots": [
-    {
-     "slot": "0x1C1E2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}七{ed}{fd}星{fd}の{ed}宝{ed}{ef}刀{ef}{end}",
-   "jp": "七星の宝刀{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_085_1C4BC",
-   "index": 85,
-   "offset": "0x1C4BC",
-   "length": null,
-   "raw_len": 14,
-   "bg34": false,
-   "ptr": "0x1C1E4",
-   "slots": [
-    {
-     "slot": "0x1C1E4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}夢{ef}{ed}操{ed}の{ed}回{ed}{fd}鏡{fd}{end}",
-   "jp": "夢操の回鏡{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_086_1C23A",
-   "index": 86,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1E6",
-   "slots": [
-    {
-     "slot": "0x1C1E6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_087_1C23A",
-   "index": 87,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1E8",
-   "slots": [
-    {
-     "slot": "0x1C1E8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_088_1C23A",
-   "index": 88,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1EA",
-   "slots": [
-    {
-     "slot": "0x1C1EA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_089_1C23A",
-   "index": 89,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1EC",
-   "slots": [
-    {
-     "slot": "0x1C1EC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_090_1C23A",
-   "index": 90,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1EE",
-   "slots": [
-    {
-     "slot": "0x1C1EE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_091_1C23A",
-   "index": 91,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1F0",
-   "slots": [
-    {
-     "slot": "0x1C1F0",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_092_1C23A",
-   "index": 92,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1F2",
-   "slots": [
-    {
-     "slot": "0x1C1F2",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_093_1C23A",
-   "index": 93,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1F4",
-   "slots": [
-    {
-     "slot": "0x1C1F4",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_094_1C23A",
-   "index": 94,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1F6",
-   "slots": [
-    {
-     "slot": "0x1C1F6",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_095_1C23A",
-   "index": 95,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C1F8",
-   "slots": [
-    {
-     "slot": "0x1C1F8",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_096_1C4CA",
-   "index": 96,
-   "offset": "0x1C4CA",
-   "length": null,
-   "raw_len": 4,
-   "bg34": false,
-   "ptr": "0x1C1FA",
-   "slots": [
-    {
-     "slot": "0x1C1FA",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}薬{ed}{end}",
-   "jp": "薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_097_1C4CE",
-   "index": 97,
-   "offset": "0x1C4CE",
-   "length": null,
-   "raw_len": 7,
-   "bg34": false,
-   "ptr": "0x1C1FC",
-   "slots": [
-    {
-     "slot": "0x1C1FC",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}大{ef}{ed}薬{ed}{end}",
-   "jp": "大薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_098_1C4D5",
-   "index": 98,
-   "offset": "0x1C4D5",
-   "length": null,
-   "raw_len": 10,
-   "bg34": false,
-   "ptr": "0x1C1FE",
-   "slots": [
-    {
-     "slot": "0x1C1FE",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}解{ed}{ef}毒{ef}{fd}剤{fd}{end}",
-   "jp": "解毒剤{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_099_1C4DF",
-   "index": 99,
-   "offset": "0x1C4DF",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C200",
-   "slots": [
-    {
-     "slot": "0x1C200",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}火{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
-   "jp": "火の霊薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_100_1C4EA",
-   "index": 100,
-   "offset": "0x1C4EA",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C202",
-   "slots": [
-    {
-     "slot": "0x1C202",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}水{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
-   "jp": "水の霊薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_101_1C4F5",
-   "index": 101,
-   "offset": "0x1C4F5",
-   "length": null,
-   "raw_len": 11,
-   "bg34": false,
-   "ptr": "0x1C204",
-   "slots": [
-    {
-     "slot": "0x1C204",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}風{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
-   "jp": "風の霊薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_102_1C500",
-   "index": 102,
-   "offset": "0x1C500",
-   "length": null,
-   "raw_len": 8,
-   "bg34": false,
-   "ptr": "0x1C206",
-   "slots": [
-    {
-     "slot": "0x1C206",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}封{ed}{ef}魔香{ef}{end}",
-   "jp": "封魔香{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_103_1C508",
-   "index": 103,
-   "offset": "0x1C508",
-   "length": null,
-   "raw_len": 14,
-   "bg34": false,
-   "ptr": "0x1C208",
-   "slots": [
-    {
-     "slot": "0x1C208",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}六{ed}{ef}道{ef}の{fd}秘{fd}{ed}薬{ed}{end}",
-   "jp": "六道の秘薬{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_104_1C516",
-   "index": 104,
-   "offset": "0x1C516",
-   "length": null,
-   "raw_len": 14,
-   "bg34": false,
-   "ptr": "0x1C20A",
-   "slots": [
-    {
-     "slot": "0x1C20A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "身{fd}返{fd}しの{ef}手{ef}{fd}鏡{fd}{end}",
-   "jp": "身返しの手鏡{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b0e_items_105_1C23A",
-   "index": 105,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C20C",
-   "slots": [
-    {
-     "slot": "0x1C20C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_106_1C23A",
-   "index": 106,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C20E",
-   "slots": [
-    {
-     "slot": "0x1C20E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_107_1C23A",
-   "index": 107,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C210",
-   "slots": [
-    {
-     "slot": "0x1C210",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_108_1C23A",
-   "index": 108,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C212",
-   "slots": [
-    {
-     "slot": "0x1C212",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_109_1C23A",
-   "index": 109,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C214",
-   "slots": [
-    {
-     "slot": "0x1C214",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_110_1C23A",
-   "index": 110,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C216",
-   "slots": [
-    {
-     "slot": "0x1C216",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_111_1C23A",
-   "index": 111,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C218",
-   "slots": [
-    {
-     "slot": "0x1C218",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_112_1C23A",
-   "index": 112,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C21A",
-   "slots": [
-    {
-     "slot": "0x1C21A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_113_1C23A",
-   "index": 113,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C21C",
-   "slots": [
-    {
-     "slot": "0x1C21C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_114_1C23A",
-   "index": 114,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C21E",
-   "slots": [
-    {
-     "slot": "0x1C21E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_115_1C23A",
-   "index": 115,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C220",
-   "slots": [
-    {
-     "slot": "0x1C220",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_116_1C23A",
-   "index": 116,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C222",
-   "slots": [
-    {
-     "slot": "0x1C222",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_117_1C23A",
-   "index": 117,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C224",
-   "slots": [
-    {
-     "slot": "0x1C224",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_118_1C23A",
-   "index": 118,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C226",
-   "slots": [
-    {
-     "slot": "0x1C226",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_119_1C23A",
-   "index": 119,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C228",
-   "slots": [
-    {
-     "slot": "0x1C228",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_120_1C23A",
-   "index": 120,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C22A",
-   "slots": [
-    {
-     "slot": "0x1C22A",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_121_1C23A",
-   "index": 121,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C22C",
-   "slots": [
-    {
-     "slot": "0x1C22C",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_122_1C23A",
-   "index": 122,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C22E",
-   "slots": [
-    {
-     "slot": "0x1C22E",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_123_1C23A",
-   "index": 123,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C230",
-   "slots": [
-    {
-     "slot": "0x1C230",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_124_1C23A",
-   "index": 124,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C232",
-   "slots": [
-    {
-     "slot": "0x1C232",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_125_1C23A",
-   "index": 125,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C234",
-   "slots": [
-    {
-     "slot": "0x1C234",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_126_1C23A",
-   "index": 126,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C236",
-   "slots": [
-    {
-     "slot": "0x1C236",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  },
-  {
-   "id": "b0e_items_127_1C23A",
-   "index": 127,
-   "offset": "0x1C23A",
-   "length": null,
-   "raw_len": 2,
-   "bg34": false,
-   "ptr": "0x1C238",
-   "slots": [
-    {
-     "slot": "0x1C238",
-     "kind": "ptr_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "0{end}",
-   "jp": "0{end}",
-   "en": "",
-   "max": null,
-   "box": "item",
-   "status": "data",
-   "notes": "unused item slot alias -> 0x1C23A"
-  }
- ]
+  "group": "b0e_items",
+  "count": 128,
+  "entries": [
+    {
+      "id": "b0e_items_000_1C23C",
+      "index": 0,
+      "offset": "0x1C23C",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C13A",
+      "slots": [
+        {
+          "slot": "0x1C13A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}木{ed}{ef}刀{ef}{end}",
+      "jp": "木刀{end}",
+      "en": "Wood Sword{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_001_1C243",
+      "index": 1,
+      "offset": "0x1C243",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C13C",
+      "slots": [
+        {
+          "slot": "0x1C13C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}六{ed}{ef}角{ef}{ed}杖{ed}{end}",
+      "jp": "六角杖{end}",
+      "en": "Hex Staff{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_002_1C24D",
+      "index": 2,
+      "offset": "0x1C24D",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1C13E",
+      "slots": [
+        {
+          "slot": "0x1C13E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}槍{ed}{end}",
+      "jp": "槍{end}",
+      "en": "Spear{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_003_1C251",
+      "index": 3,
+      "offset": "0x1C251",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1C140",
+      "slots": [
+        {
+          "slot": "0x1C140",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鞭{ed}{end}",
+      "jp": "鞭{end}",
+      "en": "Whip{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_004_1C255",
+      "index": 4,
+      "offset": "0x1C255",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1C142",
+      "slots": [
+        {
+          "slot": "0x1C142",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}剣{ed}{end}",
+      "jp": "剣{end}",
+      "en": "Sword{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_005_1C259",
+      "index": 5,
+      "offset": "0x1C259",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C144",
+      "slots": [
+        {
+          "slot": "0x1C144",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}双{ed}{fd}刃{fd}の{ed}槍{ed}{end}",
+      "jp": "双刃の槍{end}",
+      "en": "Twin Spear{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_006_1C264",
+      "index": 6,
+      "offset": "0x1C264",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x1C146",
+      "slots": [
+        {
+          "slot": "0x1C146",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鋼鉄{ed}の{ef}角{ef}{ed}杖{ed}{end}",
+      "jp": "鋼鉄の角杖{end}",
+      "en": "Steel Staff{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_007_1C270",
+      "index": 7,
+      "offset": "0x1C270",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C148",
+      "slots": [
+        {
+          "slot": "0x1C148",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}斬{ed}{ef}魔刀{ef}{end}",
+      "jp": "斬魔刀{end}",
+      "en": "Demon Blade{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_008_1C278",
+      "index": 8,
+      "offset": "0x1C278",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C14A",
+      "slots": [
+        {
+          "slot": "0x1C14A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鋼鉄{ed}のなぎなた{end}",
+      "jp": "鋼鉄のなぎなた{end}",
+      "en": "War Glaive{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_009_1C282",
+      "index": 9,
+      "offset": "0x1C282",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C14C",
+      "slots": [
+        {
+          "slot": "0x1C14C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}超合金{ed}ヨーヨー{end}",
+      "jp": "超合金ヨーヨー{end}",
+      "en": "Alloy Yo-Yo{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_010_1C28C",
+      "index": 10,
+      "offset": "0x1C28C",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C14E",
+      "slots": [
+        {
+          "slot": "0x1C14E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "くさり{ed}鎌{ed}{end}",
+      "jp": "くさり鎌{end}",
+      "en": "Kusarigama{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_011_1C293",
+      "index": 11,
+      "offset": "0x1C293",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C150",
+      "slots": [
+        {
+          "slot": "0x1C150",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}退{ed}{ef}魔{ef}の{ed}剣{ed}{end}",
+      "jp": "退魔の剣{end}",
+      "en": "Bane Sword{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_012_1C29E",
+      "index": 12,
+      "offset": "0x1C29E",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C152",
+      "slots": [
+        {
+          "slot": "0x1C152",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}龍{ef}の{ed}尾{ed}{end}",
+      "jp": "龍の尾{end}",
+      "en": "Dragon Tail{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_013_1C2A6",
+      "index": 13,
+      "offset": "0x1C2A6",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C154",
+      "slots": [
+        {
+          "slot": "0x1C154",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "くさり{ed}斧{ed}{end}",
+      "jp": "くさり斧{end}",
+      "en": "Chain Axe{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_014_1C2AD",
+      "index": 14,
+      "offset": "0x1C2AD",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C156",
+      "slots": [
+        {
+          "slot": "0x1C156",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}極{ed}{ef}破{ef}の{ed}剣{ed}{end}",
+      "jp": "極破の剣{end}",
+      "en": "Ruin Sword{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_015_1C2B8",
+      "index": 15,
+      "offset": "0x1C2B8",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C158",
+      "slots": [
+        {
+          "slot": "0x1C158",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}究極{ed}のなぎなた{end}",
+      "jp": "究極のなぎなた{end}",
+      "en": "Apex Glaive{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_016_1C2C2",
+      "index": 16,
+      "offset": "0x1C2C2",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x1C15A",
+      "slots": [
+        {
+          "slot": "0x1C15A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "なぎなた{end}",
+      "jp": "なぎなた{end}",
+      "en": "Naginata{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_017_1C2C7",
+      "index": 17,
+      "offset": "0x1C2C7",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C15C",
+      "slots": [
+        {
+          "slot": "0x1C15C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}火{ef}{ed}薬玉{ed}{end}",
+      "jp": "火薬玉{end}",
+      "en": "Powder Bomb{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_018_1C2CF",
+      "index": 18,
+      "offset": "0x1C2CF",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C15E",
+      "slots": [
+        {
+          "slot": "0x1C15E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}爆烈{ed}{ef}雷{ef}{end}",
+      "jp": "爆烈雷{end}",
+      "en": "Storm Bomb{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_019_1C2D7",
+      "index": 19,
+      "offset": "0x1C2D7",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C160",
+      "slots": [
+        {
+          "slot": "0x1C160",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}太陽{ed}の{ed}杖{ed}{end}",
+      "jp": "太陽の杖{end}",
+      "en": "Sun Staff{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_020_1C2E0",
+      "index": 20,
+      "offset": "0x1C2E0",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1C162",
+      "slots": [
+        {
+          "slot": "0x1C162",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}青龍刀{ef}{end}",
+      "jp": "青龍刀{end}",
+      "en": "Azure Blade{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_021_1C2E6",
+      "index": 21,
+      "offset": "0x1C2E6",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C164",
+      "slots": [
+        {
+          "slot": "0x1C164",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}鬼{ef}{ed}留{ed}の{ed}剣{ed}{end}",
+      "jp": "鬼留の剣{end}",
+      "en": "Demonbind{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_022_1C23A",
+      "index": 22,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C166",
+      "slots": [
+        {
+          "slot": "0x1C166",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_023_1C23A",
+      "index": 23,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C168",
+      "slots": [
+        {
+          "slot": "0x1C168",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_024_1C23A",
+      "index": 24,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C16A",
+      "slots": [
+        {
+          "slot": "0x1C16A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_025_1C23A",
+      "index": 25,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C16C",
+      "slots": [
+        {
+          "slot": "0x1C16C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_026_1C23A",
+      "index": 26,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C16E",
+      "slots": [
+        {
+          "slot": "0x1C16E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_027_1C23A",
+      "index": 27,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C170",
+      "slots": [
+        {
+          "slot": "0x1C170",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_028_1C23A",
+      "index": 28,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C172",
+      "slots": [
+        {
+          "slot": "0x1C172",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_029_1C23A",
+      "index": 29,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C174",
+      "slots": [
+        {
+          "slot": "0x1C174",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_030_1C23A",
+      "index": 30,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C176",
+      "slots": [
+        {
+          "slot": "0x1C176",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_031_1C23A",
+      "index": 31,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C178",
+      "slots": [
+        {
+          "slot": "0x1C178",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_032_1C2F1",
+      "index": 32,
+      "offset": "0x1C2F1",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1C17A",
+      "slots": [
+        {
+          "slot": "0x1C17A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}服{ed}{end}",
+      "jp": "服{end}",
+      "en": "Clothes{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_033_1C2F5",
+      "index": 33,
+      "offset": "0x1C2F5",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C17C",
+      "slots": [
+        {
+          "slot": "0x1C17C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}手{ef}{ed}甲{ed}{end}",
+      "jp": "手甲{end}",
+      "en": "Bracer{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_034_1C2FC",
+      "index": 34,
+      "offset": "0x1C2FC",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C17E",
+      "slots": [
+        {
+          "slot": "0x1C17E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}帽{ed}{ef}子{ef}{end}",
+      "jp": "帽子{end}",
+      "en": "Cap{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_035_1C303",
+      "index": 35,
+      "offset": "0x1C303",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1C180",
+      "slots": [
+        {
+          "slot": "0x1C180",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}前{ed}かけ{end}",
+      "jp": "前かけ{end}",
+      "en": "Apron{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_036_1C309",
+      "index": 36,
+      "offset": "0x1C309",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C182",
+      "slots": [
+        {
+          "slot": "0x1C182",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}法{ef}{ed}衣{ed}{end}",
+      "jp": "法衣{end}",
+      "en": "Monk Robe{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_037_1C310",
+      "index": 37,
+      "offset": "0x1C310",
+      "length": null,
+      "raw_len": 5,
+      "bg34": false,
+      "ptr": "0x1C184",
+      "slots": [
+        {
+          "slot": "0x1C184",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}羽衣{ed}{end}",
+      "jp": "羽衣{end}",
+      "en": "Plume Veil{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_038_1C315",
+      "index": 38,
+      "offset": "0x1C315",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C186",
+      "slots": [
+        {
+          "slot": "0x1C186",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "くさりかたびら{end}",
+      "jp": "くさりかたびら{end}",
+      "en": "Chainmail{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_039_1C31D",
+      "index": 39,
+      "offset": "0x1C31D",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1C188",
+      "slots": [
+        {
+          "slot": "0x1C188",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}戦闘服{ed}{end}",
+      "jp": "戦闘服{end}",
+      "en": "Battle Garb{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_040_1C323",
+      "index": 40,
+      "offset": "0x1C323",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C18A",
+      "slots": [
+        {
+          "slot": "0x1C18A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}魔{ef}よけの{ed}羽衣{ed}{end}",
+      "jp": "魔よけの羽衣{end}",
+      "en": "Ward Veil{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_041_1C32E",
+      "index": 41,
+      "offset": "0x1C32E",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x1C18C",
+      "slots": [
+        {
+          "slot": "0x1C18C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}月光{ed}の{ef}法{ef}{ed}衣{ed}{end}",
+      "jp": "月光の法衣{end}",
+      "en": "Lunar Robe{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_042_1C33A",
+      "index": 42,
+      "offset": "0x1C33A",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C18E",
+      "slots": [
+        {
+          "slot": "0x1C18E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}竹{ed}の{ed}鎧{ed}{end}",
+      "jp": "竹の鎧{end}",
+      "en": "Bamboo Mail{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_043_1C342",
+      "index": 43,
+      "offset": "0x1C342",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C190",
+      "slots": [
+        {
+          "slot": "0x1C190",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}竹{ed}の{ef}手{ef}{ed}甲{ed}{end}",
+      "jp": "竹の手甲{end}",
+      "en": "Cane Bracer{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_044_1C34D",
+      "index": 44,
+      "offset": "0x1C34D",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C192",
+      "slots": [
+        {
+          "slot": "0x1C192",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鉄{ed}の{ed}鎧{ed}{end}",
+      "jp": "鉄の鎧{end}",
+      "en": "Iron Armor{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_045_1C355",
+      "index": 45,
+      "offset": "0x1C355",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C194",
+      "slots": [
+        {
+          "slot": "0x1C194",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鉄{ed}の{ef}手{ef}{ed}甲{ed}{end}",
+      "jp": "鉄の手甲{end}",
+      "en": "Iron Bracer{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_046_1C360",
+      "index": 46,
+      "offset": "0x1C360",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C196",
+      "slots": [
+        {
+          "slot": "0x1C196",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鉄{ed}の{ed}兜{ed}{end}",
+      "jp": "鉄の兜{end}",
+      "en": "Iron Helm{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_047_1C368",
+      "index": 47,
+      "offset": "0x1C368",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C198",
+      "slots": [
+        {
+          "slot": "0x1C198",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}七色{ed}の{ed}肩{ed}かけ{end}",
+      "jp": "七色の肩かけ{end}",
+      "en": "Prism Shawl{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_048_1C373",
+      "index": 48,
+      "offset": "0x1C373",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C19A",
+      "slots": [
+        {
+          "slot": "0x1C19A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}月影{ed}の{ed}鎧{ed}{end}",
+      "jp": "月影の鎧{end}",
+      "en": "Moon Armor{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_049_1C37C",
+      "index": 49,
+      "offset": "0x1C37C",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C19C",
+      "slots": [
+        {
+          "slot": "0x1C19C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}炎{ef}の{ed}鎧{ed}{end}",
+      "jp": "炎の鎧{end}",
+      "en": "Flame Armor{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_050_1C384",
+      "index": 50,
+      "offset": "0x1C384",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C19E",
+      "slots": [
+        {
+          "slot": "0x1C19E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}龍人{ef}の{ed}兜{ed}{end}",
+      "jp": "龍人の兜{end}",
+      "en": "Dragon Helm{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_051_1C38D",
+      "index": 51,
+      "offset": "0x1C38D",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x1C1A0",
+      "slots": [
+        {
+          "slot": "0x1C1A0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}守{ed}りの{ef}頭{ef}{ed}巾{ed}{end}",
+      "jp": "守りの頭巾{end}",
+      "en": "Guard Hood{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_052_1C399",
+      "index": 52,
+      "offset": "0x1C399",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1A2",
+      "slots": [
+        {
+          "slot": "0x1C1A2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "ダンテの{ed}腕輪{ed}{end}",
+      "jp": "ダンテの腕輪{end}",
+      "en": "Dante Band{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_053_1C3A2",
+      "index": 53,
+      "offset": "0x1C3A2",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x1C1A4",
+      "slots": [
+        {
+          "slot": "0x1C1A4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}封{ed}{ef}魔{ef}の{ed}腕輪{ed}{end}",
+      "jp": "封魔の腕輪{end}",
+      "en": "Seal Band{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_054_1C3AE",
+      "index": 54,
+      "offset": "0x1C3AE",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1A6",
+      "slots": [
+        {
+          "slot": "0x1C1A6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}光{ed}の{ef}法{ef}{ed}衣{ed}{end}",
+      "jp": "光の法衣{end}",
+      "en": "Light Robe{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_055_1C3B9",
+      "index": 55,
+      "offset": "0x1C3B9",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1A8",
+      "slots": [
+        {
+          "slot": "0x1C1A8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}光{ed}の{ed}羽衣{ed}{end}",
+      "jp": "光の羽衣{end}",
+      "en": "Light Veil{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_056_1C3C2",
+      "index": 56,
+      "offset": "0x1C3C2",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1AA",
+      "slots": [
+        {
+          "slot": "0x1C1AA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}光{ed}の{ed}腕輪{ed}{end}",
+      "jp": "光の腕輪{end}",
+      "en": "Light Band{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_057_1C3CB",
+      "index": 57,
+      "offset": "0x1C3CB",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C1AC",
+      "slots": [
+        {
+          "slot": "0x1C1AC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}太陽{ed}の{ed}宝冠{ed}{end}",
+      "jp": "太陽の宝冠{end}",
+      "en": "Sun Crown{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_058_1C3D5",
+      "index": 58,
+      "offset": "0x1C3D5",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1AE",
+      "slots": [
+        {
+          "slot": "0x1C1AE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}太陽{ed}の{ed}鎧{ed}{end}",
+      "jp": "太陽の鎧{end}",
+      "en": "Sun Armor{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_059_1C3DE",
+      "index": 59,
+      "offset": "0x1C3DE",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1B0",
+      "slots": [
+        {
+          "slot": "0x1C1B0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}絹{ed}のかたかけ{end}",
+      "jp": "絹のかたかけ{end}",
+      "en": "Silk Shawl{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_060_1C3E7",
+      "index": 60,
+      "offset": "0x1C3E7",
+      "length": null,
+      "raw_len": 14,
+      "bg34": false,
+      "ptr": "0x1C1B2",
+      "slots": [
+        {
+          "slot": "0x1C1B2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}賢{ed}{ef}者{ef}の{ef}頭{ef}{ed}巾{ed}{end}",
+      "jp": "賢者の頭巾{end}",
+      "en": "Sage Hood{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_061_1C23A",
+      "index": 61,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1B4",
+      "slots": [
+        {
+          "slot": "0x1C1B4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_062_1C23A",
+      "index": 62,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1B6",
+      "slots": [
+        {
+          "slot": "0x1C1B6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_063_1C23A",
+      "index": 63,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1B8",
+      "slots": [
+        {
+          "slot": "0x1C1B8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_064_1C3F5",
+      "index": 64,
+      "offset": "0x1C3F5",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1BA",
+      "slots": [
+        {
+          "slot": "0x1C1BA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}書{fd}き{fd}付{fd}け{end}",
+      "jp": "書き付け{end}",
+      "en": "Birth Note{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_065_1C3FE",
+      "index": 65,
+      "offset": "0x1C3FE",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C1BC",
+      "slots": [
+        {
+          "slot": "0x1C1BC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}金屋{ed}の{fd}紋章{fd}{end}",
+      "jp": "金屋の紋章{end}",
+      "en": "Kanaya Seal{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_066_1C408",
+      "index": 66,
+      "offset": "0x1C408",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C1BE",
+      "slots": [
+        {
+          "slot": "0x1C1BE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}霊{ef}{ed}光{ed}{ef}石{ef}{end}",
+      "jp": "霊光石{end}",
+      "en": "Spirit Gem{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_067_1C412",
+      "index": 67,
+      "offset": "0x1C412",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1C0",
+      "slots": [
+        {
+          "slot": "0x1C1C0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}黄{ef}{ed}金{ed}の{ef}刀{ef}{end}",
+      "jp": "黄金の刀{end}",
+      "en": "Gold Blade{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_068_1C41D",
+      "index": 68,
+      "offset": "0x1C41D",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C1C2",
+      "slots": [
+        {
+          "slot": "0x1C1C2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}合{ed}{fd}鍵{fd}{end}",
+      "jp": "合鍵{end}",
+      "en": "Passkey{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_069_1C424",
+      "index": 69,
+      "offset": "0x1C424",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1C4",
+      "slots": [
+        {
+          "slot": "0x1C1C4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}静寂{fd}の{fd}笛{fd}{end}",
+      "jp": "静寂の笛{end}",
+      "en": "Calm Flute{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_070_1C42D",
+      "index": 70,
+      "offset": "0x1C42D",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1C6",
+      "slots": [
+        {
+          "slot": "0x1C1C6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}木{ed}の{ef}霊{ef}{ed}薬{ed}{end}",
+      "jp": "木の霊薬{end}",
+      "en": "Wood Tonic{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_071_1C438",
+      "index": 71,
+      "offset": "0x1C438",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1C8",
+      "slots": [
+        {
+          "slot": "0x1C1C8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}土{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
+      "jp": "土の霊薬{end}",
+      "en": "Earth Tonic{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_072_1C443",
+      "index": 72,
+      "offset": "0x1C443",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C1CA",
+      "slots": [
+        {
+          "slot": "0x1C1CA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}龍水{ef}{fd}晶{fd}{end}",
+      "jp": "龍水晶{end}",
+      "en": "Dragon Orb{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_073_1C44B",
+      "index": 73,
+      "offset": "0x1C44B",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1CC",
+      "slots": [
+        {
+          "slot": "0x1C1CC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}虹{fd}{ed}色{ed}{fd}日記{fd}{end}",
+      "jp": "虹色日記{end}",
+      "en": "Prism Diary{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_074_1C456",
+      "index": 74,
+      "offset": "0x1C456",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C1CE",
+      "slots": [
+        {
+          "slot": "0x1C1CE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}牢{fd}の{fd}鍵{fd}{end}",
+      "jp": "牢の鍵{end}",
+      "en": "Prison Key{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_075_1C45E",
+      "index": 75,
+      "offset": "0x1C45E",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C1D0",
+      "slots": [
+        {
+          "slot": "0x1C1D0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}人{ef}{fd}魚{fd}の{fd}涙{fd}{end}",
+      "jp": "人魚の涙{end}",
+      "en": "Siren Tear{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_076_1C469",
+      "index": 76,
+      "offset": "0x1C469",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C1D2",
+      "slots": [
+        {
+          "slot": "0x1C1D2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "リッツの{ed}杖{ed}{end}",
+      "jp": "リッツの杖{end}",
+      "en": "Ritz Staff{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_077_1C471",
+      "index": 77,
+      "offset": "0x1C471",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1D4",
+      "slots": [
+        {
+          "slot": "0x1C1D4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}覚醒{fd}の{ef}炎{ef}{end}",
+      "jp": "覚醒の炎{end}",
+      "en": "Waking Fire{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_078_1C47A",
+      "index": 78,
+      "offset": "0x1C47A",
+      "length": null,
+      "raw_len": 6,
+      "bg34": false,
+      "ptr": "0x1C1D6",
+      "slots": [
+        {
+          "slot": "0x1C1D6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}舞空印{fd}{end}",
+      "jp": "舞空印{end}",
+      "en": "Sky Seal{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_079_1C480",
+      "index": 79,
+      "offset": "0x1C480",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1D8",
+      "slots": [
+        {
+          "slot": "0x1C1D8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}導魔{ef}の{fd}鍵{fd}{end}",
+      "jp": "導魔の鍵{end}",
+      "en": "Demon Key{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_080_1C489",
+      "index": 80,
+      "offset": "0x1C489",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1DA",
+      "slots": [
+        {
+          "slot": "0x1C1DA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}封解{ed}の{fd}針{fd}{end}",
+      "jp": "封解の針{end}",
+      "en": "Unseal Pin{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_081_1C492",
+      "index": 81,
+      "offset": "0x1C492",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C1DC",
+      "slots": [
+        {
+          "slot": "0x1C1DC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "やたの{fd}鏡{fd}{end}",
+      "jp": "やたの鏡{end}",
+      "en": "Yata Mirror{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_082_1C499",
+      "index": 82,
+      "offset": "0x1C499",
+      "length": null,
+      "raw_len": 9,
+      "bg34": false,
+      "ptr": "0x1C1DE",
+      "slots": [
+        {
+          "slot": "0x1C1DE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "むらくもの{ed}剣{ed}{end}",
+      "jp": "むらくもの剣{end}",
+      "en": "Murakumo{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_083_1C4A2",
+      "index": 83,
+      "offset": "0x1C4A2",
+      "length": null,
+      "raw_len": 12,
+      "bg34": false,
+      "ptr": "0x1C1E0",
+      "slots": [
+        {
+          "slot": "0x1C1E0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "やさかにの{fd}勾{fd}{ed}玉{ed}{end}",
+      "jp": "やさかにの勾玉{end}",
+      "en": "Yasakani{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_084_1C4AE",
+      "index": 84,
+      "offset": "0x1C4AE",
+      "length": null,
+      "raw_len": 14,
+      "bg34": false,
+      "ptr": "0x1C1E2",
+      "slots": [
+        {
+          "slot": "0x1C1E2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}七{ed}{fd}星{fd}の{ed}宝{ed}{ef}刀{ef}{end}",
+      "jp": "七星の宝刀{end}",
+      "en": "Star Blade{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_085_1C4BC",
+      "index": 85,
+      "offset": "0x1C4BC",
+      "length": null,
+      "raw_len": 14,
+      "bg34": false,
+      "ptr": "0x1C1E4",
+      "slots": [
+        {
+          "slot": "0x1C1E4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}夢{ef}{ed}操{ed}の{ed}回{ed}{fd}鏡{fd}{end}",
+      "jp": "夢操の回鏡{end}",
+      "en": "Dream Lens{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_086_1C23A",
+      "index": 86,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1E6",
+      "slots": [
+        {
+          "slot": "0x1C1E6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_087_1C23A",
+      "index": 87,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1E8",
+      "slots": [
+        {
+          "slot": "0x1C1E8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_088_1C23A",
+      "index": 88,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1EA",
+      "slots": [
+        {
+          "slot": "0x1C1EA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_089_1C23A",
+      "index": 89,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1EC",
+      "slots": [
+        {
+          "slot": "0x1C1EC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_090_1C23A",
+      "index": 90,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1EE",
+      "slots": [
+        {
+          "slot": "0x1C1EE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_091_1C23A",
+      "index": 91,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1F0",
+      "slots": [
+        {
+          "slot": "0x1C1F0",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_092_1C23A",
+      "index": 92,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1F2",
+      "slots": [
+        {
+          "slot": "0x1C1F2",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_093_1C23A",
+      "index": 93,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1F4",
+      "slots": [
+        {
+          "slot": "0x1C1F4",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_094_1C23A",
+      "index": 94,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1F6",
+      "slots": [
+        {
+          "slot": "0x1C1F6",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_095_1C23A",
+      "index": 95,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C1F8",
+      "slots": [
+        {
+          "slot": "0x1C1F8",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_096_1C4CA",
+      "index": 96,
+      "offset": "0x1C4CA",
+      "length": null,
+      "raw_len": 4,
+      "bg34": false,
+      "ptr": "0x1C1FA",
+      "slots": [
+        {
+          "slot": "0x1C1FA",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}薬{ed}{end}",
+      "jp": "薬{end}",
+      "en": "Salve{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_097_1C4CE",
+      "index": 97,
+      "offset": "0x1C4CE",
+      "length": null,
+      "raw_len": 7,
+      "bg34": false,
+      "ptr": "0x1C1FC",
+      "slots": [
+        {
+          "slot": "0x1C1FC",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}大{ef}{ed}薬{ed}{end}",
+      "jp": "大薬{end}",
+      "en": "Great Salve{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_098_1C4D5",
+      "index": 98,
+      "offset": "0x1C4D5",
+      "length": null,
+      "raw_len": 10,
+      "bg34": false,
+      "ptr": "0x1C1FE",
+      "slots": [
+        {
+          "slot": "0x1C1FE",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}解{ed}{ef}毒{ef}{fd}剤{fd}{end}",
+      "jp": "解毒剤{end}",
+      "en": "Antidote{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_099_1C4DF",
+      "index": 99,
+      "offset": "0x1C4DF",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C200",
+      "slots": [
+        {
+          "slot": "0x1C200",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}火{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
+      "jp": "火の霊薬{end}",
+      "en": "Fire Tonic{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_100_1C4EA",
+      "index": 100,
+      "offset": "0x1C4EA",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C202",
+      "slots": [
+        {
+          "slot": "0x1C202",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}水{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
+      "jp": "水の霊薬{end}",
+      "en": "Water Tonic{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_101_1C4F5",
+      "index": 101,
+      "offset": "0x1C4F5",
+      "length": null,
+      "raw_len": 11,
+      "bg34": false,
+      "ptr": "0x1C204",
+      "slots": [
+        {
+          "slot": "0x1C204",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}風{ef}の{ef}霊{ef}{ed}薬{ed}{end}",
+      "jp": "風の霊薬{end}",
+      "en": "Wind Tonic{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_102_1C500",
+      "index": 102,
+      "offset": "0x1C500",
+      "length": null,
+      "raw_len": 8,
+      "bg34": false,
+      "ptr": "0x1C206",
+      "slots": [
+        {
+          "slot": "0x1C206",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}封{ed}{ef}魔香{ef}{end}",
+      "jp": "封魔香{end}",
+      "en": "Ward Incense{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_103_1C508",
+      "index": 103,
+      "offset": "0x1C508",
+      "length": null,
+      "raw_len": 14,
+      "bg34": false,
+      "ptr": "0x1C208",
+      "slots": [
+        {
+          "slot": "0x1C208",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}六{ed}{ef}道{ef}の{fd}秘{fd}{ed}薬{ed}{end}",
+      "jp": "六道の秘薬{end}",
+      "en": "Realm Elixir{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_104_1C516",
+      "index": 104,
+      "offset": "0x1C516",
+      "length": null,
+      "raw_len": 14,
+      "bg34": false,
+      "ptr": "0x1C20A",
+      "slots": [
+        {
+          "slot": "0x1C20A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "身{fd}返{fd}しの{ef}手{ef}{fd}鏡{fd}{end}",
+      "jp": "身返しの手鏡{end}",
+      "en": "Echo Mirror{end}",
+      "max": null,
+      "box": "item",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b0e_items_105_1C23A",
+      "index": 105,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C20C",
+      "slots": [
+        {
+          "slot": "0x1C20C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_106_1C23A",
+      "index": 106,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C20E",
+      "slots": [
+        {
+          "slot": "0x1C20E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_107_1C23A",
+      "index": 107,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C210",
+      "slots": [
+        {
+          "slot": "0x1C210",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_108_1C23A",
+      "index": 108,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C212",
+      "slots": [
+        {
+          "slot": "0x1C212",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_109_1C23A",
+      "index": 109,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C214",
+      "slots": [
+        {
+          "slot": "0x1C214",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_110_1C23A",
+      "index": 110,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C216",
+      "slots": [
+        {
+          "slot": "0x1C216",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_111_1C23A",
+      "index": 111,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C218",
+      "slots": [
+        {
+          "slot": "0x1C218",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_112_1C23A",
+      "index": 112,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C21A",
+      "slots": [
+        {
+          "slot": "0x1C21A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_113_1C23A",
+      "index": 113,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C21C",
+      "slots": [
+        {
+          "slot": "0x1C21C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_114_1C23A",
+      "index": 114,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C21E",
+      "slots": [
+        {
+          "slot": "0x1C21E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_115_1C23A",
+      "index": 115,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C220",
+      "slots": [
+        {
+          "slot": "0x1C220",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_116_1C23A",
+      "index": 116,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C222",
+      "slots": [
+        {
+          "slot": "0x1C222",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_117_1C23A",
+      "index": 117,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C224",
+      "slots": [
+        {
+          "slot": "0x1C224",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_118_1C23A",
+      "index": 118,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C226",
+      "slots": [
+        {
+          "slot": "0x1C226",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_119_1C23A",
+      "index": 119,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C228",
+      "slots": [
+        {
+          "slot": "0x1C228",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_120_1C23A",
+      "index": 120,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C22A",
+      "slots": [
+        {
+          "slot": "0x1C22A",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_121_1C23A",
+      "index": 121,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C22C",
+      "slots": [
+        {
+          "slot": "0x1C22C",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_122_1C23A",
+      "index": 122,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C22E",
+      "slots": [
+        {
+          "slot": "0x1C22E",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_123_1C23A",
+      "index": 123,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C230",
+      "slots": [
+        {
+          "slot": "0x1C230",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_124_1C23A",
+      "index": 124,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C232",
+      "slots": [
+        {
+          "slot": "0x1C232",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_125_1C23A",
+      "index": 125,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C234",
+      "slots": [
+        {
+          "slot": "0x1C234",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_126_1C23A",
+      "index": 126,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C236",
+      "slots": [
+        {
+          "slot": "0x1C236",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    },
+    {
+      "id": "b0e_items_127_1C23A",
+      "index": 127,
+      "offset": "0x1C23A",
+      "length": null,
+      "raw_len": 2,
+      "bg34": false,
+      "ptr": "0x1C238",
+      "slots": [
+        {
+          "slot": "0x1C238",
+          "kind": "ptr_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "0{end}",
+      "jp": "0{end}",
+      "en": "",
+      "max": null,
+      "box": "item",
+      "status": "data",
+      "notes": "unused item slot alias -> 0x1C23A"
+    }
+  ]
 }

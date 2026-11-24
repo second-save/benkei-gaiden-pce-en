@@ -1,768 +1,768 @@
 {
- "group": "b11_bg34_credits",
- "count": 23,
- "entries": [
-  {
-   "id": "b11_bg34_credits_000_23E8F",
-   "index": 0,
-   "offset": "0x23E8F",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F61",
-   "slots": [
+  "group": "b11_bg34_credits",
+  "count": 23,
+  "entries": [
     {
-     "slot": "0x23F61",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
+      "id": "b11_bg34_credits_000_23E8F",
+      "index": 0,
+      "offset": "0x23E8F",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F61",
+      "slots": [
+        {
+          "slot": "0x23F61",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13567",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}脚{ed}{fd}本{end}",
+      "jp": "脚本{end}",
+      "en": "Scenario{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
     },
     {
-     "slot": "0x13567",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
+      "id": "b11_bg34_credits_001_23E95",
+      "index": 1,
+      "offset": "0x23E95",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F63",
+      "slots": [
+        {
+          "slot": "0x23F63",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x0463E",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13594",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x135BB",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1386F",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}制作{end}",
+      "jp": "制作{end}",
+      "en": "Production{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_002_23E99",
+      "index": 2,
+      "offset": "0x23E99",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F65",
+      "slots": [
+        {
+          "slot": "0x23F65",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x135FF",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13636",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}美{ed}{ef}術{end}",
+      "jp": "美術{end}",
+      "en": "Graphics{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_003_23E9F",
+      "index": 3,
+      "offset": "0x23E9F",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F67",
+      "slots": [
+        {
+          "slot": "0x23F67",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x12AED",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13676",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x136AA",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}音楽{end}",
+      "jp": "音楽{end}",
+      "en": "Music{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_004_23EA3",
+      "index": 4,
+      "offset": "0x23EA3",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F69",
+      "slots": [
+        {
+          "slot": "0x23F69",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x136E2",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13704",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}進行{end}",
+      "jp": "進行{end}",
+      "en": "Direction{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_005_23EA7",
+      "index": 5,
+      "offset": "0x23EA7",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F6B",
+      "slots": [
+        {
+          "slot": "0x23F6B",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x04622",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13769",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x379D4",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}協力{end}",
+      "jp": "協力{end}",
+      "en": "With{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_006_23EAB",
+      "index": 6,
+      "offset": "0x23EAB",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F6D",
+      "slots": [
+        {
+          "slot": "0x23F6D",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x137B1",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}監{ed}{ef}修{end}",
+      "jp": "監修{end}",
+      "en": "Supervisor{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_007_23EB1",
+      "index": 7,
+      "offset": "0x23EB1",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F6F",
+      "slots": [
+        {
+          "slot": "0x23F6F",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x04637",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13876",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}著作{end}",
+      "jp": "著作{end}",
+      "en": "(C){end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_008_23EB5",
+      "index": 8,
+      "offset": "0x23EB5",
+      "length": null,
+      "raw_len": 4,
+      "bg34": true,
+      "ptr": "0x23F71",
+      "slots": [
+        {
+          "slot": "0x23F71",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13737",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}題字{end}",
+      "jp": "題字{end}",
+      "en": "Title Art{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_009_23EB9",
+      "index": 9,
+      "offset": "0x23EB9",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F73",
+      "slots": [
+        {
+          "slot": "0x23F73",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1356E",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}中村一朗{end}",
+      "jp": "中村一朗{end}",
+      "en": "I. Nakamura{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_010_23EBF",
+      "index": 10,
+      "offset": "0x23EBF",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F75",
+      "slots": [
+        {
+          "slot": "0x23F75",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1359B",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}酒井敦史{end}",
+      "jp": "酒井敦史{end}",
+      "en": "Atsushi Sakai{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_011_23EC5",
+      "index": 11,
+      "offset": "0x23EC5",
+      "length": null,
+      "raw_len": 8,
+      "bg34": true,
+      "ptr": "0x23F77",
+      "slots": [
+        {
+          "slot": "0x23F77",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x135C2",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}篠野{fd} {fd}篤{end}",
+      "jp": "篠野 篤{end}",
+      "en": "Atsushi Hatano{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_012_23ECD",
+      "index": 12,
+      "offset": "0x23ECD",
+      "length": null,
+      "raw_len": 10,
+      "bg34": true,
+      "ptr": "0x23F79",
+      "slots": [
+        {
+          "slot": "0x23F79",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13606",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}石{ef}{fd}川{fd} {fd}巧{end}",
+      "jp": "石川 巧{end}",
+      "en": "T. Ishikawa{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_013_23ED7",
+      "index": 13,
+      "offset": "0x23ED7",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F7B",
+      "slots": [
+        {
+          "slot": "0x23F7B",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1363D",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}鈴木才儒{end}",
+      "jp": "鈴木才儒{end}",
+      "en": "Saiju Suzuki{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_014_23EDD",
+      "index": 14,
+      "offset": "0x23EDD",
+      "length": null,
+      "raw_len": 10,
+      "bg34": true,
+      "ptr": "0x23F7D",
+      "slots": [
+        {
+          "slot": "0x23F7D",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1367D",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}影{ed}{ef}山{ef}{ed}雅司{end}",
+      "jp": "影山雅司{end}",
+      "en": "M. Kageyama{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_015_23EE7",
+      "index": 15,
+      "offset": "0x23EE7",
+      "length": null,
+      "raw_len": 8,
+      "bg34": true,
+      "ptr": "0x23F7F",
+      "slots": [
+        {
+          "slot": "0x23F7F",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x136B1",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}原{fd} {fd}伸幸{end}",
+      "jp": "原 伸幸{end}",
+      "en": "Nobuyuki Hara{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_016_23EEF",
+      "index": 16,
+      "offset": "0x23EEF",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F81",
+      "slots": [
+        {
+          "slot": "0x23F81",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x136E9",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}江口弘泰{end}",
+      "jp": "江口弘泰{end}",
+      "en": "H. Eguchi{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_017_23EF5",
+      "index": 17,
+      "offset": "0x23EF5",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F83",
+      "slots": [
+        {
+          "slot": "0x23F83",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1370B",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}東谷浩明{end}",
+      "jp": "東谷浩明{end}",
+      "en": "H. Higashitani{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_018_23EFB",
+      "index": 18,
+      "offset": "0x23EFB",
+      "length": null,
+      "raw_len": 12,
+      "bg34": true,
+      "ptr": "0x23F85",
+      "slots": [
+        {
+          "slot": "0x23F85",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x1373E",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ed}寺{ed}{fd}田{fd}{ef}白{ef}{ed}雲{end}",
+      "jp": "寺田白雲{end}",
+      "en": "Hakuun Terada{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_019_23F07",
+      "index": 19,
+      "offset": "0x23F07",
+      "length": null,
+      "raw_len": 7,
+      "bg34": true,
+      "ptr": "0x23F87",
+      "slots": [
+        {
+          "slot": "0x23F87",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x04629",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13777",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}本宮ひろ志{end}",
+      "jp": "本宮ひろ志{end}",
+      "en": "H. Motomiya{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_020_23F0E",
+      "index": 20,
+      "offset": "0x23F0E",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F89",
+      "slots": [
+        {
+          "slot": "0x23F89",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x04630",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13770",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}本宮企画{end}",
+      "jp": "本宮企画{end}",
+      "en": "Motomiya Kikaku{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_021_23F14",
+      "index": 21,
+      "offset": "0x23F14",
+      "length": null,
+      "raw_len": 6,
+      "bg34": true,
+      "ptr": "0x23F8B",
+      "slots": [
+        {
+          "slot": "0x23F8B",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x137B8",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{fd}吉田喜春{end}",
+      "jp": "吉田喜春{end}",
+      "en": "Y. Yoshida{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
+    },
+    {
+      "id": "b11_bg34_credits_022_23F1A",
+      "index": 22,
+      "offset": "0x23F1A",
+      "length": null,
+      "raw_len": 11,
+      "bg34": true,
+      "ptr": "0x23F8D",
+      "slots": [
+        {
+          "slot": "0x23F8D",
+          "kind": "credits_table",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        },
+        {
+          "slot": "0x13854",
+          "kind": "FDEF",
+          "rom_base": "0x1C000",
+          "cpu_base": "0x4000"
+        }
+      ],
+      "jp_raw": "{ef}平{ef}{fd}成{fd} {fd}元年{end}",
+      "jp": "平成 元年{end}",
+      "en": "Heisei 1, 1989{end}",
+      "max": null,
+      "box": "credits_bg34",
+      "status": "done",
+      "notes": ""
     }
-   ],
-   "jp_raw": "{ed}脚{ed}{fd}本{end}",
-   "jp": "脚本{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_001_23E95",
-   "index": 1,
-   "offset": "0x23E95",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F63",
-   "slots": [
-    {
-     "slot": "0x23F63",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x0463E",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13594",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x135BB",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1386F",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}制作{end}",
-   "jp": "制作{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_002_23E99",
-   "index": 2,
-   "offset": "0x23E99",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F65",
-   "slots": [
-    {
-     "slot": "0x23F65",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x135FF",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13636",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}美{ed}{ef}術{end}",
-   "jp": "美術{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_003_23E9F",
-   "index": 3,
-   "offset": "0x23E9F",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F67",
-   "slots": [
-    {
-     "slot": "0x23F67",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x12AED",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13676",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x136AA",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}音楽{end}",
-   "jp": "音楽{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_004_23EA3",
-   "index": 4,
-   "offset": "0x23EA3",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F69",
-   "slots": [
-    {
-     "slot": "0x23F69",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x136E2",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13704",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}進行{end}",
-   "jp": "進行{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_005_23EA7",
-   "index": 5,
-   "offset": "0x23EA7",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F6B",
-   "slots": [
-    {
-     "slot": "0x23F6B",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x04622",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13769",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x379D4",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}協力{end}",
-   "jp": "協力{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_006_23EAB",
-   "index": 6,
-   "offset": "0x23EAB",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F6D",
-   "slots": [
-    {
-     "slot": "0x23F6D",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x137B1",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}監{ed}{ef}修{end}",
-   "jp": "監修{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_007_23EB1",
-   "index": 7,
-   "offset": "0x23EB1",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F6F",
-   "slots": [
-    {
-     "slot": "0x23F6F",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x04637",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13876",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}著作{end}",
-   "jp": "著作{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_008_23EB5",
-   "index": 8,
-   "offset": "0x23EB5",
-   "length": null,
-   "raw_len": 4,
-   "bg34": true,
-   "ptr": "0x23F71",
-   "slots": [
-    {
-     "slot": "0x23F71",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13737",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}題字{end}",
-   "jp": "題字{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_009_23EB9",
-   "index": 9,
-   "offset": "0x23EB9",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F73",
-   "slots": [
-    {
-     "slot": "0x23F73",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1356E",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}中村一朗{end}",
-   "jp": "中村一朗{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_010_23EBF",
-   "index": 10,
-   "offset": "0x23EBF",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F75",
-   "slots": [
-    {
-     "slot": "0x23F75",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1359B",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}酒井敦史{end}",
-   "jp": "酒井敦史{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_011_23EC5",
-   "index": 11,
-   "offset": "0x23EC5",
-   "length": null,
-   "raw_len": 8,
-   "bg34": true,
-   "ptr": "0x23F77",
-   "slots": [
-    {
-     "slot": "0x23F77",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x135C2",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}篠野{fd} {fd}篤{end}",
-   "jp": "篠野 篤{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_012_23ECD",
-   "index": 12,
-   "offset": "0x23ECD",
-   "length": null,
-   "raw_len": 10,
-   "bg34": true,
-   "ptr": "0x23F79",
-   "slots": [
-    {
-     "slot": "0x23F79",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13606",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}石{ef}{fd}川{fd} {fd}巧{end}",
-   "jp": "石川 巧{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_013_23ED7",
-   "index": 13,
-   "offset": "0x23ED7",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F7B",
-   "slots": [
-    {
-     "slot": "0x23F7B",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1363D",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}鈴木才儒{end}",
-   "jp": "鈴木才儒{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_014_23EDD",
-   "index": 14,
-   "offset": "0x23EDD",
-   "length": null,
-   "raw_len": 10,
-   "bg34": true,
-   "ptr": "0x23F7D",
-   "slots": [
-    {
-     "slot": "0x23F7D",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1367D",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}影{ed}{ef}山{ef}{ed}雅司{end}",
-   "jp": "影山雅司{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_015_23EE7",
-   "index": 15,
-   "offset": "0x23EE7",
-   "length": null,
-   "raw_len": 8,
-   "bg34": true,
-   "ptr": "0x23F7F",
-   "slots": [
-    {
-     "slot": "0x23F7F",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x136B1",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}原{fd} {fd}伸幸{end}",
-   "jp": "原 伸幸{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_016_23EEF",
-   "index": 16,
-   "offset": "0x23EEF",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F81",
-   "slots": [
-    {
-     "slot": "0x23F81",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x136E9",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}江口弘泰{end}",
-   "jp": "江口弘泰{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_017_23EF5",
-   "index": 17,
-   "offset": "0x23EF5",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F83",
-   "slots": [
-    {
-     "slot": "0x23F83",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1370B",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}東谷浩明{end}",
-   "jp": "東谷浩明{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_018_23EFB",
-   "index": 18,
-   "offset": "0x23EFB",
-   "length": null,
-   "raw_len": 12,
-   "bg34": true,
-   "ptr": "0x23F85",
-   "slots": [
-    {
-     "slot": "0x23F85",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x1373E",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ed}寺{ed}{fd}田{fd}{ef}白{ef}{ed}雲{end}",
-   "jp": "寺田白雲{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_019_23F07",
-   "index": 19,
-   "offset": "0x23F07",
-   "length": null,
-   "raw_len": 7,
-   "bg34": true,
-   "ptr": "0x23F87",
-   "slots": [
-    {
-     "slot": "0x23F87",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x04629",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13777",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}本宮ひろ志{end}",
-   "jp": "本宮ひろ志{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_020_23F0E",
-   "index": 20,
-   "offset": "0x23F0E",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F89",
-   "slots": [
-    {
-     "slot": "0x23F89",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x04630",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13770",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}本宮企画{end}",
-   "jp": "本宮企画{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_021_23F14",
-   "index": 21,
-   "offset": "0x23F14",
-   "length": null,
-   "raw_len": 6,
-   "bg34": true,
-   "ptr": "0x23F8B",
-   "slots": [
-    {
-     "slot": "0x23F8B",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x137B8",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{fd}吉田喜春{end}",
-   "jp": "吉田喜春{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  },
-  {
-   "id": "b11_bg34_credits_022_23F1A",
-   "index": 22,
-   "offset": "0x23F1A",
-   "length": null,
-   "raw_len": 11,
-   "bg34": true,
-   "ptr": "0x23F8D",
-   "slots": [
-    {
-     "slot": "0x23F8D",
-     "kind": "credits_table",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    },
-    {
-     "slot": "0x13854",
-     "kind": "FDEF",
-     "rom_base": "0x1C000",
-     "cpu_base": "0x4000"
-    }
-   ],
-   "jp_raw": "{ef}平{ef}{fd}成{fd} {fd}元年{end}",
-   "jp": "平成 元年{end}",
-   "en": "",
-   "max": null,
-   "box": "credits_bg34",
-   "status": "todo",
-   "notes": ""
-  }
- ]
+  ]
 }
