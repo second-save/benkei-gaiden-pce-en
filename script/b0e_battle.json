@@ -225,7 +225,7 @@
       "slots": [],
       "jp_raw": "の ダメージを うけた{end}",
       "jp": "の ダメージを うけた{end}",
-      "en": " damage taken!{end}",
+      "en": " damage!{end}",
       "max": null,
       "box": "battle_tpl",
       "status": "done",

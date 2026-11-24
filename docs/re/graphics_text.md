@@ -13,17 +13,17 @@
 
 ---
 
-## 2. Tile-Drawn Japanese Graphics Requiring English Replacement (Per Decision D3)
+## 2. Tile-Drawn Japanese Graphics Replaced in English Build (Decision D3)
 
-Every decoded asset across all 36 `BG` entries (`32` unique `did` streams) and 25 `SPR` entries was visually inspected (`work/recon/gfx_catalog/`). Only **five** compressed graphic assets contain baked-in Japanese artwork/signage:
+Every decoded asset across all 36 `BG` entries (`32` unique `did` streams) and 25 `SPR` entries was visually inspected (`work/recon/gfx_catalog/`). Only **five** compressed graphic assets contain baked-in Japanese artwork/signage; all five are redrawn within original compressed budgets in `tools/gfx_en.py`:
 
-| Asset ID | `did` | ROM Offset (Bank) | Codec | VRAM Target | Size / BPP | Visual Content | Live Evidence & D3 English Plan |
-|---|---|---|---|---|---|---|---|
-| **`BG[23]`** | `0x1B` | `0x5FD5A` (`B$2F:$BD5A`) | `$D4A9` | `$2000` | `65` tiles, `bpp=8` | **`SUNSOFT®`** + **`夢・創造・サンソフト`** slogan | Live in `splash_dump/snap_splash_f0480.png` (BAT rows 12–14 pal 0 `SUNSOFT®`, rows 15–16 pal 1 `夢・創造・サンソフト`). Redraw Japanese tagline in 8×8/8×16 pixel art (e.g. *Dreams, Creation, Sunsoft* or clean Sunsoft splash matching D3; called via `B$02:$AD62` / `B$09:$B865 -> $FE76`). |
-| **`SPR[21]`** | `0x15` | `0x09CB6` (`B$04:$BCB6`) | `$D62A` | `$5000` | `62` pats (16×16), `bpp=4` | Title logo crimson calligraphy **`弁慶`** | Live in `ng_run/title_1500.*`: SATB slots `8..13` (`弁`, pal 8, `X=120..184, Y=80..128`) and `14..26` (`慶`, pal 9, `X=112..176, Y=176..272`), mixed `16×16`/`32×16`/`32×32` OAM attributes. Replace with styled English *Benkei* calligraphy or dual-title lockup matching palette 8/9 (`~15.5 KiB` / `62` pats budget, expandable in 1 MiB ROM). |
-| **`SPR[24]`** | `0x18` | `0x4FEBE` (`B$27:$BEBE`) | `$D62A` | `$6000` | `9` pats (16×16), `bpp=4` | Title subtitle **`ー外伝ー`** | Live in `ng_run/title_1500.*`: SATB slots `27..32` (`pal 10`, `X=80..88, Y=160..272` vertical bar + `外伝`). Replace with stylized English *Gaiden* / subtitle matching title composition. |
-| **`BG[15]`** | `0x13` | `0x58D80` (`B$2C:$AD80`) | `$D4A9` | `$2000` | `256` tiles, `bpp=16` | Interior/Town tileset with **1 sign: `防` (Armor Shop)** (2×2 = 16×16 px, top-right of tilesheet) | Verified via `zoom_bg15_signs.png` + `B$0B` shop signs. Replace `防` 16×16 sign tile with **`ARM`** / **`ARMOR`** icon-text sign matching wooden sign palette. |
-| **`BG[16]`** | `0x14` | `0x5A13C` (`B$2D:$A13C`) | `$D4A9` | `$3000` | `227` tiles, `bpp=16` | Town tileset with **4 signs**: **`宿`** (Inn, tiles `64,65,80,81`), **`武`** (Weapon Shop, tiles `66,67,82,83`), **`道`** (Item Shop, tiles `162,163,178,179`), and **`金屋`** (Kanaya / Capital Gold Merchant, bottom wooden sign tiles `211..214`, `0xD3..0xD6`) | Verified live in `shop_run3/snap_02_shop_320.png` (`宿` at `$340`, `道` at `$3A2`), `zoom_bg16_signs.png`, `bg16_pal6_signs.png`, and `B$0B` map data (`0x1620A` / `0x16389` / `0x16DAD`) + ROM strings (`0x1C3FE` `金屋の紋章`, `0x1C7E7` `金屋吉次郎`). Replace `宿` -> `INN`, `武` -> `WPN` (or weapon/ARM-style sign), `道` -> `ITEM`, and `金屋` (32×16 px sign) -> `GOLD` / `KANA` / `BANK` (fits 32 px wide comfortably!). |
+| Asset ID | `did` | ROM Offset (Bank) | Codec | VRAM Target | Size / BPP | Shipped English Redraw & Verification |
+|---|---|---|---|---|---|---|
+| **`BG[23]`** | `0x1B` | `0x5FD5A` (`B$2F:$BD5A`) | `$D4A9` | `$2000` | `65` tiles, `bpp=8` | **`SUNSOFT®`** preserved (tiles `0x00..0x0B, 0x11..0x1A, 0x20..0x2D`) + hairline (`0x0F`) + **`DREAMS - CREATION - SUNSOFT`** (`621/648 B`), plus `0x160DD` 5×18 BAT tagline map (`splash/final.png` visually verified). |
+| **`SPR[21]`** | `0x15` | `0x09CB6` (`B$04:$BCB6`) | `$D62A` | `$5000` | `62` pats (16×16), `bpp=4` | Bold two-tone crimson brush title **`BENKEI`** + **`GAIDEN`** (`1576/2388 B`) + Scene `$CF` OAM placements/lists (`0x17D73`, `0x17412`, `0x1742B`, `0x1747D`; `title_logo` & `title_menu` visually verified). |
+| **`SPR[24]`** | `0x18` | `0x4FEBE` (`B$27:$BEBE`) | `$D62A` | `$6000` | `9` pats (16×16), `bpp=4` | Crimson accent brush rules above & below **`GAIDEN`** (`148/302 B`) placed via Scene `$CF` object `0x6B` (`0x17D73`, `0x1747D`; `title_logo` & `title_menu` visually verified). |
+| **`BG[15]`** | `0x13` | `0x58D80` (`B$2C:$AD80`) | `$D4A9` | `$2000` | `256` tiles, `bpp=16` | Interior/Town Armor Shop sign (`防`, tiles `46,47 / 62,63`) redrawn as crisp 2-row **`AR / MR`** (`ARMR`) inside original wood frame (`5048/5052 B`, preview PNG & lossless budget/preserve test verified). |
+| **`BG[16]`** | `0x14` | `0x5A13C` (`B$2D:$A13C`) | `$D4A9` | `$3000` | `227` tiles, `bpp=16` | Town tileset **4 signs** (`5211/5299 B`): **`Inn`** (`宿`, tiles `64,65 / 80,81`), **`WE / AP`** (`武`, `66,67 / 82,83`), **`IT / EM`** (`道`, `162,163 / 178,179`), and **`KANAYA`** (`金屋`, `207..214`, 32×16 px). `Inn`, `IT/EM`, and `KANAYA` verified live in MesenCE (`tsukumo_town`, `shop_item`, `p8_kyoto_mkt`, `p8_kamakura6`); `WE/AP` verified via preview PNG & `test_gfx_en.py`. |
 
 ---
 
