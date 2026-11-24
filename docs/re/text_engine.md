@@ -60,14 +60,14 @@ When `r74 == $00`, byte `$EC` in `B$0A:$50E9` (`うえ[EC]した[EC]...`) writes
 
 ---
 
-## 4. Complete Text Table Inventory (`1,213` strings)
+## 4. Complete Text Table Inventory (`1,217` strings)
 
 | Group | Bank / Offset | Ptr Table / Endianness | Count | Notes |
 | --- | --- | --- | --- | --- |
 | `b00_timestamp` | `B$00` `0x01B75` (`$FB75`) | Direct ref at `B$1B:$C3DD` | `1` | Build timestamp (`1989/08/25  10:31:18`) in Test Mode |
 | `b02_sys` | `B$02` `0x05E36..0x05FBB` (`$DE36`) | Direct `$FF`-terminated refs (`B$00/$01/$02/$08/$1B`) | `56` | Menus, status labels, battle summary, unused Test Mode (`$DF42`) |
 | `b09_password` | `B$09` `0x12611..0x12682` | `0x12609` (`$C609`, 5× LE16 `MPR6`) | `5` | Password entry hiragana grid (`$C683+` is non-string tile data) |
-| `b0a_menus` | `B$0A` `0x1509C..0x151AE` | `0x1505E` (`$505E`, 27× LE16 `MPR2`); box specs `0x151AF` | `27` | Name entry (`うえ/した...`), BRAM save/load/delete, & `BG[34]` vertical menus (`$5159..$51A0`: `冒頭/継続`, `バックアップ/旅の記録`, `弁慶 1..3 / やめる`) |
+| `b0a_menus` | `B$0A` `0x1509C..0x151AE` | `0x1505E` (`$505E`, 31× LE16 `MPR2`); box specs `0x151AF` | `31` | Name entry (`うえ/した...`), BRAM save/load/delete, & `BG[34]` vertical menus (`$5159..$51A6`: `冒頭/継続`, `バックアップ/旅の記録`, `弁慶 1..3 / やめる / どれをよむかね?`) |
 | `b0a_locations` | `B$0A` `0x15282..0x152C8` | `0x15268` (`$5268`, 13× LE16 `MPR2`) | `13` | Fast-travel / location names (`林省寺` .. `リウモ村`) |
 | `b0d_enemy_kanji` | `B$0D` `0x1BAE8..0x1BD10` | `0x1BA06` (`$BA06`, 112 ptrs + sentinel `$BD11`) | `112` | No `$FF`; len = `ptr[i+1] - ptr[i]`. Slots `105..109` are 0 bytes |
 | `b0d_enemy_kana` | `B$0D` `0x1BDF4..0x1BFE7` | `0x1BD12` (`$BD12`, 112 ptrs + sentinel `$BFE8`) | `112` | Matched hiragana readings (`B$02:$DA01`) |
@@ -79,7 +79,7 @@ When `r74 == $00`, byte `$EC` in `B$0A:$50E9` (`うえ[EC]した[EC]...`) writes
 | `b11_ending_nar` | `B$11` `0x23F25..0x23F60` (`$BF25/$BF47`) | Direct `$FDEF` refs (`B$09:$DA2C/$DA42`) | `2` | Final epilogue narration lines |
 | `b1B_staff` | `B$1B` `0x37A8F..0x37C2C` | `0x37A3D` (`$DA3D`, 41× LE16 `MPR6`) | `41` | Padded hiragana ending staff roll (`のむら まさひと` ..) |
 
-> Verification: `tools/pce_text.py` + `tests/test_text.py` decode and re-encode all **1,213 strings** with 100% byte-exact fidelity.
+> Verification: `tools/pce_text.py` + `tests/test_text.py` decode and re-encode all **1,217 strings** with 100% byte-exact fidelity.
 
 ---
 

@@ -5,6 +5,7 @@ Hooks setup on fresh clone: `git config core.hooksPath tools/hooks`.
 
 ## Commands (run from repo root)
 - Check: `python3 -X utf8 tools/check.py` (pre-commit hook runs this)
+- Build: `python3 -X utf8 tools/build.py identity && python3 -X utf8 tools/build.py expand`
 - Smoke: `python3 -X utf8 tools/run_emu.py "rom/Benkei Gaiden (Japan).pce" --out work/qa/smoke --route tools/routes/boot.txt --shot-every 60 --smoke --sheet`
 - Warp: `python3 -X utf8 tools/debug/warp.py --all --out work/qa/debug_verify --states`
 

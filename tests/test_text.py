@@ -23,8 +23,8 @@ class TextCodecTests(unittest.TestCase):
         cls.entries = pce_text.iter_all_rom_strings(cls.rom)
 
     def test_entry_count(self) -> None:
-        # 1 + 56 + 5 + 27 + 13 + 112 + 112 + 32 + 128 + 13 + 648 + 23 + 2 + 41 = 1213
-        self.assertEqual(len(self.entries), 1213)
+        # 1 + 56 + 5 + 31 + 13 + 112 + 112 + 32 + 128 + 13 + 648 + 23 + 2 + 41 = 1217
+        self.assertEqual(len(self.entries), 1217)
 
     def test_byte_exact_roundtrip_all_strings(self) -> None:
         for entry in self.entries:

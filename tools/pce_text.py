@@ -39,6 +39,30 @@ class RomString:
     bg34: bool = False
 
 
+@dataclass(frozen=True)
+class PtrTable:
+    group: str
+    ptr_offset: int
+    count: int
+    has_sentinel: bool
+    rom_base: int
+    cpu_base: int
+    is_len_table: bool = False
+
+
+PTR_TABLES: tuple[PtrTable, ...] = (
+    PtrTable("b09_password", 0x12609, 5, False, 0x12000, 0xC000),
+    PtrTable("b0a_menus", 0x1505E, 31, False, 0x14000, 0x4000),
+    PtrTable("b0a_locations", 0x15268, 13, False, 0x14000, 0x4000),
+    PtrTable("b0d_enemy_kanji", 0x1BA06, 112, True, 0x1A000, 0xA000, True),
+    PtrTable("b0d_enemy_kana", 0x1BD12, 112, True, 0x1A000, 0xA000, True),
+    PtrTable("b0e_jutsu", 0x1C032, 32, False, 0x1C000, 0x4000),
+    PtrTable("b0e_items", 0x1C13A, 128, False, 0x1C000, 0x4000),
+    PtrTable("b11_dialogue", 0x2397F, 648, False, 0x1C000, 0x4000),
+    PtrTable("b1b_staff", 0x37A3D, 41, False, 0x36000, 0xC000),
+)
+
+
 class PceCodec:
     """Loads jp_*.tbl files via tbl.Table and handles stateful $74 decoding/encoding."""
 
@@ -251,8 +275,8 @@ def iter_all_rom_strings(rom: bytes) -> list[RomString]:
         ptr = _read_u16(rom, 0x12609 + k * 2)
         items.append(RomString("b09_password", k, 0x12000 + (ptr - 0xC000), None))
 
-    # 4. B$0A $505E BRAM/Name-entry/Title menus (27) + $5268 locations (13)
-    for k in range(27):
+    # 4. B$0A $505E BRAM/Name-entry/Title menus (31) + $5268 locations (13)
+    for k in range(31):
         ptr = _read_u16(rom, 0x1505E + k * 2)
         o = 0x14000 + (ptr - 0x4000)
         items.append(RomString("b0a_menus", k, o, None, bg34=(0x15159 <= o < 0x151A6)))
