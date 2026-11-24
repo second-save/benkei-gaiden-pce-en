@@ -61,8 +61,8 @@ def scan_direct_code_calls(rom: bytes) -> list[tuple[int, int, str, int]]:
                 slot = base + i + 3
                 calls.append((slot, bank, "FE2A", blk[i + 3] | (blk[i + 4] << 8)))
             elif b1 == 0x08 and b2 == 0xFE:
-                slot = base + i + 3
-                calls.append((slot, bank, "FE08", blk[i + 3] | (blk[i + 4] << 8)))
+                slot = base + i + 5
+                calls.append((slot, bank, "FE08", blk[i + 5] | (blk[i + 6] << 8)))
     return calls
 
 

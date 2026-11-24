@@ -60,8 +60,20 @@
    "length": null,
    "raw_len": 2,
    "bg34": false,
-   "ptr": "0x108E5",
+   "ptr": "0x0163F",
    "slots": [
+    {
+     "slot": "0x0163F",
+     "kind": "FE08",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    },
+    {
+     "slot": "0x01658",
+     "kind": "FE08",
+     "rom_base": "0x1C000",
+     "cpu_base": "0x4000"
+    },
     {
      "slot": "0x108E5",
      "kind": "FDEF",

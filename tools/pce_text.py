@@ -254,6 +254,56 @@ class PceCodec:
         return None
 
 
+class EnCodec:
+    """Single-byte target-language codec backed by `tbl/{lang}.tbl` (`r74 == $00` ASCII/Latin plane)."""
+
+    def __init__(self, lang: str = "en", tbl_dir: Path = TBL_DIR) -> None:
+        self.lang = lang
+        self.tbl = Table.load(tbl_dir / f"{lang}.tbl")
+
+    def encode(self, text: str) -> bytes:
+        """Encode `text` to single-byte ROM codes (`{nl}`, `{page}`, `{end}`, `[XX]`, and 8x16 glyphs)."""
+        out = bytearray()
+        i = 0
+        while i < len(text):
+            m = TOKEN_RE.match(text, i)
+            if m:
+                if m[3]:
+                    out.append(int(m[3], 16))
+                else:
+                    name = m[1]
+                    if name not in self.tbl.ctrl_enc:
+                        raise KeyError(f"unknown control {{{name}}} at index {i} of {text!r}")
+                    code, argc = self.tbl.ctrl_enc[name]
+                    args = bytes.fromhex(m[2] or "")
+                    if len(args) != argc:
+                        raise KeyError(f"{{{name}}} expects {argc} arg bytes at index {i} of {text!r}")
+                    out.extend(code)
+                    out.extend(args)
+                i = m.end()
+                continue
+            for k in range(min(self.tbl.vallen, len(text) - i), 0, -1):
+                sub = text[i : i + k]
+                if sub in self.tbl.enc:
+                    out.extend(self.tbl.enc[sub])
+                    i += k
+                    break
+            else:
+                raise KeyError(f"unencodable character {text[i]!r} at index {i} of {text!r}")
+        return bytes(out)
+
+    def decode(
+        self,
+        data: bytes | bytearray,
+        pos: int = 0,
+        length: int | None = None,
+        *,
+        maxlen: int = 4096,
+    ) -> tuple[str, int]:
+        """Decode bytes using `tbl/{lang}.tbl` through `{end}` (or fixed `length`)."""
+        return self.tbl.decode(data, pos=pos, length=length, maxlen=maxlen)
+
+
 def _read_u16(rom: bytes, off: int) -> int:
     return rom[off] | (rom[off + 1] << 8)
 

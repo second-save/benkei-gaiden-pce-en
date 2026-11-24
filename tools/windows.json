@@ -1,0 +1,175 @@
+{
+  "line_wrap_note": "Dialogue boxes wrap automatically at column 24; omit {nl} after an exact 24-char line or keep {nl}-terminated lines <= 23 chars.",
+  "boxes": {
+    "dialogue": {
+      "cols": 24,
+      "nl_max_cols": 23,
+      "lines": 3,
+      "pages": null,
+      "notes": "$CF27 typewriter dialogue window; unlimited pages from far banks $61..$7E."
+    },
+    "menu_sys": {
+      "cols": 14,
+      "lines": 1,
+      "notes": "Default status/menu label budget; tight labels capped individually in overrides."
+    },
+    "title_menu": {
+      "cols": 8,
+      "lines": 1,
+      "notes": "Patched horizontal Title/Continue/BRAM menus ($D28E/$D2BD); b0a_menus[21..29] unused legacy vertical slices."
+    },
+    "location": {
+      "cols": 12,
+      "lines": 1,
+      "notes": "Fast-travel / location warp window."
+    },
+    "enemy_kanji": {
+      "cols": 14,
+      "lines": 1,
+      "terminator": "length",
+      "notes": "Battle enemy list packed into Bank $60 ($A000..$BFFF), no $FF terminator."
+    },
+    "enemy_kana": {
+      "cols": 0,
+      "lines": 0,
+      "notes": "Skipped by skip_enemy_kana hook (0x0596D); do not translate or allocate."
+    },
+    "jutsu": {
+      "cols": 11,
+      "lines": 1,
+      "notes": "Field & battle jutsu menu (12th char touches vertical divider)."
+    },
+    "item": {
+      "cols": 12,
+      "lines": 1,
+      "notes": "Consumables (96..127) allow 12 cols in 2-col Items & Shop menus; equipment (0..95) is overridden to 11 cols."
+    },
+    "battle_tpl": {
+      "cols": 24,
+      "lines": 1,
+      "notes": "Battle message buffer fragments appended into $2E00 for $CF27."
+    },
+    "credits_bg34": {
+      "cols": 14,
+      "lines": 1,
+      "notes": "Cast/role headings rendered over title_credits, ending_slideshow, and ending_credits; see per-ID overrides."
+    },
+    "ending_nar": {
+      "cols": 28,
+      "lines": 1,
+      "notes": "Full-screen ending epilogue narration lines."
+    },
+    "staff_roll": {
+      "cols": 16,
+      "lines": 1,
+      "notes": "Ending staff roll right column (screen cols 16..31)."
+    },
+    "password": {
+      "cols": 23,
+      "lines": 1,
+      "notes": "In-place B$09 password character picker rows."
+    },
+    "timestamp": {
+      "cols": 20,
+      "lines": 1,
+      "notes": "Keep untouched build timestamp (status=keep)."
+    }
+  },
+  "overrides": {
+    "b02_sys_000_05E36": { "cols": 11, "lines": 1, "notes": "Field menu row 1: 5 left + ' ' cursor2 slot + 5 right" },
+    "b02_sys_001_05E40": { "cols": 11, "lines": 1, "notes": "Field menu row 2: 5 left + ' ' cursor2 slot + 5 right" },
+    "b02_sys_002_05E4D": { "cols": 11, "lines": 1, "notes": "Field menu row 3: 5 left + ' ' cursor2 slot + 5 right" },
+    "b02_sys_006_05E6C": { "cols": 7, "lines": 1, "notes": "Kijaku: capped by 4-party battle top HUD (7 cols)" },
+    "b02_sys_007_05E71": { "cols": 7, "lines": 1, "notes": "Sayaka: capped by 4-party battle top HUD (7 cols)" },
+    "b02_sys_008_05E77": { "cols": 7, "lines": 1, "notes": "Saburo: capped by 4-party battle top HUD (7 cols)" },
+    "b02_sys_009_05E7C": { "cols": 7, "lines": 1, "notes": "Benkei: capped by 4-party battle top HUD (7 cols)" },
+    "b02_sys_011_05E83": { "cols": 3, "lines": 1, "notes": "Equip Weapon label prefix ('W: ') before 11-col item" },
+    "b02_sys_012_05E88": { "cols": 3, "lines": 1, "notes": "Equip Armor label prefix ('A: ') before 11-col item" },
+    "b02_sys_013_05E8D": { "cols": 3, "lines": 1, "notes": "Equip Relic/Guard label prefix ('R: ') before 11-col item" },
+    "b02_sys_017_05E9E": { "cols": 11, "lines": 1, "notes": "Battle command row 1: 5 left + ' ' cursor2 slot + 5 right" },
+    "b02_sys_018_05EAA": { "cols": 11, "lines": 1, "notes": "Battle command row 2: 5 left + ' ' cursor2 slot + 5 right" },
+    "b02_sys_019_05EB5": { "cols": 6, "lines": 1, "notes": "Items submenu: Use" },
+    "b02_sys_020_05EB9": { "cols": 6, "lines": 1, "notes": "Items submenu: Drop" },
+    "b02_sys_021_05EBD": { "cols": 11, "lines": 1, "notes": "Hogen (NPC / shrine)" },
+    "b02_sys_022_05EC2": { "cols": 11, "lines": 1, "notes": "Yoshitsune (NPC / dialogue name ref)" },
+    "b02_sys_023_05EC7": { "cols": 3, "lines": 1, "notes": "Sen currency label (shop Sen box + status Sen box)" },
+    "b02_sys_024_05ECA": { "cols": 3, "lines": 1, "notes": "Status Level prefix ('Lv' / 'Lv.') before 2-digit level" },
+    "b02_sys_025_05ECE": { "cols": 4, "lines": 1, "notes": "Status HP label before '999/999'" },
+    "b02_sys_026_mid":   { "cols": 4, "lines": 1, "notes": "Status MP label before '999/999'" },
+    "b02_sys_027_05EE7": { "cols": 8, "lines": 1, "notes": "Status STR label before 3-digit value" },
+    "b02_sys_028_05EF0": { "cols": 8, "lines": 1, "notes": "Status AGI label before 3-digit value" },
+    "b02_sys_029_05EF8": { "cols": 7, "lines": 1, "notes": "Status/Equip ATK label before 3-digit value" },
+    "b02_sys_030_05F02": { "cols": 7, "lines": 1, "notes": "Status/Equip DEF label before 3-digit value" },
+    "b02_sys_031_05F0C": { "cols": 14, "lines": 1, "notes": "Status Experience heading (own line)" },
+    "b02_sys_032_05F14": { "cols": 14, "lines": 1, "notes": "Status Next Level heading (own line)" },
+    "b02_sys_033_05F1D": { "cols": 3, "lines": 1, "notes": "Status XP remaining prefix before 5-digit value" },
+    "b02_sys_039_05F30": { "cols": 6, "lines": 1, "notes": "Shop submenu: Buy" },
+    "b02_sys_040_05F33": { "cols": 6, "lines": 1, "notes": "Shop submenu: Sell" },
+    "b02_sys_052_05F78": { "cols": 24, "lines": 3, "notes": "Battle win dialogue message" },
+    "b02_sys_053_05F87": { "cols": 24, "lines": 3, "notes": "Battle EXP gained message" },
+    "b02_sys_054_05F99": { "cols": 24, "lines": 3, "notes": "Battle sen gained message" },
+    "b02_sys_055_05FAA": { "cols": 24, "lines": 3, "notes": "Party defeated message" },
+    "b0e_battle_006_1C542": { "cols": 1, "lines": 1, "notes": "In-place 2-byte '-' + {end}" },
+    "b0e_items_000_1C23C": { "cols": 11, "lines": 1 }, "b0e_items_001_1C243": { "cols": 11, "lines": 1 },
+    "b0e_items_002_1C24D": { "cols": 11, "lines": 1 }, "b0e_items_003_1C251": { "cols": 11, "lines": 1 },
+    "b0e_items_004_1C255": { "cols": 11, "lines": 1 }, "b0e_items_005_1C259": { "cols": 11, "lines": 1 },
+    "b0e_items_006_1C264": { "cols": 11, "lines": 1 }, "b0e_items_007_1C270": { "cols": 11, "lines": 1 },
+    "b0e_items_008_1C278": { "cols": 11, "lines": 1 }, "b0e_items_009_1C282": { "cols": 11, "lines": 1 },
+    "b0e_items_010_1C28C": { "cols": 11, "lines": 1 }, "b0e_items_011_1C293": { "cols": 11, "lines": 1 },
+    "b0e_items_012_1C29E": { "cols": 11, "lines": 1 }, "b0e_items_013_1C2A6": { "cols": 11, "lines": 1 },
+    "b0e_items_014_1C2AD": { "cols": 11, "lines": 1 }, "b0e_items_015_1C2B8": { "cols": 11, "lines": 1 },
+    "b0e_items_016_1C2C2": { "cols": 11, "lines": 1 }, "b0e_items_017_1C2C7": { "cols": 11, "lines": 1 },
+    "b0e_items_018_1C2CF": { "cols": 11, "lines": 1 }, "b0e_items_019_1C2D7": { "cols": 11, "lines": 1 },
+    "b0e_items_020_1C2E0": { "cols": 11, "lines": 1 }, "b0e_items_021_1C2E6": { "cols": 11, "lines": 1 },
+    "b0e_items_032_1C2F1": { "cols": 11, "lines": 1 }, "b0e_items_033_1C2F5": { "cols": 11, "lines": 1 },
+    "b0e_items_034_1C2FC": { "cols": 11, "lines": 1 }, "b0e_items_035_1C303": { "cols": 11, "lines": 1 },
+    "b0e_items_036_1C309": { "cols": 11, "lines": 1 }, "b0e_items_037_1C310": { "cols": 11, "lines": 1 },
+    "b0e_items_038_1C315": { "cols": 11, "lines": 1 }, "b0e_items_039_1C31D": { "cols": 11, "lines": 1 },
+    "b0e_items_040_1C323": { "cols": 11, "lines": 1 }, "b0e_items_041_1C32E": { "cols": 11, "lines": 1 },
+    "b0e_items_042_1C33A": { "cols": 11, "lines": 1 }, "b0e_items_043_1C342": { "cols": 11, "lines": 1 },
+    "b0e_items_044_1C34D": { "cols": 11, "lines": 1 }, "b0e_items_045_1C355": { "cols": 11, "lines": 1 },
+    "b0e_items_046_1C360": { "cols": 11, "lines": 1 }, "b0e_items_047_1C368": { "cols": 11, "lines": 1 },
+    "b0e_items_048_1C373": { "cols": 11, "lines": 1 }, "b0e_items_049_1C37C": { "cols": 11, "lines": 1 },
+    "b0e_items_050_1C384": { "cols": 11, "lines": 1 }, "b0e_items_051_1C38D": { "cols": 11, "lines": 1 },
+    "b0e_items_052_1C399": { "cols": 11, "lines": 1 }, "b0e_items_053_1C3A2": { "cols": 11, "lines": 1 },
+    "b0e_items_054_1C3AE": { "cols": 11, "lines": 1 }, "b0e_items_055_1C3B9": { "cols": 11, "lines": 1 },
+    "b0e_items_056_1C3C2": { "cols": 11, "lines": 1 }, "b0e_items_057_1C3CB": { "cols": 11, "lines": 1 },
+    "b0e_items_058_1C3D5": { "cols": 11, "lines": 1 }, "b0e_items_059_1C3DE": { "cols": 11, "lines": 1 },
+    "b0e_items_060_1C3E7": { "cols": 11, "lines": 1 }, "b0e_items_064_1C3F5": { "cols": 11, "lines": 1 },
+    "b0e_items_065_1C3FE": { "cols": 11, "lines": 1 }, "b0e_items_066_1C408": { "cols": 11, "lines": 1 },
+    "b0e_items_067_1C412": { "cols": 11, "lines": 1 }, "b0e_items_068_1C41D": { "cols": 11, "lines": 1 },
+    "b0e_items_069_1C424": { "cols": 11, "lines": 1 }, "b0e_items_070_1C42D": { "cols": 11, "lines": 1 },
+    "b0e_items_071_1C438": { "cols": 11, "lines": 1 }, "b0e_items_072_1C443": { "cols": 11, "lines": 1 },
+    "b0e_items_073_1C44B": { "cols": 11, "lines": 1 }, "b0e_items_074_1C456": { "cols": 11, "lines": 1 },
+    "b0e_items_075_1C45E": { "cols": 11, "lines": 1 }, "b0e_items_076_1C469": { "cols": 11, "lines": 1 },
+    "b0e_items_077_1C471": { "cols": 11, "lines": 1 }, "b0e_items_078_1C47A": { "cols": 11, "lines": 1 },
+    "b0e_items_079_1C480": { "cols": 11, "lines": 1 }, "b0e_items_080_1C489": { "cols": 11, "lines": 1 },
+    "b0e_items_081_1C492": { "cols": 11, "lines": 1 }, "b0e_items_082_1C499": { "cols": 11, "lines": 1 },
+    "b0e_items_083_1C4A2": { "cols": 11, "lines": 1 }, "b0e_items_084_1C4AE": { "cols": 11, "lines": 1 },
+    "b0e_items_085_1C4BC": { "cols": 11, "lines": 1 },
+    "b0a_menus_004_150E9": { "cols": 22, "lines": 1, "notes": "Name-entry navigation labels preserving [EC] icon spacer bytes" },
+    "b0a_menus_005_150FF": { "cols": 20, "lines": 1 },
+    "b0a_menus_006_1510A": { "cols": 16, "lines": 1 },
+    "b0a_menus_012_15133": { "cols": 20, "lines": 1 },
+    "b0a_menus_013_1513E": { "cols": 20, "lines": 1 },
+    "b0a_menus_014_15148": { "cols": 20, "lines": 1 },
+    "b0a_menus_030_151A6": { "cols": 20, "lines": 1, "notes": "BRAM prompt above horizontal Save 1-3 / Cancel box" },
+    "b11_bg34_credits_000_23E8F": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_001_23E95": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_002_23E99": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_003_23E9F": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_004_23EA3": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_005_23EA7": { "cols": 5, "lines": 1, "notes": "Title credits left column before C19" },
+    "b11_bg34_credits_006_23EAB": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_007_23EB1": { "cols": 5, "lines": 1, "notes": "Title credits left column before C01" },
+    "b11_bg34_credits_008_23EB5": { "cols": 10, "lines": 1 },
+    "b11_bg34_credits_019_23F07": { "cols": 20, "lines": 1, "notes": "Title credits & ending slide name (col 12+ on title, col 18+ constrained to 14 on slide if shared -> keep <= 14)" },
+    "b11_bg34_credits_020_23F0E": { "cols": 20, "lines": 1 },
+    "b11_bg34_credits_021_23F14": { "cols": 14, "lines": 1 },
+    "b11_bg34_credits_022_23F1A": { "cols": 14, "lines": 1 },
+    "b11_dialogue_050_1CE27": { "cols": 24, "line1_cols": 14, "lines": 3, "notes": "Shop greeting: Line 1 max 14 cols before [Sen] box; Lines 2-3 max 24 cols" },
+    "b11_dialogue_237_1F0BD": { "cols": 24, "lines": 3, "poke_range": [4, 7], "notes": "Inn price poked into $2E04..$2E06 (keep 3 spaces at byte offset 4..6)" },
+    "b11_dialogue_566_22EA9": { "cols": 24, "lines": 3, "poke_range": [3, 6], "notes": "Chest/find sen poked into $2E03..$2E05 + literal '0' at +6" },
+    "b11_dialogue_601_23289": { "cols": 24, "lines": 3, "poke_range": [3, 8], "notes": "Pawn/offer sen poked into $2E03..$2E07 (keep 5 spaces at byte offset 3..7)" }
+  }
+}

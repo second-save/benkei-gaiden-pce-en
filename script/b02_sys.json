@@ -547,8 +547,14 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": "0x1092B",
+   "ptr": "0x02D0C",
    "slots": [
+    {
+     "slot": "0x02D0C",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    },
     {
      "slot": "0x1092B",
      "kind": "FDEF",
@@ -823,8 +829,15 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": null,
-   "slots": [],
+   "ptr": "0x018C2",
+   "slots": [
+    {
+     "slot": "0x018C2",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    }
+   ],
    "jp_raw": "{ef}死{end}",
    "jp": "死{end}",
    "en": "",
@@ -888,8 +901,15 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": null,
-   "slots": [],
+   "ptr": "0x018CA",
+   "slots": [
+    {
+     "slot": "0x018CA",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    }
+   ],
    "jp_raw": "{ef}毒{end}",
    "jp": "毒{end}",
    "en": "",
@@ -905,8 +925,15 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": null,
-   "slots": [],
+   "ptr": "0x018BA",
+   "slots": [
+    {
+     "slot": "0x018BA",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    }
+   ],
    "jp_raw": "{ed}極{end}",
    "jp": "極{end}",
    "en": "",
@@ -1138,8 +1165,15 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": null,
-   "slots": [],
+   "ptr": "0x36403",
+   "slots": [
+    {
+     "slot": "0x36403",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    }
+   ],
    "jp_raw": "オン{end}",
    "jp": "オン{end}",
    "en": "",
@@ -1155,8 +1189,15 @@
    "length": null,
    "raw_len": 3,
    "bg34": false,
-   "ptr": null,
-   "slots": [],
+   "ptr": "0x3640C",
+   "slots": [
+    {
+     "slot": "0x3640C",
+     "kind": "FE08",
+     "rom_base": "0x04000",
+     "cpu_base": "0xC000"
+    }
+   ],
    "jp_raw": "オフ{end}",
    "jp": "オフ{end}",
    "en": "",
